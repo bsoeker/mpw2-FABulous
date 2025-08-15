@@ -1,0 +1,4464 @@
+{
+  "creator": "Yosys 0.56+105 (git sha1 a265b23ac, clang++ 18.1.8 -fPIC -O3)",
+  "modules": {
+    "FABULOUS_LC": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:100.1-131.10"
+      },
+      "parameter_default_values": {
+        "DFF_ENABLE": "0",
+        "INIT": "0000000000000000",
+        "K": "00000000000000000000000000000100"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I": {
+          "direction": "input",
+          "bits": [ 3, 4, 5, 6 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 7 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 8 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:105.9-105.12"
+          }
+        },
+        "I": {
+          "hide_name": 0,
+          "bits": [ 3, 4, 5, 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:106.17-106.18"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:107.10-107.11"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:108.10-108.11"
+          }
+        }
+      }
+    },
+    "FABULOUS_MUX2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:80.1-82.10"
+      },
+      "ports": {
+        "I0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "S0": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:80.28-80.30"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:80.32-80.34"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:80.47-80.48"
+          }
+        },
+        "S0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:80.36-80.38"
+          }
+        }
+      }
+    },
+    "FABULOUS_MUX4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.1-88.10"
+      },
+      "ports": {
+        "I0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "S0": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "S1": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 8 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.28-84.30"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.32-84.34"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.36-84.38"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.40-84.42"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.59-84.60"
+          }
+        },
+        "S0": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.44-84.46"
+          }
+        },
+        "S1": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:84.48-84.50"
+          }
+        }
+      }
+    },
+    "FABULOUS_MUX8": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.1-98.10"
+      },
+      "ports": {
+        "I0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I4": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "I5": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "I6": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "I7": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "S0": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "S1": {
+          "direction": "input",
+          "bits": [ 11 ]
+        },
+        "S2": {
+          "direction": "input",
+          "bits": [ 12 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 13 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.28-90.30"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.32-90.34"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.36-90.38"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.40-90.42"
+          }
+        },
+        "I4": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.44-90.46"
+          }
+        },
+        "I5": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.48-90.50"
+          }
+        },
+        "I6": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.52-90.54"
+          }
+        },
+        "I7": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.56-90.58"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.79-90.80"
+          }
+        },
+        "S0": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.60-90.62"
+          }
+        },
+        "S1": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.64-90.66"
+          }
+        },
+        "S2": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:90.68-90.70"
+          }
+        }
+      }
+    },
+    "Global_Clock": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:134.1-139.10"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "output",
+          "bits": [ 2 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:134.29-134.32"
+          }
+        }
+      }
+    },
+    "IO_1_bidirectional_frame_config_pass": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "keep": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.1-159.10"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "T": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "Q": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 6 ]
+        },
+        "PAD": {
+          "direction": "inout",
+          "bits": [ 7 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.52-153.55"
+          }
+        },
+        "I": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.60-153.61"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.73-153.74"
+          }
+        },
+        "PAD": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "iopad_external_pin": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.107-153.110"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.70-153.71"
+          }
+        },
+        "T": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:153.57-153.58"
+          }
+        }
+      }
+    },
+    "InPass4_frame_config": {
+      "attributes": {
+        "keep": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.1-144.10"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "O0": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "O1": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "O2": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "O3": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.36-142.39"
+          }
+        },
+        "O0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.48-142.50"
+          }
+        },
+        "O1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.52-142.54"
+          }
+        },
+        "O2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.56-142.58"
+          }
+        },
+        "O3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:142.60-142.62"
+          }
+        }
+      }
+    },
+    "LUT1": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:1.1-4.10"
+      },
+      "parameter_default_values": {
+        "INIT": "00"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:1.29-1.31"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:1.20-1.21"
+          }
+        }
+      }
+    },
+    "LUT2": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:6.1-10.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:6.29-6.31"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:6.33-6.35"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:6.20-6.21"
+          }
+        }
+      }
+    },
+    "LUT3": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:12.1-17.10"
+      },
+      "parameter_default_values": {
+        "INIT": "00000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:12.29-12.31"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:12.33-12.35"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:12.37-12.39"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:12.20-12.21"
+          }
+        }
+      }
+    },
+    "LUT4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.1-25.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000000000000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.29-19.31"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.33-19.35"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.37-19.39"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.41-19.43"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:19.20-19.21"
+          }
+        }
+      }
+    },
+    "LUT4_HA": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.1-39.10"
+      },
+      "parameter_default_values": {
+        "I0MUX": "1",
+        "INIT": "0000000000000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "Co": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "Ci": {
+          "direction": "input",
+          "bits": [ 8 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "Ci": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.52-27.54"
+          }
+        },
+        "Co": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.26-27.28"
+          }
+        },
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.36-27.38"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.40-27.42"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.44-27.46"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.48-27.50"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:27.23-27.24"
+          }
+        }
+      }
+    },
+    "LUT5": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.1-48.10"
+      },
+      "parameter_default_values": {
+        "INIT": "00000000000000000000000000000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "I4": {
+          "direction": "input",
+          "bits": [ 7 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.29-41.31"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.33-41.35"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.37-41.39"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.41-41.43"
+          }
+        },
+        "I4": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.45-41.47"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:41.20-41.21"
+          }
+        }
+      }
+    },
+    "LUT55_FCY": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.1-70.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "Co": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "I4": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "Ci": {
+          "direction": "input",
+          "bits": [ 9 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "Ci": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.59-60.61"
+          }
+        },
+        "Co": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.29-60.31"
+          }
+        },
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.39-60.41"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.43-60.45"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.47-60.49"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.51-60.53"
+          }
+        },
+        "I4": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.55-60.57"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:60.26-60.27"
+          }
+        }
+      }
+    },
+    "LUT6": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.1-58.10"
+      },
+      "parameter_default_values": {
+        "INIT": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "I4": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "I5": {
+          "direction": "input",
+          "bits": [ 8 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.29-50.31"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.33-50.35"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.37-50.39"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.41-50.43"
+          }
+        },
+        "I4": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.45-50.47"
+          }
+        },
+        "I5": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.49-50.51"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:50.20-50.21"
+          }
+        }
+      }
+    },
+    "LUTFF": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:73.1-78.10"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:73.20-73.23"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:73.25-73.26"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:73.39-73.40"
+          }
+        }
+      }
+    },
+    "MULADD": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:162.1-299.10"
+      },
+      "parameter_default_values": {
+        "ACC": "0",
+        "ACCout": "0",
+        "A_reg": "0",
+        "B_reg": "0",
+        "C_reg": "0",
+        "signExtension": "0"
+      },
+      "ports": {
+        "A7": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "A6": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "A5": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "A4": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "A3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "A2": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "A1": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "A0": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "B7": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "B6": {
+          "direction": "input",
+          "bits": [ 11 ]
+        },
+        "B5": {
+          "direction": "input",
+          "bits": [ 12 ]
+        },
+        "B4": {
+          "direction": "input",
+          "bits": [ 13 ]
+        },
+        "B3": {
+          "direction": "input",
+          "bits": [ 14 ]
+        },
+        "B2": {
+          "direction": "input",
+          "bits": [ 15 ]
+        },
+        "B1": {
+          "direction": "input",
+          "bits": [ 16 ]
+        },
+        "B0": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "C19": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "C18": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "C17": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "C16": {
+          "direction": "input",
+          "bits": [ 21 ]
+        },
+        "C15": {
+          "direction": "input",
+          "bits": [ 22 ]
+        },
+        "C14": {
+          "direction": "input",
+          "bits": [ 23 ]
+        },
+        "C13": {
+          "direction": "input",
+          "bits": [ 24 ]
+        },
+        "C12": {
+          "direction": "input",
+          "bits": [ 25 ]
+        },
+        "C11": {
+          "direction": "input",
+          "bits": [ 26 ]
+        },
+        "C10": {
+          "direction": "input",
+          "bits": [ 27 ]
+        },
+        "C9": {
+          "direction": "input",
+          "bits": [ 28 ]
+        },
+        "C8": {
+          "direction": "input",
+          "bits": [ 29 ]
+        },
+        "C7": {
+          "direction": "input",
+          "bits": [ 30 ]
+        },
+        "C6": {
+          "direction": "input",
+          "bits": [ 31 ]
+        },
+        "C5": {
+          "direction": "input",
+          "bits": [ 32 ]
+        },
+        "C4": {
+          "direction": "input",
+          "bits": [ 33 ]
+        },
+        "C3": {
+          "direction": "input",
+          "bits": [ 34 ]
+        },
+        "C2": {
+          "direction": "input",
+          "bits": [ 35 ]
+        },
+        "C1": {
+          "direction": "input",
+          "bits": [ 36 ]
+        },
+        "C0": {
+          "direction": "input",
+          "bits": [ 37 ]
+        },
+        "Q19": {
+          "direction": "output",
+          "bits": [ 38 ]
+        },
+        "Q18": {
+          "direction": "output",
+          "bits": [ 39 ]
+        },
+        "Q17": {
+          "direction": "output",
+          "bits": [ 40 ]
+        },
+        "Q16": {
+          "direction": "output",
+          "bits": [ 41 ]
+        },
+        "Q15": {
+          "direction": "output",
+          "bits": [ 42 ]
+        },
+        "Q14": {
+          "direction": "output",
+          "bits": [ 43 ]
+        },
+        "Q13": {
+          "direction": "output",
+          "bits": [ 44 ]
+        },
+        "Q12": {
+          "direction": "output",
+          "bits": [ 45 ]
+        },
+        "Q11": {
+          "direction": "output",
+          "bits": [ 46 ]
+        },
+        "Q10": {
+          "direction": "output",
+          "bits": [ 47 ]
+        },
+        "Q9": {
+          "direction": "output",
+          "bits": [ 48 ]
+        },
+        "Q8": {
+          "direction": "output",
+          "bits": [ 49 ]
+        },
+        "Q7": {
+          "direction": "output",
+          "bits": [ 50 ]
+        },
+        "Q6": {
+          "direction": "output",
+          "bits": [ 51 ]
+        },
+        "Q5": {
+          "direction": "output",
+          "bits": [ 52 ]
+        },
+        "Q4": {
+          "direction": "output",
+          "bits": [ 53 ]
+        },
+        "Q3": {
+          "direction": "output",
+          "bits": [ 54 ]
+        },
+        "Q2": {
+          "direction": "output",
+          "bits": [ 55 ]
+        },
+        "Q1": {
+          "direction": "output",
+          "bits": [ 56 ]
+        },
+        "Q0": {
+          "direction": "output",
+          "bits": [ 57 ]
+        },
+        "clr": {
+          "direction": "input",
+          "bits": [ 58 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 59 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "A0": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:179.9-179.11"
+          }
+        },
+        "A1": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:178.9-178.11"
+          }
+        },
+        "A2": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:177.9-177.11"
+          }
+        },
+        "A3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:176.9-176.11"
+          }
+        },
+        "A4": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:175.9-175.11"
+          }
+        },
+        "A5": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:174.9-174.11"
+          }
+        },
+        "A6": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:173.9-173.11"
+          }
+        },
+        "A7": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:172.9-172.11"
+          }
+        },
+        "B0": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:187.9-187.11"
+          }
+        },
+        "B1": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:186.9-186.11"
+          }
+        },
+        "B2": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:185.9-185.11"
+          }
+        },
+        "B3": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:184.9-184.11"
+          }
+        },
+        "B4": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:183.9-183.11"
+          }
+        },
+        "B5": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:182.9-182.11"
+          }
+        },
+        "B6": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:181.9-181.11"
+          }
+        },
+        "B7": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:180.9-180.11"
+          }
+        },
+        "C0": {
+          "hide_name": 0,
+          "bits": [ 37 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:207.9-207.11"
+          }
+        },
+        "C1": {
+          "hide_name": 0,
+          "bits": [ 36 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:206.9-206.11"
+          }
+        },
+        "C10": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:197.9-197.12"
+          }
+        },
+        "C11": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:196.9-196.12"
+          }
+        },
+        "C12": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:195.9-195.12"
+          }
+        },
+        "C13": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:194.9-194.12"
+          }
+        },
+        "C14": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:193.9-193.12"
+          }
+        },
+        "C15": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:192.9-192.12"
+          }
+        },
+        "C16": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:191.9-191.12"
+          }
+        },
+        "C17": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:190.9-190.12"
+          }
+        },
+        "C18": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:189.9-189.12"
+          }
+        },
+        "C19": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:188.9-188.12"
+          }
+        },
+        "C2": {
+          "hide_name": 0,
+          "bits": [ 35 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:205.9-205.11"
+          }
+        },
+        "C3": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:204.9-204.11"
+          }
+        },
+        "C4": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:203.9-203.11"
+          }
+        },
+        "C5": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:202.9-202.11"
+          }
+        },
+        "C6": {
+          "hide_name": 0,
+          "bits": [ 31 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:201.9-201.11"
+          }
+        },
+        "C7": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:200.9-200.11"
+          }
+        },
+        "C8": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:199.9-199.11"
+          }
+        },
+        "C9": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:198.9-198.11"
+          }
+        },
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 59 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:230.9-230.12"
+          }
+        },
+        "Q0": {
+          "hide_name": 0,
+          "bits": [ 57 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:227.10-227.12"
+          }
+        },
+        "Q1": {
+          "hide_name": 0,
+          "bits": [ 56 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:226.10-226.12"
+          }
+        },
+        "Q10": {
+          "hide_name": 0,
+          "bits": [ 47 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:217.10-217.13"
+          }
+        },
+        "Q11": {
+          "hide_name": 0,
+          "bits": [ 46 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:216.10-216.13"
+          }
+        },
+        "Q12": {
+          "hide_name": 0,
+          "bits": [ 45 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:215.10-215.13"
+          }
+        },
+        "Q13": {
+          "hide_name": 0,
+          "bits": [ 44 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:214.10-214.13"
+          }
+        },
+        "Q14": {
+          "hide_name": 0,
+          "bits": [ 43 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:213.10-213.13"
+          }
+        },
+        "Q15": {
+          "hide_name": 0,
+          "bits": [ 42 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:212.10-212.13"
+          }
+        },
+        "Q16": {
+          "hide_name": 0,
+          "bits": [ 41 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:211.10-211.13"
+          }
+        },
+        "Q17": {
+          "hide_name": 0,
+          "bits": [ 40 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:210.10-210.13"
+          }
+        },
+        "Q18": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:209.10-209.13"
+          }
+        },
+        "Q19": {
+          "hide_name": 0,
+          "bits": [ 38 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:208.10-208.13"
+          }
+        },
+        "Q2": {
+          "hide_name": 0,
+          "bits": [ 55 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:225.10-225.12"
+          }
+        },
+        "Q3": {
+          "hide_name": 0,
+          "bits": [ 54 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:224.10-224.12"
+          }
+        },
+        "Q4": {
+          "hide_name": 0,
+          "bits": [ 53 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:223.10-223.12"
+          }
+        },
+        "Q5": {
+          "hide_name": 0,
+          "bits": [ 52 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:222.10-222.12"
+          }
+        },
+        "Q6": {
+          "hide_name": 0,
+          "bits": [ 51 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:221.10-221.12"
+          }
+        },
+        "Q7": {
+          "hide_name": 0,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:220.10-220.12"
+          }
+        },
+        "Q8": {
+          "hide_name": 0,
+          "bits": [ 49 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:219.10-219.12"
+          }
+        },
+        "Q9": {
+          "hide_name": 0,
+          "bits": [ 48 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:218.10-218.12"
+          }
+        },
+        "clr": {
+          "hide_name": 0,
+          "bits": [ 58 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:229.9-229.12"
+          }
+        }
+      }
+    },
+    "OutPass4_frame_config": {
+      "attributes": {
+        "keep": "00000000000000000000000000000001",
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.1-150.10"
+      },
+      "ports": {
+        "CLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.37-148.40"
+          }
+        },
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.42-148.44"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.46-148.48"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.50-148.52"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:148.54-148.56"
+          }
+        }
+      }
+    },
+    "RegFile_32x4": {
+      "attributes": {
+        "blackbox": "00000000000000000000000000000001",
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:301.1-395.10"
+      },
+      "parameter_default_values": {
+        "AD_reg": "0",
+        "BD_reg": "0"
+      },
+      "ports": {
+        "D0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "D1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "D2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D3": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "W_ADR0": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "W_ADR1": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "W_ADR2": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "W_ADR3": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "W_ADR4": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "W_en": {
+          "direction": "input",
+          "bits": [ 11 ]
+        },
+        "AD0": {
+          "direction": "output",
+          "bits": [ 12 ]
+        },
+        "AD1": {
+          "direction": "output",
+          "bits": [ 13 ]
+        },
+        "AD2": {
+          "direction": "output",
+          "bits": [ 14 ]
+        },
+        "AD3": {
+          "direction": "output",
+          "bits": [ 15 ]
+        },
+        "A_ADR0": {
+          "direction": "input",
+          "bits": [ 16 ]
+        },
+        "A_ADR1": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "A_ADR2": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "A_ADR3": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "A_ADR4": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "BD0": {
+          "direction": "output",
+          "bits": [ 21 ]
+        },
+        "BD1": {
+          "direction": "output",
+          "bits": [ 22 ]
+        },
+        "BD2": {
+          "direction": "output",
+          "bits": [ 23 ]
+        },
+        "BD3": {
+          "direction": "output",
+          "bits": [ 24 ]
+        },
+        "B_ADR0": {
+          "direction": "input",
+          "bits": [ 25 ]
+        },
+        "B_ADR1": {
+          "direction": "input",
+          "bits": [ 26 ]
+        },
+        "B_ADR2": {
+          "direction": "input",
+          "bits": [ 27 ]
+        },
+        "B_ADR3": {
+          "direction": "input",
+          "bits": [ 28 ]
+        },
+        "B_ADR4": {
+          "direction": "input",
+          "bits": [ 29 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 30 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "AD0": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:317.10-317.13"
+          }
+        },
+        "AD1": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:318.10-318.13"
+          }
+        },
+        "AD2": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:319.10-319.13"
+          }
+        },
+        "AD3": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:320.10-320.13"
+          }
+        },
+        "A_ADR0": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:321.9-321.15"
+          }
+        },
+        "A_ADR1": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:322.9-322.15"
+          }
+        },
+        "A_ADR2": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:323.9-323.15"
+          }
+        },
+        "A_ADR3": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:324.9-324.15"
+          }
+        },
+        "A_ADR4": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:325.9-325.15"
+          }
+        },
+        "BD0": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:327.10-327.13"
+          }
+        },
+        "BD1": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:328.10-328.13"
+          }
+        },
+        "BD2": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:329.10-329.13"
+          }
+        },
+        "BD3": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:330.10-330.13"
+          }
+        },
+        "B_ADR0": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:331.9-331.15"
+          }
+        },
+        "B_ADR1": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:332.9-332.15"
+          }
+        },
+        "B_ADR2": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:333.9-333.15"
+          }
+        },
+        "B_ADR3": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:334.9-334.15"
+          }
+        },
+        "B_ADR4": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:335.9-335.15"
+          }
+        },
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 30 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:337.9-337.12"
+          }
+        },
+        "D0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:306.9-306.11"
+          }
+        },
+        "D1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:307.9-307.11"
+          }
+        },
+        "D2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:308.9-308.11"
+          }
+        },
+        "D3": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:309.9-309.11"
+          }
+        },
+        "W_ADR0": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:310.9-310.15"
+          }
+        },
+        "W_ADR1": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:311.9-311.15"
+          }
+        },
+        "W_ADR2": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:312.9-312.15"
+          }
+        },
+        "W_ADR3": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:313.9-313.15"
+          }
+        },
+        "W_ADR4": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:314.9-314.15"
+          }
+        },
+        "W_en": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/prims.v:315.9-315.13"
+          }
+        }
+      }
+    },
+    "top_wrapper": {
+      "attributes": {
+        "hdlname": "top_wrapper",
+        "top": "00000000000000000000000000000001",
+        "src": "mpw2/user_design/top_wrapper.v:1.1-177.10"
+      },
+      "ports": {
+      },
+      "cells": {
+        "$abc$754$auto$blifparse.cc:535:parse_blif$755": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00101100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 2 ],
+            "I1": [ 3 ],
+            "I2": [ 4 ],
+            "O": [ 5 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$756": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 6 ],
+            "I1": [ 7 ],
+            "I2": [ 8 ],
+            "O": [ 9 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$757": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 3 ],
+            "I1": [ 4 ],
+            "O": [ 7 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$758": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "0100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 2 ],
+            "I1": [ 4 ],
+            "O": [ 6 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$759": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 6 ],
+            "I1": [ 10 ],
+            "I2": [ 11 ],
+            "O": [ 12 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$760": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 7 ],
+            "I1": [ 8 ],
+            "O": [ 10 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$761": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 10 ],
+            "I1": [ 11 ],
+            "I2": [ 6 ],
+            "I3": [ 13 ],
+            "O": [ 14 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$762": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 6 ],
+            "I1": [ 15 ],
+            "I2": [ 16 ],
+            "O": [ 17 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$763": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 18 ],
+            "I1": [ 8 ],
+            "O": [ 15 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$764": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 3 ],
+            "I1": [ 4 ],
+            "I2": [ 11 ],
+            "I3": [ 13 ],
+            "O": [ 18 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$765": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 15 ],
+            "I1": [ 16 ],
+            "I2": [ 6 ],
+            "I3": [ 19 ],
+            "O": [ 20 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$766": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 6 ],
+            "I1": [ 21 ],
+            "I2": [ 22 ],
+            "O": [ 23 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$767": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 15 ],
+            "I1": [ 16 ],
+            "I2": [ 19 ],
+            "O": [ 21 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$768": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 21 ],
+            "I1": [ 22 ],
+            "I2": [ 6 ],
+            "I3": [ 24 ],
+            "O": [ 25 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$769": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 6 ],
+            "I1": [ 26 ],
+            "I2": [ 27 ],
+            "O": [ 28 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$770": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 21 ],
+            "I1": [ 22 ],
+            "I2": [ 24 ],
+            "O": [ 26 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$771": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 26 ],
+            "I1": [ 27 ],
+            "I2": [ 6 ],
+            "I3": [ 29 ],
+            "O": [ 30 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$772": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 6 ],
+            "I1": [ 31 ],
+            "I2": [ 32 ],
+            "O": [ 33 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$773": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 21 ],
+            "I1": [ 34 ],
+            "O": [ 32 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$774": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 22 ],
+            "I1": [ 24 ],
+            "I2": [ 27 ],
+            "I3": [ 29 ],
+            "O": [ 34 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$775": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 15 ],
+            "I1": [ 34 ],
+            "I2": [ 35 ],
+            "O": [ 36 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$776": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 16 ],
+            "I1": [ 19 ],
+            "I2": [ 31 ],
+            "O": [ 35 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$777": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 6 ],
+            "I1": [ 36 ],
+            "I2": [ 37 ],
+            "O": [ 38 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$778": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 36 ],
+            "I1": [ 37 ],
+            "I2": [ 6 ],
+            "I3": [ 39 ],
+            "O": [ 40 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$779": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 41 ],
+            "I1": [ 42 ],
+            "I2": [ 6 ],
+            "O": [ 43 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$780": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000001111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 36 ],
+            "I1": [ 37 ],
+            "I2": [ 39 ],
+            "I3": [ 44 ],
+            "O": [ 41 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$781": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 18 ],
+            "I1": [ 34 ],
+            "I2": [ 35 ],
+            "I3": [ 45 ],
+            "O": [ 42 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$782": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 8 ],
+            "I1": [ 37 ],
+            "I2": [ 39 ],
+            "I3": [ 44 ],
+            "O": [ 45 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$783": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 6 ],
+            "I1": [ 42 ],
+            "I2": [ 46 ],
+            "O": [ 47 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$784": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 42 ],
+            "I1": [ 46 ],
+            "I2": [ 6 ],
+            "I3": [ 48 ],
+            "O": [ 49 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$785": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 42 ],
+            "I1": [ 50 ],
+            "I2": [ 6 ],
+            "I3": [ 51 ],
+            "O": [ 52 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$786": {
+          "hide_name": 1,
+          "type": "LUT2",
+          "parameters": {
+            "INIT": "1000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:14.26-14.73"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 46 ],
+            "I1": [ 48 ],
+            "O": [ 50 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$787": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 6 ],
+            "I1": [ 53 ],
+            "I2": [ 54 ],
+            "O": [ 55 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$788": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 42 ],
+            "I1": [ 46 ],
+            "I2": [ 48 ],
+            "I3": [ 51 ],
+            "O": [ 53 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$789": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000011100001000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 53 ],
+            "I1": [ 54 ],
+            "I2": [ 6 ],
+            "I3": [ 56 ],
+            "O": [ 57 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$790": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000101110110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 2 ],
+            "I1": [ 4 ],
+            "I2": [ 58 ],
+            "I3": [ 59 ],
+            "O": [ 60 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$791": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "10000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 53 ],
+            "I1": [ 54 ],
+            "I2": [ 56 ],
+            "O": [ 59 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$792": {
+          "hide_name": 1,
+          "type": "LUT3",
+          "parameters": {
+            "INIT": "00010100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:18.26-18.84"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 6 ],
+            "I1": [ 61 ],
+            "I2": [ 62 ],
+            "O": [ 63 ]
+          }
+        },
+        "$abc$754$auto$blifparse.cc:535:parse_blif$793": {
+          "hide_name": 1,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/cells_map.v:21.26-21.95"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 53 ],
+            "I1": [ 54 ],
+            "I2": [ 56 ],
+            "I3": [ 58 ],
+            "O": [ 61 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$135": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 5 ],
+            "O": [ 3 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$136": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 9 ],
+            "O": [ 8 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$137": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 12 ],
+            "O": [ 11 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$138": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 14 ],
+            "O": [ 13 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$139": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 17 ],
+            "O": [ 16 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$140": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 20 ],
+            "O": [ 19 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$141": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 23 ],
+            "O": [ 22 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$142": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 25 ],
+            "O": [ 24 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$143": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 28 ],
+            "O": [ 27 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$144": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 30 ],
+            "O": [ 29 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$145": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 33 ],
+            "O": [ 31 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$146": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 38 ],
+            "O": [ 37 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$147": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 40 ],
+            "O": [ 39 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$148": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 43 ],
+            "O": [ 44 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$149": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 47 ],
+            "O": [ 46 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$150": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 49 ],
+            "O": [ 48 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$151": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 52 ],
+            "O": [ 51 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$152": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 55 ],
+            "O": [ 54 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$153": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 57 ],
+            "O": [ 56 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$154": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 60 ],
+            "O": [ 58 ]
+          }
+        },
+        "$auto$ff.cc:266:slice$155": {
+          "hide_name": 1,
+          "type": "LUTFF",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/sequential_16bit_en.v:13.2-20.14|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/fabulous/ff_map.v:1.49-1.90"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "O": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ],
+            "D": [ 63 ],
+            "O": [ 62 ]
+          }
+        },
+        "clk_i": {
+          "hide_name": 0,
+          "type": "Global_Clock",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:7.18-7.35"
+          },
+          "port_directions": {
+            "CLK": "output"
+          },
+          "connections": {
+            "CLK": [ 64 ]
+          }
+        },
+        "io0_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y16.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:165.68-169.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 65 ],
+            "T": [ "1" ]
+          }
+        },
+        "io10_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y11.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:115.68-119.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 66 ],
+            "T": [ "1" ]
+          }
+        },
+        "io11_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y11.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:110.68-114.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 67 ],
+            "T": [ "1" ]
+          }
+        },
+        "io12_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y10.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:105.68-109.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 68 ],
+            "T": [ "1" ]
+          }
+        },
+        "io13_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y10.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:100.68-104.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 69 ],
+            "T": [ "1" ]
+          }
+        },
+        "io14_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y9.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:95.67-99.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 70 ],
+            "T": [ "1" ]
+          }
+        },
+        "io15_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y9.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:90.67-94.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 71 ],
+            "T": [ "1" ]
+          }
+        },
+        "io16_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y8.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:85.67-89.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 72 ],
+            "T": [ "1" ]
+          }
+        },
+        "io17_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y8.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:80.67-84.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 73 ],
+            "T": [ "1" ]
+          }
+        },
+        "io18_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y7.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:75.67-79.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 74 ],
+            "T": [ "1" ]
+          }
+        },
+        "io19_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y7.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:70.67-74.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 75 ],
+            "T": [ "1" ]
+          }
+        },
+        "io1_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y16.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:160.68-164.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 76 ],
+            "T": [ "1" ]
+          }
+        },
+        "io20_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y6.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:65.67-69.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 77 ],
+            "T": [ "1" ]
+          }
+        },
+        "io21_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y6.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:60.67-64.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 78 ],
+            "T": [ "1" ]
+          }
+        },
+        "io22_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y5.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:55.67-59.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ "x" ],
+            "O": [ 2 ],
+            "T": [ "0" ]
+          }
+        },
+        "io23_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y5.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:50.42-54.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ "x" ],
+            "O": [ 4 ],
+            "T": [ "0" ]
+          }
+        },
+        "io2_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y15.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:155.68-159.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 79 ],
+            "T": [ "1" ]
+          }
+        },
+        "io3_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y15.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:150.68-154.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 80 ],
+            "T": [ "1" ]
+          }
+        },
+        "io4_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y14.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:145.68-149.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 81 ],
+            "T": [ "1" ]
+          }
+        },
+        "io5_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y14.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:140.68-144.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 82 ],
+            "T": [ "1" ]
+          }
+        },
+        "io6_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y13.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:135.68-139.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 83 ],
+            "T": [ "1" ]
+          }
+        },
+        "io7_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y13.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:130.68-134.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 84 ],
+            "T": [ "1" ]
+          }
+        },
+        "io8_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y12.B",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:125.68-129.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 85 ],
+            "T": [ "1" ]
+          }
+        },
+        "io9_i": {
+          "hide_name": 0,
+          "type": "IO_1_bidirectional_frame_config_pass",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL": "X0Y12.A",
+            "keep": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:120.68-124.6"
+          },
+          "port_directions": {
+            "I": "input",
+            "O": "output",
+            "T": "input"
+          },
+          "connections": {
+            "I": [ 62 ],
+            "O": [ 86 ],
+            "T": [ "1" ]
+          }
+        },
+        "top_i": {
+          "hide_name": 0,
+          "type": "$scopeinfo",
+          "parameters": {
+            "TYPE": "module"
+          },
+          "attributes": {
+            "cell_module_not_derived": "00000000000000000000000000000001",
+            "cell_src": "mpw2/user_design/top_wrapper.v:171.9-176.6",
+            "module": "top",
+            "module_hdlname": "top",
+            "module_src": "mpw2/user_design/sequential_16bit_en.v:1.1-26.10"
+          },
+          "port_directions": {
+          },
+          "connections": {
+          }
+        }
+      },
+      "netnames": {
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$649": {
+          "hide_name": 1,
+          "bits": [ 5 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$653": {
+          "hide_name": 1,
+          "bits": [ 9 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$657": {
+          "hide_name": 1,
+          "bits": [ 12 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$661": {
+          "hide_name": 1,
+          "bits": [ 14 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$665": {
+          "hide_name": 1,
+          "bits": [ 17 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$669": {
+          "hide_name": 1,
+          "bits": [ 20 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$673": {
+          "hide_name": 1,
+          "bits": [ 23 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$677": {
+          "hide_name": 1,
+          "bits": [ 25 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$681": {
+          "hide_name": 1,
+          "bits": [ 28 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$685": {
+          "hide_name": 1,
+          "bits": [ 30 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$689": {
+          "hide_name": 1,
+          "bits": [ 33 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$693": {
+          "hide_name": 1,
+          "bits": [ 38 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$697": {
+          "hide_name": 1,
+          "bits": [ 40 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$701": {
+          "hide_name": 1,
+          "bits": [ 43 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$705": {
+          "hide_name": 1,
+          "bits": [ 47 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$709": {
+          "hide_name": 1,
+          "bits": [ 49 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$713": {
+          "hide_name": 1,
+          "bits": [ 52 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$717": {
+          "hide_name": 1,
+          "bits": [ 55 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$721": {
+          "hide_name": 1,
+          "bits": [ 57 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$725": {
+          "hide_name": 1,
+          "bits": [ 60 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$auto$rtlil.cc:3205:MuxGate$729": {
+          "hide_name": 1,
+          "bits": [ 63 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n48": {
+          "hide_name": 1,
+          "bits": [ 7 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n49": {
+          "hide_name": 1,
+          "bits": [ 6 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n51": {
+          "hide_name": 1,
+          "bits": [ 10 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n54": {
+          "hide_name": 1,
+          "bits": [ 15 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n55": {
+          "hide_name": 1,
+          "bits": [ 18 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n58": {
+          "hide_name": 1,
+          "bits": [ 21 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n61": {
+          "hide_name": 1,
+          "bits": [ 26 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n64": {
+          "hide_name": 1,
+          "bits": [ 32 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n65": {
+          "hide_name": 1,
+          "bits": [ 34 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n66": {
+          "hide_name": 1,
+          "bits": [ 36 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n67": {
+          "hide_name": 1,
+          "bits": [ 35 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n71": {
+          "hide_name": 1,
+          "bits": [ 41 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n72": {
+          "hide_name": 1,
+          "bits": [ 42 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n73": {
+          "hide_name": 1,
+          "bits": [ 45 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n79": {
+          "hide_name": 1,
+          "bits": [ 53 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n82": {
+          "hide_name": 1,
+          "bits": [ 59 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$new_n84": {
+          "hide_name": 1,
+          "bits": [ 61 ],
+          "attributes": {
+          }
+        },
+        "$abc$754$techmap$auto$alumacc.cc:495:replace_alu$50.lcu.$and$/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/techmap.v:241$290_Y_new": {
+          "hide_name": 1,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "mpw2/user_design/sequential_16bit_en.v:18.12-18.22|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/techmap.v:286.27-286.69|/home/nct-ziti-06/Tools/oss-cad-suite/lib/../share/yosys/techmap.v:241.12-241.34"
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 64 ],
+          "attributes": {
+            "single_bit_vector": "00000000000000000000000000000001",
+            "src": "mpw2/user_design/top_wrapper.v:2.17-2.20"
+          }
+        },
+        "io_in": {
+          "hide_name": 0,
+          "bits": [ 65, 76, 79, 80, 81, 82, 83, 84, 85, 86, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 77, 78, 2, 4 ],
+          "attributes": {
+            "src": "mpw2/user_design/top_wrapper.v:3.17-3.22",
+            "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21"
+          }
+        },
+        "io_oeb": {
+          "hide_name": 0,
+          "bits": [ "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0" ],
+          "attributes": {
+            "src": "mpw2/user_design/top_wrapper.v:5.17-5.23"
+          }
+        },
+        "io_out": {
+          "hide_name": 0,
+          "bits": [ 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, "x", "x" ],
+          "attributes": {
+            "src": "mpw2/user_design/top_wrapper.v:4.17-4.23"
+          }
+        },
+        "top_i.clk": {
+          "hide_name": 0,
+          "bits": [ 64 ],
+          "attributes": {
+            "hdlname": "top_i clk",
+            "src": "mpw2/user_design/sequential_16bit_en.v:1.23-1.26"
+          }
+        },
+        "top_i.ctr": {
+          "hide_name": 0,
+          "bits": [ 3, 8, 11, 13, 16, 19, 22, 24, 27, 29, 31, 37, 39, 44, 46, 48, 51, 54, 56, 58, 62, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97 ],
+          "attributes": {
+            "hdlname": "top_i ctr",
+            "src": "mpw2/user_design/sequential_16bit_en.v:11.13-11.16",
+            "unused_bits": "21 22 23 24 25 26 27 28 29 30 31"
+          }
+        },
+        "top_i.en": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "hdlname": "top_i en",
+            "src": "mpw2/user_design/sequential_16bit_en.v:10.7-10.9"
+          }
+        },
+        "top_i.io_in": {
+          "hide_name": 0,
+          "bits": [ 65, 76, 79, 80, 81, 82, 83, 84, 85, 86, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 77, 78, 2, 4 ],
+          "attributes": {
+            "hdlname": "top_i io_in",
+            "src": "mpw2/user_design/sequential_16bit_en.v:1.46-1.51",
+            "unused_bits": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21"
+          }
+        },
+        "top_i.io_oeb": {
+          "hide_name": 0,
+          "bits": [ "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0" ],
+          "attributes": {
+            "hdlname": "top_i io_oeb",
+            "src": "mpw2/user_design/sequential_16bit_en.v:1.80-1.86"
+          }
+        },
+        "top_i.io_out": {
+          "hide_name": 0,
+          "bits": [ 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, "x", "x" ],
+          "attributes": {
+            "hdlname": "top_i io_out",
+            "src": "mpw2/user_design/sequential_16bit_en.v:1.72-1.78"
+          }
+        },
+        "top_i.rst_n": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "hdlname": "top_i rst_n",
+            "src": "mpw2/user_design/sequential_16bit_en.v:9.7-9.12"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+build/
+*.fasm
+*.bin
+!.FABulous/*.bin
+tmp/

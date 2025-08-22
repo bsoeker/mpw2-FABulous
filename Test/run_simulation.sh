@@ -7,12 +7,11 @@ MAX_BITBYTES=16384
 
 rm -rf tmp
 mkdir tmp
-for i in $(find ../Tile -type f -name "*.v") $(find ../Fabric -type f -name "*.v")
-do 
+for i in $(find ../Tile -type f -name "*.v") $(find ../Fabric -type f -name "*.v"); do
     cp $i tmp/
 done
 
-iverilog -s fab_tb -o fab_tb.vvp tmp/* test_design/${DESIGN}.v fabulous_tb.v 
+iverilog -s fab_tb -o fab_tb.vvp tmp/* test_design/${DESIGN}.v fabulous_tb.v -D CREATE_FST -D SIM
 python3 makehex.py $BITSTREAM $MAX_BITBYTES bitstream.hex
-vvp fab_tb.vvp
+vvp fab_tb.vvp -fst
 rm -rf tmp

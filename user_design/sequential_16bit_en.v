@@ -12,14 +12,16 @@ module top(input wire clk, input wire [23:0] io_in, output wire [23:0] io_out, i
     localparam NUM_LOWER_LED_PINS = PIN_BUTTON ;
 
     localparam COUNTER_WIDTH = 32;
-    localparam COUNTER_MAX_OUTPUT_BIT = 28;
 
+    `ifndef SIM
+        localparam COUNTER_MAX_OUTPUT_BIT = 28;
+    `else
+        localparam COUNTER_MAX_OUTPUT_BIT = NUM_UPPER_LED_PINS;
+    `endif
 
 	wire rst_n = io_in[PIN_RESET];
 	wire en = io_in[PIN_ENABLE];
 	reg [COUNTER_WIDTH-1:0] ctr;
-
-
 
 	always @(posedge clk)
 		if (rst_n)
@@ -30,13 +32,10 @@ module top(input wire clk, input wire [23:0] io_in, output wire [23:0] io_out, i
 			else
 				ctr <= ctr;
 
-	//assign io_out[PIN_ENABLE-1:0] = ctr[PIN_ENABLE-1:0]}}; // simuation target
- 
-    // FPGA target
 	assign io_out[PIN_ENABLE-1:PIN_SWITCH + 1] = ctr[COUNTER_MAX_OUTPUT_BIT:COUNTER_MAX_OUTPUT_BIT-NUM_UPPER_LED_PINS + 1];
 	assign io_oeb[PIN_ENABLE-1:PIN_SWITCH + 1] = {NUM_UPPER_LED_PINS {OUTPUT_ENABLE}};
 
-    assign io_out[PIN_BUTTON-1:0] = ctr[COUNTER_MAX_OUTPUT_BIT:COUNTER_MAX_OUTPUT_BIT-NUM_LOWER_LED_PINS + 1]; 
+    assign io_out[PIN_BUTTON-1:0] = ctr[COUNTER_MAX_OUTPUT_BIT:COUNTER_MAX_OUTPUT_BIT-NUM_LOWER_LED_PINS + 1];
     assign io_oeb[PIN_BUTTON-1:0] = {NUM_LOWER_LED_PINS {OUTPUT_ENABLE}};
 
 	assign io_oeb[PIN_RESET] = OUTPUT_DISABLE;

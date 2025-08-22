@@ -3,3 +3,8 @@ build/
 *.bin
 !.FABulous/*.bin
 tmp/
+user_design/*.txt
+user_design/*.vh
+user_design/*.vhd
+user_design/*.json
+user_design/*.csv

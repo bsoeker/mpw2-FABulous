@@ -1,6 +1,7 @@
 build/
 *.fasm
 *.bin
+*.fst
 !.FABulous/*.bin
 tmp/
 user_design/*.txt

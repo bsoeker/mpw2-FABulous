@@ -11,12 +11,13 @@ module top(input wire clk, input wire [23:0] io_in, output wire [23:0] io_out, i
     localparam NUM_UPPER_LED_PINS = PIN_ENABLE  - 1 - PIN_SWITCH;
     localparam NUM_LOWER_LED_PINS = PIN_BUTTON ;
 
-    localparam COUNTER_MAX_OUTPUT_BIT = 25;
+    localparam COUNTER_WIDTH = 32;
+    localparam COUNTER_MAX_OUTPUT_BIT = 28;
 
 
 	wire rst_n = io_in[PIN_RESET];
 	wire en = io_in[PIN_ENABLE];
-	reg [31:0] ctr;
+	reg [COUNTER_WIDTH-1:0] ctr;
 
 
 

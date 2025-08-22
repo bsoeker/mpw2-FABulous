@@ -43,6 +43,7 @@ module fab_tb;
 
     localparam MAX_BITBYTES = 16384;
     reg [7:0] bitstream[0:MAX_BITBYTES-1];
+    localparam NUM_COUNTER_CYCLES = 100;
 
     always #5000 CLK = (CLK === 1'b0);
 
@@ -72,10 +73,10 @@ module fab_tb;
         end
 `endif
         repeat (100) @(posedge CLK);
-        O_top = 24'b0000_0000_0000_0000_0000_0000; // reset
+        O_top = 24'b1000_0000_0000_0000_0000_0000; // reset
         repeat (5) @(posedge CLK);
-        O_top = 24'b1100_0000_0000_0000_0000_0000;
-        for (i = 0; i < 100; i = i + 1) begin
+        O_top = 24'b0100_0000_0000_0000_0000_0000;
+        for (i = 0; i < NUM_COUNTER_CYCLES ; i = i + 1) begin
             @(negedge CLK);
             $display("fabric(I_top) = 0x%X gold = 0x%X, fabric(T_top) = 0x%X gold = 0x%X", I_top, I_top_gold, T_top, T_top_gold);
             if (I_top !== I_top_gold)

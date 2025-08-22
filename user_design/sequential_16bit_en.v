@@ -14,9 +14,9 @@ module top(input wire clk, input wire [23:0] io_in, output wire [23:0] io_out, i
     localparam COUNTER_WIDTH = 32;
 
     `ifndef SIM
-        localparam COUNTER_MAX_OUTPUT_BIT = 28;
+    localparam COUNTER_MAX_OUTPUT_BIT = 28;
     `else
-        localparam COUNTER_MAX_OUTPUT_BIT = NUM_UPPER_LED_PINS;
+    localparam COUNTER_MAX_OUTPUT_BIT = NUM_UPPER_LED_PINS;
     `endif
 
 	wire rst_n = io_in[PIN_RESET];
@@ -42,4 +42,12 @@ module top(input wire clk, input wire [23:0] io_in, output wire [23:0] io_out, i
 	assign io_oeb[PIN_ENABLE] = OUTPUT_DISABLE;
 	assign io_oeb[PIN_SWITCH] = OUTPUT_DISABLE;
 	assign io_oeb[PIN_BUTTON] = OUTPUT_DISABLE;
+
+    `ifdef SIM
+    assign io_out[PIN_RESET] = 1'b0;
+    assign io_out[PIN_ENABLE] = 1'b0;
+    assign io_out[PIN_SWITCH] = 1'b0;
+    assign io_out[PIN_BUTTON] = 1'b0;
+    `endif
+
 endmodule

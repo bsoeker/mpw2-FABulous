@@ -125,7 +125,6 @@ begin
                     "1000" when funct3 = "100" or funct3 = "101" else -- SLT  for BLT/BGE
                     "1001";                                           -- SLTU for BLTU/BGEU
 
-
             -- JAL
             when "1101111" =>
                 jump        <= '1';

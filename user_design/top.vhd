@@ -62,9 +62,9 @@ architecture Behavioral of top is
     signal store_misaligned : std_logic;
     signal loaded_value     : std_logic_vector(31 downto 0);
     signal ram_en           : std_logic;
-    signal ram_addr         : std_logic_vector(9 downto 0);
+    signal ram_addr         : std_logic_vector(7 downto 0);
     signal store_write_data : std_logic_vector(31 downto 0);
-    signal store_write_mask : std_logic_vector(3 downto 0);
+    signal wr_cfg           : std_logic_vector(1 downto 0);
     signal rom_en           : std_logic;
     signal rom_addr         : std_logic_vector(9 downto 0);
     signal rom_read_data    : std_logic_vector(31 downto 0);
@@ -111,24 +111,23 @@ signal effective_addr  : std_logic_vector(31 downto 0) := (others => '0');
 
 begin
 
-    bram0_rd_addr <= "00000000"; 
-    bram0_wr_data <= x"01010101";
-    bram0_wr_addr <= "00000000"; 
-    bram0_config  <= "00000100"; 
+    io_out(0)  <= '1';
+    io_oeb(0)  <= OUTPUT_ENABLE;
+    io_out(10) <= '1';
+    io_oeb(10) <= OUTPUT_ENABLE;
+    io_out(20) <= '1';
+    io_oeb(20) <= OUTPUT_ENABLE;
+    io_out(21) <= '1';
+    io_oeb(21) <= OUTPUT_ENABLE;
+    io_out(22) <= '1';
+    io_oeb(22) <= OUTPUT_ENABLE;
+    io_out(19) <= '1';
+    io_oeb(19) <= OUTPUT_ENABLE;
+    io_out(18) <= '1';
+    io_oeb(18) <= OUTPUT_ENABLE;
 
     reset <= io_in(RESET_PIN);
     io_oeb(RESET_PIN) <= OUTPUT_DISABLE;
-
-        -- Clock Divider
-    -- clkdiv_inst: entity work.clock_divider
-    --     generic map (
-    --         DIVIDE_BY => 2  -- each toggle = 2 cycles, full period = 4 → 25 MHz
-    --     )
-    --     port map (
-    --         clk_in  => clk,
-    --         reset   => '0',
-    --         clk_out => slow_clk
-    --     );
 
     process(clk)
     begin
@@ -304,12 +303,16 @@ begin
         funct3      => funct3,
         addr_offset => byte_offset,
         store_data  => rs2_data,
-
-        write_mask  => store_write_mask,
-        write_data  => store_write_data
+        wr_cfg      => wr_cfg,
+        wr_ctrl     => store_write_data
     );
 
-    ram_write_en <= '1' when mem_op = '1' and ram_en = '1' else '0';
+    bram0_rd_addr <= ram_addr; 
+    bram0_wr_data <= store_write_data;
+    bram0_wr_addr <= ram_addr; 
+    bram0_config  <= wr_cfg & "000100"; 
+    ram_read_data <= bram0_rd_data;
+
     -- -- === RAM (Data Memory) ===
     -- ram_inst: entity work.ram
     --     port map (

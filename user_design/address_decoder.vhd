@@ -6,7 +6,7 @@ entity address_decoder is
     Port (
         addr         : in  std_logic_vector(31 downto 0);  -- alu_result
         ram_en       : out std_logic;
-        ram_addr     : out std_logic_vector(9 downto 0);  -- 1KB RAM
+        ram_addr     : out std_logic_vector(7 downto 0);  -- 1KB RAM
         uart_en      : out std_logic;
         uart_addr    : out std_logic_vector(1 downto 0);     -- select data/status
         rom_en       : out std_logic;
@@ -24,7 +24,7 @@ begin
 
     -- RAM: 0x10000000 – 0x10000FFF
     ram_en   <= '1' when addr(31 downto 12) = x"10000" else '0';
-    ram_addr <= addr(9 downto 0);  -- word-aligned inside RAM
+    ram_addr <= addr(7 downto 0);  -- word-aligned inside RAM
 
     -- UART: 0x20000000 and 0x20000004 
     uart_en   <= '1' when addr(31 downto 12) = x"20000" else '0';

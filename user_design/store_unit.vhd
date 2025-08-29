@@ -8,8 +8,8 @@ entity store_unit is
         addr_offset : in  std_logic_vector(1 downto 0); -- addr(1 downto 0)
         store_data  : in  std_logic_vector(31 downto 0); -- value to store
 
-        write_mask  : out std_logic_vector(3 downto 0); -- byte enables
-        write_data  : out std_logic_vector(31 downto 0) -- aligned data
+        wr_cfg      : out std_logic_vector(1 downto 0); -- goes to C0,C1
+        wr_ctrl     : out std_logic_vector(31 downto 0) -- goes into wr_data
     );
 end entity;
 
@@ -17,50 +17,26 @@ architecture Behavioral of store_unit is
 begin
     process(funct3, addr_offset, store_data)
     begin
-        -- Default
-        write_data <= (others => '0');
-        write_mask <= "0000";
+        wr_cfg  <= "11"; -- default idle
+        wr_ctrl <= (others => '0');
 
         case funct3 is
             when "000" => -- SB
-                case addr_offset is
-                    when "00" =>
-                        write_data <= x"000000" & store_data(7 downto 0);
-                        write_mask <= "0001";
-                    when "01" =>
-                        write_data <= x"0000" & store_data(7 downto 0) & x"00";
-                        write_mask <= "0010";
-                    when "10" =>
-                        write_data <= x"00" & store_data(7 downto 0) & x"0000";
-                        write_mask <= "0100";
-                    when "11" =>
-                        write_data <= store_data(7 downto 0) & x"000000";
-                        write_mask <= "1000";
-                    when others =>
-                        write_data <= (others => '0');
-                        write_mask <= "0000";
-                end case;
+                wr_cfg <= "10"; -- byte mode
+                wr_ctrl(17 downto 16) <= addr_offset;
+                wr_ctrl(7 downto 0)   <= store_data(7 downto 0);
 
             when "001" => -- SH
-                case addr_offset(1) is
-                    when '0' => -- aligned to offset 0
-                        write_data <= x"0000" & store_data(15 downto 0);
-                        write_mask <= "0011";
-                    when '1' => -- aligned to offset 2
-                        write_data <= store_data(15 downto 0) & x"0000";
-                        write_mask <= "1100";
-                    when others =>
-                        write_data <= (others => '0');
-                        write_mask <= "0000";
-                end case;
+                wr_cfg <= "01"; -- half mode
+                wr_ctrl(17)     <= addr_offset(1);
+                wr_ctrl(15 downto 0) <= store_data(15 downto 0);
 
             when "010" => -- SW
-                write_data <= store_data;
-                write_mask <= "1111";
+                wr_cfg <= "00"; -- word mode
+                wr_ctrl(31 downto 0) <= store_data;
 
             when others =>
-                write_data <= (others => '0');
-                write_mask <= "0000";
+                wr_cfg <= "11"; -- no store
         end case;
     end process;
 end Behavioral;

@@ -61,6 +61,15 @@ module LHQD1 (input D, E, output reg Q, QN);
     end
 endmodule
 
+module clk_buf(input A, output X);
+assign X = A;
+endmodule
+
+module break_comb_loop(input A, output X);
+assign X = A;
+endmodule
+
+
 // (MUX4PTv4) and 1.2ns (MUX16PTv2) in worse case when all select bits=0, so I think they work fine with f=50MHz. 
 // The area are HxW = 7um x 9.86um (MUX4PTv4) and 7um x 44.72um (MUX16PTv2). 
 // Please note, the pins are named as IN1, IN2, ..., IN16 for inputs, S1, .., S4 for selects and OUT for output.

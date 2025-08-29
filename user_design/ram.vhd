@@ -4,7 +4,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity ram is
     generic (
-        addr_width : integer := 10  -- 1024 words = 4KB
+        addr_width : integer := 8  -- 1024 words = 4KB
     );
     port (
         clk        : in  std_logic;

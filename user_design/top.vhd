@@ -7,15 +7,22 @@ entity top is
         clk    : in  std_logic;
         io_in  : in std_logic_vector(23 downto 0);
         io_out : out std_logic_vector(23 downto 0);
-        io_oeb : out std_logic_vector(23 downto 0)
+        io_oeb : out std_logic_vector(23 downto 0);
+        bram0_rd_addr : out std_logic_vector(7 downto 0);
+        bram0_rd_data : in std_logic_vector(31 downto 0);
+        bram0_wr_addr : out std_logic_vector(7 downto 0);
+        bram0_wr_data : out std_logic_vector(31 downto 0);
+        bram0_config  : out std_logic_vector(7 downto 0)
     );
 end top;
 
 architecture Behavioral of top is
 
+    constant RESET_PIN : integer := 23;
+    constant OUTPUT_ENABLE  : std_logic := '0';
+    constant OUTPUT_DISABLE : std_logic := '1';
     -- === Signals ===
     signal reset    : std_logic;
-    signal bram_cfg : std_logic_vector(7 downto 0);
 
     -- PC
     signal pc            : std_logic_vector(31 downto 0);
@@ -55,11 +62,11 @@ architecture Behavioral of top is
     signal store_misaligned : std_logic;
     signal loaded_value     : std_logic_vector(31 downto 0);
     signal ram_en           : std_logic;
-    signal ram_addr         : std_logic_vector(11 downto 0);
+    signal ram_addr         : std_logic_vector(9 downto 0);
     signal store_write_data : std_logic_vector(31 downto 0);
     signal store_write_mask : std_logic_vector(3 downto 0);
     signal rom_en           : std_logic;
-    signal rom_addr         : std_logic_vector(11 downto 0);
+    signal rom_addr         : std_logic_vector(9 downto 0);
     signal rom_read_data    : std_logic_vector(31 downto 0);
 
 
@@ -89,6 +96,8 @@ architecture Behavioral of top is
     signal stall_active : std_logic;  -- Whether we're currently in a stall
     signal stall_delay  : std_logic;  -- Whether we just started the stall
 
+    -- Clock Divider
+    -- signal clk : std_logic;
     -- Sync external reset into clk domain
     signal internal_reset : std_logic;
     signal reset_sync_0 : std_logic := '1';
@@ -101,10 +110,25 @@ signal load_phase1     : std_logic := '0';
 signal effective_addr  : std_logic_vector(31 downto 0) := (others => '0');
 
 begin
-    reset <= io_in(0);
-    io_oeb(0) <= '0';
 
-    io_oeb(1) <= '1';
+    bram0_rd_addr <= "00000000"; 
+    bram0_wr_data <= x"01010101";
+    bram0_wr_addr <= "00000000"; 
+    bram0_config  <= "00000100"; 
+
+    reset <= io_in(RESET_PIN);
+    io_oeb(RESET_PIN) <= OUTPUT_DISABLE;
+
+        -- Clock Divider
+    -- clkdiv_inst: entity work.clock_divider
+    --     generic map (
+    --         DIVIDE_BY => 2  -- each toggle = 2 cycles, full period = 4 → 25 MHz
+    --     )
+    --     port map (
+    --         clk_in  => clk,
+    --         reset   => '0',
+    --         clk_out => slow_clk
+    --     );
 
     process(clk)
     begin
@@ -178,7 +202,7 @@ begin
     -- === Instruction ROM ===
     rom_inst: entity work.rom
         port map (
-            instr_addr => pc(11 downto 0),
+            instr_addr => pc(9 downto 0),
             instr_data => instr,
             data_addr  => rom_addr,
             data_data  => rom_read_data
@@ -286,16 +310,16 @@ begin
     );
 
     ram_write_en <= '1' when mem_op = '1' and ram_en = '1' else '0';
-    -- === RAM (Data Memory) ===
-    ram_inst: entity work.ram
-        port map (
-            clk        => clk,
-            addr       => ram_addr,
-            write_en   => ram_write_en,
-            write_data => store_write_data,
-            write_mask => store_write_mask,
-            read_data  => ram_read_data
-        );
+    -- -- === RAM (Data Memory) ===
+    -- ram_inst: entity work.ram
+    --     port map (
+    --         clk        => clk,
+    --         addr       => ram_addr,
+    --         write_en   => ram_write_en,
+    --         write_data => store_write_data,
+    --         write_mask => store_write_mask,
+    --         read_data  => ram_read_data
+    --     );
 
     uart_write_en <= '1' when mem_op = '1' and uart_en = '1' else '0';
     -- === UART ===

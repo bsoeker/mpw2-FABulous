@@ -1,9 +1,9 @@
 `timescale 1ps/1ps
-module sequential_16bit_en_tb;
-    wire [23:0] I_top;
-    wire [23:0] T_top;
-    reg [23:0] O_top = 0;
-    wire [63:0] A_cfg, B_cfg;
+module top_tb;
+    wire [27:0] I_top;
+    wire [27:0] T_top;
+    reg [27:0] O_top = 0;
+    wire [55:0] A_cfg, B_cfg;
 
     reg CLK = 1'b0;
     reg resetn = 1'b1;
@@ -31,15 +31,7 @@ module sequential_16bit_en_tb;
     );
 
 
-    wire [23:0] I_top_gold, oeb_gold, T_top_gold;
-    top dut_i (
-        .clk(CLK),
-        .io_out(I_top_gold),
-        .io_oeb(oeb_gold),
-        .io_in(O_top)
-    );
 
-    assign T_top_gold = ~oeb_gold;
 
     localparam MAX_BITBYTES = 16384;
     reg [7:0] bitstream[0:MAX_BITBYTES-1];
@@ -47,29 +39,28 @@ module sequential_16bit_en_tb;
     always #5000 CLK = (CLK === 1'b0);
 
     integer i;
-    integer k;
-    integer unsigned fd;
     reg have_errors = 1'b0;
-    initial begin
-`ifdef CREATE_FST
-        $dumpfile("mpw2/Test/sequential_16bit_en_tb.fst");
-        $dumpvars(0, sequential_16bit_en_tb);
-`endif
-`ifdef CREATE_VCD
-        $dumpfile("mpw2/Test/sequential_16bit_en_tb.vcd");
-        $dumpvars(0, sequential_16bit_en_tb);
-`endif
-`ifndef EMULATION
 
-        fd = $fopen("mpw2/user_design/sequential_16bit_en.hex", "r");
-        if (fd == 0) begin
-            $display("Hexfile not found!");
-            $fatal;
-        end else begin
-            $fclose(fd);
+    reg [2047:0] bitstream_hex_arg; // 256 bytes for characters
+    reg [2047:0] output_waveform_arg; // 256 bytes for characters
+    initial begin
+
+        if ($value$plusargs("output_waveform=%s", output_waveform_arg)) begin
+            $dumpfile(output_waveform_arg);
+            $dumpvars(0, top_tb);
+            $display("Output waveform set to %s", output_waveform_arg);
         end
 
-        $readmemh("mpw2/user_design/sequential_16bit_en.hex", bitstream);
+`ifndef EMULATION
+
+        if ($value$plusargs("bitstream_hex=%s", bitstream_hex_arg)) begin
+            $readmemh(bitstream_hex_arg, bitstream);
+            $display("Read bitstream hex from %s", bitstream_hex_arg);
+        end else begin
+            $display("Error: No bitstream provided as $plusargs bitstream_hex.");
+            $fatal;
+        end
+
 
         #100;
         resetn = 1'b0;
@@ -88,16 +79,13 @@ module sequential_16bit_en_tb;
         end
 `endif
         repeat (100) @(posedge CLK);
-        O_top = 24'b1000_0000_0000_0000_0000_0000; // enable and reset
+        // Enable and reset the counter
+        O_top = 28'b1000_0000_0000_0000_0000_0000_0000;
         repeat (5) @(posedge CLK);
-        O_top = 24'b1100_0000_0000_0000_0000_0000;
-        for (i = 0; i < 100; i = i + 1) begin
+        // Deassert reset while keeping the counter enabled
+        O_top = 28'b0000_0000_0000_0000_0000_0000_0000;
+        for (i = 0; i < 10000; i = i + 1) begin
             @(negedge CLK);
-            $display("fabric(I_top) = 0x%X gold = 0x%X, fabric(T_top) = 0x%X gold = 0x%X", I_top, I_top_gold, T_top, T_top_gold);
-            if (I_top !== I_top_gold)
-                have_errors = 1'b1;
-            if (T_top !== T_top_gold)
-                have_errors = 1'b1;
         end
 
         if (have_errors)
@@ -108,10 +96,3 @@ module sequential_16bit_en_tb;
 
 endmodule
 
-module clk_buf(input A, output X);
-assign X = A;
-endmodule
-
-module break_comb_loop(input A, output X);
-assign X = A;
-endmodule

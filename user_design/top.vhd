@@ -19,8 +19,8 @@ end top;
 architecture Behavioral of top is
 
     constant RESET_PIN : integer := 23;
-    constant OUTPUT_ENABLE  : std_logic := '0';
-    constant OUTPUT_DISABLE : std_logic := '1';
+    constant OUTPUT_ENABLE  : std_logic := '1';
+    constant OUTPUT_DISABLE : std_logic := '0';
     -- === Signals ===
     signal reset    : std_logic;
 
@@ -113,8 +113,9 @@ begin
 
     io_out(0)  <= '1';
     io_oeb(0)  <= OUTPUT_ENABLE;
-    io_out(10) <= '1';
-    io_oeb(10) <= OUTPUT_ENABLE;
+    io_oeb(1)  <= OUTPUT_ENABLE;
+    io_out(2)  <= '1';
+    io_oeb(2)  <= OUTPUT_ENABLE;
     io_out(20) <= '1';
     io_oeb(20) <= OUTPUT_ENABLE;
     io_out(21) <= '1';

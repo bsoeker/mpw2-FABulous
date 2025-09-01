@@ -14,13 +14,18 @@ FAB_ROOT=$(pwd) nextpnr-generic --freq 1 --uarch fabulous --json out.json -o fas
 
 ## Generate Bitstream
 
-From the project root:
+- From the project root:
 
 ```bash
 FABulous .
 ```
 
-Inside the FABulous shell:
+- Inside the FABulous shell:
 
+```FABulous
 gen_bitStream_spec
+```
+
+```FABulous
 gen_bitStream_binary out.fasm
+```

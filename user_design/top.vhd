@@ -12,7 +12,7 @@ entity top is
         bram0_rd_data : in std_logic_vector(31 downto 0);
         bram0_wr_addr : out std_logic_vector(7 downto 0);
         bram0_wr_data : out std_logic_vector(31 downto 0);
-        bram0_config  : out std_logic_vector(5 downto 0)
+        bram0_config  : out std_logic_vector(7 downto 0)
     );
 end top;
 
@@ -306,43 +306,24 @@ begin
     bram0_rd_addr <= ram_addr; 
     bram0_wr_data <= store_write_data;
     bram0_wr_addr <= ram_addr; 
-    bram0_config  <= wr_cfg & "0010"; 
+    bram0_config  <= "00010000" ; 
     ram_read_data <= bram0_rd_data;
 
--- io_out(21 downto 14) <= rs2_data(7 downto 0);
+io_out(21 downto 14) <= rs2_data(7 downto 0);
 
-    process(clk)
-begin
-    if rising_edge(clk) then
-        if internal_reset = '1' then
-            test_sent  <= '0';
-            test_wr_en <= '0';
-            test_wdata <= (others => '0');
-        else
-            if test_sent = '0' then
-                test_wdata <= x"6c6c6548"; -- ASCII 'H'
-                test_wr_en <= '1';  -- pulse high for 1 clock
-                test_sent  <= '1';
-            else
-                test_wr_en <= '0';  -- keep low after first cycle
-            end if;
-        end if;
-    end if;
-end process;
+    -- uart_write_en <= '1' when mem_op = '1' and uart_en = '1' else '0';
+    -- -- === UART ===
+    -- uart_inst: entity work.uart
+    --     port map (
+    --         clk         => clk,
+    --         reset       => internal_reset,
+    --         addr        => uart_addr,
+    --         wr_en       => uart_write_en,
+    --         write_data  => rs2_data,
+    --         read_data   => uart_read_data,
+    --         RsTx        => io_out(21)
+    --     );
 
-
-             
-
-    uart_test: entity work.uart
-        port map (
-            clk        => clk,
-            reset      => internal_reset,
-            addr       => "00",          -- always TX register
-            wr_en      => test_wr_en,
-            write_data => test_wdata,
-            read_data  => test_uart_rd,  -- unused
-            RsTx       => io_out(21)     -- UART TX pin
-        );
 
     mem_data <= ram_read_data when ram_en = '1' else 
                 uart_read_data when uart_en = '1' else

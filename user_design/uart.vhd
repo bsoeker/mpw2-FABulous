@@ -15,7 +15,7 @@ entity uart is
 end uart;
 
 architecture Behavioral of uart is
-    constant CLOCK_FREQ : integer := 12_000_000;
+    constant CLOCK_FREQ : integer := 10_000_000;
     constant BAUD_RATE  : integer := 115200;
     constant BAUD_TICKS : integer := CLOCK_FREQ / BAUD_RATE;
 

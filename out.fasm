@@ -1,0 +1,5328 @@
+# routing for net 'bram3_rd_data[28]'
+
+
+# routing for net 'bram3_rd_data[29]'
+
+
+# routing for net 'bram3_rd_data[30]'
+
+
+# routing for net 'bram3_rd_data[31]'
+
+
+# routing for net 'bram3_rd_data[24]'
+
+
+# routing for net 'bram3_rd_data[25]'
+
+
+# routing for net 'bram3_rd_data[26]'
+
+
+# routing for net 'bram3_rd_data[27]'
+
+
+# routing for net 'bram3_rd_data[20]'
+
+
+# routing for net 'bram3_rd_data[21]'
+
+
+# routing for net 'bram3_rd_data[22]'
+
+
+# routing for net 'bram3_rd_data[23]'
+
+
+# routing for net 'bram0_rd_data[4]'
+
+
+# routing for net 'bram0_rd_data[5]'
+
+
+# routing for net 'bram0_rd_data[6]'
+
+
+# routing for net 'bram0_rd_data[7]'
+
+
+# routing for net 'bram3_rd_data[16]'
+
+
+# routing for net 'bram3_rd_data[17]'
+
+
+# routing for net 'bram3_rd_data[18]'
+
+
+# routing for net 'bram3_rd_data[19]'
+
+
+# routing for net 'bram3_rd_data[12]'
+
+
+# routing for net 'bram3_rd_data[13]'
+
+
+# routing for net 'bram3_rd_data[14]'
+
+
+# routing for net 'bram3_rd_data[15]'
+
+
+# routing for net 'bram3_rd_data[8]'
+
+
+# routing for net 'bram3_rd_data[9]'
+
+
+# routing for net 'bram3_rd_data[10]'
+
+
+# routing for net 'bram3_rd_data[11]'
+
+
+# routing for net 'bram3_rd_data[4]'
+
+
+# routing for net 'bram3_rd_data[5]'
+
+
+# routing for net 'bram3_rd_data[6]'
+
+
+# routing for net 'bram3_rd_data[7]'
+
+
+# routing for net 'bram3_rd_data[0]'
+
+
+# routing for net 'bram3_rd_data[1]'
+
+
+# routing for net 'bram3_rd_data[2]'
+
+
+# routing for net 'bram3_rd_data[3]'
+
+
+# routing for net 'bram2_rd_data[28]'
+
+
+# routing for net 'bram2_rd_data[29]'
+
+
+# routing for net 'bram2_rd_data[30]'
+
+
+# routing for net 'bram2_rd_data[31]'
+
+
+# routing for net 'bram2_rd_data[24]'
+
+
+# routing for net 'bram2_rd_data[25]'
+
+
+# routing for net 'bram2_rd_data[26]'
+
+
+# routing for net 'bram2_rd_data[27]'
+
+
+# routing for net 'bram0_rd_data[0]'
+
+
+# routing for net 'bram0_rd_data[1]'
+
+
+# routing for net 'bram0_rd_data[2]'
+
+
+# routing for net 'bram0_rd_data[3]'
+
+
+# routing for net 'bram2_rd_data[20]'
+
+
+# routing for net 'bram2_rd_data[21]'
+
+
+# routing for net 'bram2_rd_data[22]'
+
+
+# routing for net 'bram2_rd_data[23]'
+
+
+# routing for net 'bram2_rd_data[16]'
+
+
+# routing for net 'bram2_rd_data[17]'
+
+
+# routing for net 'bram2_rd_data[18]'
+
+
+# routing for net 'bram2_rd_data[19]'
+
+
+# routing for net 'bram2_rd_data[12]'
+
+
+# routing for net 'bram2_rd_data[13]'
+
+
+# routing for net 'bram2_rd_data[14]'
+
+
+# routing for net 'bram2_rd_data[15]'
+
+
+# routing for net 'bram2_rd_data[8]'
+
+
+# routing for net 'bram2_rd_data[9]'
+
+
+# routing for net 'bram2_rd_data[10]'
+
+
+# routing for net 'bram2_rd_data[11]'
+
+
+# routing for net 'bram2_rd_data[4]'
+
+
+# routing for net 'bram2_rd_data[5]'
+
+
+# routing for net 'bram2_rd_data[6]'
+
+
+# routing for net 'bram2_rd_data[7]'
+
+
+# routing for net 'bram2_rd_data[0]'
+
+
+# routing for net 'bram2_rd_data[1]'
+
+
+# routing for net 'bram2_rd_data[2]'
+
+
+# routing for net 'bram2_rd_data[3]'
+
+
+# routing for net 'bram1_rd_data[28]'
+
+
+# routing for net 'bram1_rd_data[29]'
+
+
+# routing for net 'bram1_rd_data[30]'
+
+
+# routing for net 'bram1_rd_data[31]'
+
+
+# routing for net 'bram1_rd_data[24]'
+
+
+# routing for net 'bram1_rd_data[25]'
+
+
+# routing for net 'bram1_rd_data[26]'
+
+
+# routing for net 'bram1_rd_data[27]'
+
+
+# routing for net 'bram1_rd_data[20]'
+
+
+# routing for net 'bram1_rd_data[21]'
+
+
+# routing for net 'bram1_rd_data[22]'
+
+
+# routing for net 'bram1_rd_data[23]'
+
+
+# routing for net 'bram1_rd_data[16]'
+
+
+# routing for net 'bram1_rd_data[17]'
+
+
+# routing for net 'bram1_rd_data[18]'
+
+
+# routing for net 'bram1_rd_data[19]'
+
+
+# routing for net 'bram1_rd_data[12]'
+
+
+# routing for net 'bram1_rd_data[13]'
+
+
+# routing for net 'bram1_rd_data[14]'
+
+
+# routing for net 'bram1_rd_data[15]'
+
+
+# routing for net 'bram1_rd_data[8]'
+
+
+# routing for net 'bram1_rd_data[9]'
+
+
+# routing for net 'bram1_rd_data[10]'
+
+
+# routing for net 'bram1_rd_data[11]'
+
+
+# routing for net 'bram1_rd_data[4]'
+
+
+# routing for net 'bram1_rd_data[5]'
+
+
+# routing for net 'bram1_rd_data[6]'
+
+
+# routing for net 'bram1_rd_data[7]'
+
+
+# routing for net 'bram1_rd_data[0]'
+
+
+# routing for net 'bram1_rd_data[1]'
+
+
+# routing for net 'bram1_rd_data[2]'
+
+
+# routing for net 'bram1_rd_data[3]'
+
+
+# routing for net 'bram0_rd_data[28]'
+
+
+# routing for net 'bram0_rd_data[29]'
+
+
+# routing for net 'bram0_rd_data[30]'
+
+
+# routing for net 'bram0_rd_data[31]'
+
+
+# routing for net 'bram0_rd_data[24]'
+
+
+# routing for net 'bram0_rd_data[25]'
+
+
+# routing for net 'bram0_rd_data[26]'
+
+
+# routing for net 'bram0_rd_data[27]'
+
+
+# routing for net 'bram0_rd_data[20]'
+
+
+# routing for net 'bram0_rd_data[21]'
+
+
+# routing for net 'bram0_rd_data[22]'
+
+
+# routing for net 'bram0_rd_data[23]'
+
+
+# routing for net 'bram0_rd_data[16]'
+
+
+# routing for net 'bram0_rd_data[17]'
+
+
+# routing for net 'bram0_rd_data[18]'
+
+
+# routing for net 'bram0_rd_data[19]'
+
+
+# routing for net 'bram5_rd_data[28]'
+
+
+# routing for net 'bram5_rd_data[29]'
+
+
+# routing for net 'bram5_rd_data[30]'
+
+
+# routing for net 'bram5_rd_data[31]'
+
+
+# routing for net 'bram5_rd_data[24]'
+
+
+# routing for net 'bram5_rd_data[25]'
+
+
+# routing for net 'bram5_rd_data[26]'
+
+
+# routing for net 'bram5_rd_data[27]'
+
+
+# routing for net 'bram5_rd_data[20]'
+
+
+# routing for net 'bram5_rd_data[21]'
+
+
+# routing for net 'bram5_rd_data[22]'
+
+
+# routing for net 'bram5_rd_data[23]'
+
+
+# routing for net 'bram5_rd_data[16]'
+
+
+# routing for net 'bram5_rd_data[17]'
+
+
+# routing for net 'bram5_rd_data[18]'
+
+
+# routing for net 'bram5_rd_data[19]'
+
+
+# routing for net 'bram5_rd_data[12]'
+
+
+# routing for net 'bram5_rd_data[13]'
+
+
+# routing for net 'bram5_rd_data[14]'
+
+
+# routing for net 'bram5_rd_data[15]'
+
+
+# routing for net 'bram0_rd_data[12]'
+
+
+# routing for net 'bram0_rd_data[13]'
+
+
+# routing for net 'bram0_rd_data[14]'
+
+
+# routing for net 'bram0_rd_data[15]'
+
+
+# routing for net 'bram5_rd_data[8]'
+
+
+# routing for net 'bram5_rd_data[9]'
+
+
+# routing for net 'bram5_rd_data[10]'
+
+
+# routing for net 'bram5_rd_data[11]'
+
+
+# routing for net 'bram5_rd_data[4]'
+
+
+# routing for net 'bram5_rd_data[5]'
+
+
+# routing for net 'bram5_rd_data[6]'
+
+
+# routing for net 'bram5_rd_data[7]'
+
+
+# routing for net 'bram5_rd_data[0]'
+
+
+# routing for net 'bram5_rd_data[1]'
+
+
+# routing for net 'bram5_rd_data[2]'
+
+
+# routing for net 'bram5_rd_data[3]'
+
+
+# routing for net 'bram4_rd_data[28]'
+
+
+# routing for net 'bram4_rd_data[29]'
+
+
+# routing for net 'bram4_rd_data[30]'
+
+
+# routing for net 'bram4_rd_data[31]'
+
+
+# routing for net 'bram4_rd_data[24]'
+
+
+# routing for net 'bram4_rd_data[25]'
+
+
+# routing for net 'bram4_rd_data[26]'
+
+
+# routing for net 'bram4_rd_data[27]'
+
+
+# routing for net 'bram4_rd_data[20]'
+
+
+# routing for net 'bram4_rd_data[21]'
+
+
+# routing for net 'bram4_rd_data[22]'
+
+
+# routing for net 'bram4_rd_data[23]'
+
+
+# routing for net 'bram4_rd_data[16]'
+
+
+# routing for net 'bram4_rd_data[17]'
+
+
+# routing for net 'bram4_rd_data[18]'
+
+
+# routing for net 'bram4_rd_data[19]'
+
+
+# routing for net '$PACKER_GND'
+
+X0Y5.GND0.A_T
+X0Y5.GND0.B_T
+X0Y11.GND0.A_T
+X0Y11.GND0.B_T
+X8Y11.LF_O.EE4BEG0
+X8Y11.LH_O.EE4BEG1
+X8Y11.LB_O.EE4BEG2
+X8Y11.LD_O.EE4BEG3
+X8Y11.LB_O.E6BEG0
+X8Y11.EE4BEG0.EE4END12
+X8Y11.EE4BEG1.EE4END13
+X8Y11.EE4BEG2.EE4END14
+X8Y11.EE4BEG3.EE4END15
+X8Y11.E6BEG0.E6END10
+X9Y11.LG_O.EE4BEG0
+X9Y11.LH_O.EE4BEG1
+X9Y11.LC_O.EE4BEG2
+X9Y11.LE_O.EE4BEG3
+X9Y11.LE_O.E6BEG0
+X9Y11.LE_O.E6BEG1
+X9Y11.EE4BEG0.EE4END12
+X9Y11.EE4BEG1.EE4END13
+X9Y11.EE4BEG2.EE4END14
+X9Y11.EE4BEG3.EE4END15
+X9Y11.EE4END12.EE4BEG12
+X9Y11.EE4BEG12.EE4END8
+X9Y11.EE4END13.EE4BEG13
+X9Y11.EE4BEG13.EE4END9
+X9Y11.EE4END14.EE4BEG14
+X9Y11.EE4BEG14.EE4END10
+X9Y11.EE4END15.EE4BEG15
+X9Y11.EE4BEG15.EE4END11
+X9Y11.E6BEG0.E6END10
+X9Y11.E6BEG1.E6END11
+X9Y11.E6END10.E6BEG10
+X9Y11.E6BEG10.E6END8
+X10Y11.EE4END8.FAB2RAM_D0_I0
+X10Y11.EE4END9.FAB2RAM_D0_I1
+X10Y11.EE4END10.FAB2RAM_D0_I2
+X10Y11.EE4END11.FAB2RAM_D0_I3
+X10Y11.EE4END12.FAB2RAM_D1_I0
+X10Y11.EE4END13.FAB2RAM_D1_I1
+X10Y11.EE4END14.FAB2RAM_D1_I2
+X10Y11.EE4END15.FAB2RAM_D1_I3
+X10Y11.E6END8.FAB2RAM_D2_I0
+X10Y11.EE4END9.FAB2RAM_D2_I1
+X10Y11.E6END10.FAB2RAM_D2_I2
+X10Y11.E6END11.FAB2RAM_D2_I3
+X10Y11.EE4END12.FAB2RAM_D3_I0
+X10Y11.EE4END13.FAB2RAM_D3_I1
+X10Y11.EE4END14.FAB2RAM_D3_I2
+X10Y11.EE4END15.FAB2RAM_D3_I3
+X10Y11.GND0.FAB2RAM_A0_I0
+X10Y11.GND0.FAB2RAM_A0_I1
+X10Y11.GND0.FAB2RAM_A0_I2
+X10Y11.GND0.FAB2RAM_A0_I3
+X10Y11.GND0.FAB2RAM_A1_I0
+X10Y11.GND0.FAB2RAM_A1_I1
+X10Y11.GND0.FAB2RAM_A1_I2
+X10Y11.GND0.FAB2RAM_A1_I3
+X10Y11.GND0.FAB2RAM_C_I0
+X10Y11.GND0.FAB2RAM_C_I1
+X10Y11.GND0.FAB2RAM_C_I3
+X8Y12.LG_O.EE4BEG0
+X8Y12.LA_O.EE4BEG1
+X8Y12.LB_O.EE4BEG2
+X8Y12.LE_O.EE4BEG3
+X8Y12.LB_O.E6BEG1
+X8Y12.EE4BEG0.EE4END12
+X8Y12.EE4BEG1.EE4END13
+X8Y12.EE4BEG2.EE4END14
+X8Y12.EE4BEG3.EE4END15
+X8Y12.E6BEG1.E6END11
+X9Y12.LD_O.E1BEG0
+X9Y12.LE_O.E1BEG1
+X9Y12.LG_O.EE4BEG0
+X9Y12.LH_O.EE4BEG1
+X9Y12.LC_O.EE4BEG2
+X9Y12.LD_O.EE4BEG3
+X9Y12.LE_O.E6BEG0
+X9Y12.LD_O.E6BEG1
+X9Y12.E1BEG0.E1END0
+X9Y12.E1BEG1.E1END1
+X9Y12.EE4BEG0.EE4END12
+X9Y12.EE4BEG1.EE4END13
+X9Y12.EE4BEG2.EE4END14
+X9Y12.EE4BEG3.EE4END15
+X9Y12.EE4END12.EE4BEG12
+X9Y12.EE4BEG12.EE4END8
+X9Y12.EE4END13.EE4BEG13
+X9Y12.EE4BEG13.EE4END9
+X9Y12.EE4END14.EE4BEG14
+X9Y12.EE4BEG14.EE4END10
+X9Y12.EE4END15.EE4BEG15
+X9Y12.EE4BEG15.EE4END11
+X9Y12.E6BEG0.E6END10
+X9Y12.E6BEG1.E6END11
+X9Y12.E6END11.E6BEG11
+X9Y12.E6BEG11.E6END9
+X10Y12.EE4END8.FAB2RAM_D0_I0
+X10Y12.EE4END9.FAB2RAM_D0_I1
+X10Y12.EE4END10.FAB2RAM_D0_I2
+X10Y12.EE4END11.FAB2RAM_D0_I3
+X10Y12.EE4END12.FAB2RAM_D1_I0
+X10Y12.EE4END13.FAB2RAM_D1_I1
+X10Y12.EE4END14.FAB2RAM_D1_I2
+X10Y12.EE4END15.FAB2RAM_D1_I3
+X10Y12.EE4END8.FAB2RAM_D2_I0
+X10Y12.E6END9.FAB2RAM_D2_I1
+X10Y12.E6END10.FAB2RAM_D2_I2
+X10Y12.E6END11.FAB2RAM_D2_I3
+X10Y12.E1END0.FAB2RAM_D3_I0
+X10Y12.E1END1.FAB2RAM_D3_I1
+X10Y12.EE4END14.FAB2RAM_D3_I2
+X10Y12.EE4END15.FAB2RAM_D3_I3
+X10Y12.GND0.FAB2RAM_A0_I0
+X10Y12.GND0.FAB2RAM_A0_I1
+X10Y12.GND0.FAB2RAM_A0_I2
+X10Y12.GND0.FAB2RAM_A0_I3
+X10Y12.GND0.FAB2RAM_A1_I0
+X10Y12.GND0.FAB2RAM_A1_I1
+X10Y12.GND0.FAB2RAM_A1_I2
+X10Y12.GND0.FAB2RAM_A1_I3
+X10Y12.GND0.FAB2RAM_C_I0
+X10Y12.GND0.FAB2RAM_C_I1
+X10Y12.GND0.FAB2RAM_C_I3
+X8Y11.B.INIT[15:0] = 16'b0000000000000000
+X8Y11.D.INIT[15:0] = 16'b0000000000000000
+X8Y11.F.INIT[15:0] = 16'b0000000000000000
+X8Y11.H.INIT[15:0] = 16'b0000000000000000
+X9Y11.C.INIT[15:0] = 16'b0000000000000000
+X9Y11.E.INIT[15:0] = 16'b0000000000000000
+X9Y11.G.INIT[15:0] = 16'b0000000000000000
+X9Y11.H.INIT[15:0] = 16'b0000000000000000
+X8Y12.A.INIT[15:0] = 16'b0000000000000000
+X8Y12.B.INIT[15:0] = 16'b0000000000000000
+X8Y12.E.INIT[15:0] = 16'b0000000000000000
+X8Y12.G.INIT[15:0] = 16'b0000000000000000
+X9Y12.C.INIT[15:0] = 16'b0000000000000000
+X9Y12.D.INIT[15:0] = 16'b0000000000000000
+X9Y12.E.INIT[15:0] = 16'b0000000000000000
+X9Y12.G.INIT[15:0] = 16'b0000000000000000
+X9Y12.H.INIT[15:0] = 16'b0000000000000000
+
+# routing for net 'io_in[9]'
+
+
+# routing for net 'io9_i.I$const'
+
+
+# routing for net '$PACKER_VCC'
+
+X0Y6.VCC0.A_T
+X0Y6.VCC0.B_T
+X0Y7.VCC0.A_T
+X0Y7.VCC0.B_T
+X0Y8.VCC0.A_T
+X0Y8.VCC0.B_T
+X0Y9.VCC0.A_T
+X0Y9.VCC0.B_T
+X9Y11.LF_O.E1BEG2
+X9Y11.E1BEG2.E1END2
+X10Y11.E1END2.FAB2RAM_C_I2
+X0Y12.VCC0.A_T
+X0Y12.VCC0.B_T
+X9Y12.LF_O.E1BEG2
+X9Y12.E1BEG2.E1END2
+X10Y12.E1END2.FAB2RAM_C_I2
+X0Y13.VCC0.A_T
+X0Y13.VCC0.B_T
+X0Y14.VCC0.A_T
+X0Y14.VCC0.B_T
+X0Y15.VCC0.A_T
+X0Y15.VCC0.B_T
+X0Y16.VCC0.A_T
+X0Y16.VCC0.B_T
+X9Y11.F.INIT[15:0] = 16'b1111111111111111
+X9Y12.F.INIT[15:0] = 16'b1111111111111111
+
+# routing for net 'io_in[8]'
+
+
+# routing for net 'io8_i.I$const'
+
+
+# routing for net 'bram0_rd_data[8]'
+
+
+# routing for net 'io_in[7]'
+
+
+# routing for net 'io7_i.I$const'
+
+
+# routing for net 'bram0_rd_data[9]'
+
+
+# routing for net 'io_in[6]'
+
+
+# routing for net 'io6_i.I$const'
+
+
+# routing for net 'bram0_rd_data[10]'
+
+
+# routing for net 'io_in[5]'
+
+
+# routing for net 'io5_i.I$const'
+
+
+# routing for net 'bram0_rd_data[11]'
+
+
+# routing for net 'io_in[4]'
+
+
+# routing for net 'io4_i.I$const'
+
+
+# routing for net 'bram4_rd_data[12]'
+
+
+# routing for net 'io_in[3]'
+
+
+# routing for net 'io3_i.I$const'
+
+
+# routing for net 'bram4_rd_data[13]'
+
+
+# routing for net 'io_in[2]'
+
+
+# routing for net 'io2_i.I$const'
+
+
+# routing for net 'bram4_rd_data[14]'
+
+
+# routing for net 'io23_i.I$const'
+
+
+# routing for net 'bram4_rd_data[15]'
+
+
+# routing for net 'io_in[22]'
+
+
+# routing for net 'io22_i.I$const'
+
+
+# routing for net 'bram4_rd_data[8]'
+
+
+# routing for net 'io_in[21]'
+
+
+# routing for net 'bram4_rd_data[9]'
+
+
+# routing for net 'io_in[20]'
+
+
+# routing for net 'io20_i.I$const'
+
+
+# routing for net 'bram4_rd_data[10]'
+
+
+# routing for net 'io_in[1]'
+
+
+# routing for net 'io1_i.I$const'
+
+
+# routing for net 'bram4_rd_data[11]'
+
+
+# routing for net 'io_in[19]'
+
+
+# routing for net 'io19_i.I$const'
+
+
+# routing for net 'bram4_rd_data[4]'
+
+
+# routing for net 'io_in[18]'
+
+
+# routing for net 'io18_i.I$const'
+
+
+# routing for net 'bram4_rd_data[5]'
+
+
+# routing for net 'io_in[17]'
+
+
+# routing for net 'io17_i.I$const'
+
+
+# routing for net 'bram4_rd_data[6]'
+
+
+# routing for net 'io_in[16]'
+
+
+# routing for net 'io16_i.I$const'
+
+
+# routing for net 'bram4_rd_data[7]'
+
+
+# routing for net 'io_in[15]'
+
+
+# routing for net 'io15_i.I$const'
+
+
+# routing for net 'bram4_rd_data[0]'
+
+
+# routing for net 'io_in[14]'
+
+
+# routing for net 'io14_i.I$const'
+
+
+# routing for net 'io13_i.T$const'
+
+
+# routing for net 'io_in[13]'
+
+
+# routing for net 'io13_i.I$const'
+
+
+# routing for net 'io12_i.T$const'
+
+
+# routing for net 'io_in[12]'
+
+
+# routing for net 'io12_i.I$const'
+
+
+# routing for net 'bram4_rd_data[1]'
+
+
+# routing for net 'io_in[11]'
+
+
+# routing for net 'io11_i.I$const'
+
+
+# routing for net 'bram4_rd_data[2]'
+
+
+# routing for net 'io_in[10]'
+
+
+# routing for net 'io10_i.I$const'
+
+
+# routing for net 'bram4_rd_data[3]'
+
+
+# routing for net 'io_in[0]'
+
+
+# routing for net 'io0_i.I$const'
+
+
+# routing for net '$auto$ff.cc:704:flip_bits$2099'
+
+X1Y5.J2MID_EFa_END0.LF_I0
+X1Y5.JN2END5.J2MID_EFa_BEG0
+X1Y5.LC_O.JN2BEG5
+X1Y5.J2MID_EFa_BEG0.J2MID_EFa_END0
+X1Y5.JN2BEG5.JN2END5
+
+# routing for net 'clk'
+
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2004'
+
+
+# routing for net '$abc$2156$new_n221'
+
+X4Y6.J2MID_EFa_END1.LE_I1
+X4Y6.JE2END5.J2MID_EFa_BEG1
+X4Y6.LD_O.JE2BEG5
+X4Y6.J2MID_EFa_BEG1.J2MID_EFa_END1
+X4Y6.JE2BEG5.JE2END5
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1940'
+
+
+# routing for net '$abc$2156$new_n219'
+
+X1Y4.J_l_GH_END2.LH_I2
+X1Y4.LG_O.JS2BEG4
+X1Y4.JS2END4.J_l_GH_BEG2
+X1Y4.JS2BEG4.JS2END4
+X1Y4.J_l_GH_BEG2.J_l_GH_END2
+
+# routing for net '$abc$2156$auto$rtlil.cc:3200:NotGate$2101'
+
+
+# routing for net 'io_in[23]'
+
+X0Y5.A_O.E6BEG2
+X0Y5.E6BEG2.E6END2
+X1Y5.J2MID_CDb_END3.LC_I3
+X1Y5.W2MID1.J2MID_CDb_BEG3
+X1Y5.E6END2.E6BEG2
+X1Y5.E6BEG2.E6END0
+X1Y5.J2MID_CDb_BEG3.J2MID_CDb_END3
+X2Y5.JW2END1.W2BEG1
+X2Y5.E6END0.JW2BEG1
+X2Y5.W2BEG1.W2MID1
+X2Y5.JW2BEG1.JW2END1
+
+# routing for net 'io_out[21]'
+
+X0Y6.W2MID1.A_I
+X1Y6.JW2END1.W2BEG1
+X1Y6.LE_O.JW2BEG1
+X1Y6.W2BEG1.W2MID1
+X1Y6.JW2BEG1.JW2END1
+
+# routing for net '$abc$2156$new_n213'
+
+X1Y6.J2MID_GHa_END1.LG_I1
+X1Y6.JE2END6.J2MID_GHa_BEG1
+X1Y6.LD_O.JE2BEG6
+X1Y6.J2MID_GHa_BEG1.J2MID_GHa_END1
+X1Y6.JE2BEG6.JE2END6
+
+# routing for net '$abc$2156$new_n214'
+
+X1Y6.J2MID_GHa_END2.LG_I2
+X1Y6.JS2END6.J2MID_GHa_BEG2
+X1Y6.LB_O.JS2BEG6
+X1Y6.J2MID_GHa_BEG2.J2MID_GHa_END2
+X1Y6.JS2BEG6.JS2END6
+
+# routing for net '$abc$2156$auto$rtlil.cc:3200:NotGate$2091'
+
+
+# routing for net '$abc$2156$auto$opt_dff.cc:219:make_patterns_logic$457_new'
+
+X1Y6.J_l_EF_END3.LF_I3
+X1Y6.LC_O.JW2BEG3
+X1Y6.JW2END3.J_l_EF_BEG3
+X1Y6.JW2BEG3.JW2END3
+X1Y6.J_l_EF_BEG3.J_l_EF_END3
+
+# routing for net '$abc$2156$top_i.uart_test.:959.Y_new_inv'
+
+X1Y6.J2MID_EFa_END2.LF_I2
+X1Y6.JS2END5.J2MID_EFa_BEG2
+X1Y6.LG_O.JS2BEG5
+X1Y6.J2MID_EFa_BEG2.J2MID_EFa_END2
+X1Y6.JS2BEG5.JS2END5
+
+# routing for net '$auto$ff.cc:704:flip_bits$2089'
+
+X1Y6.J_l_EF_END1.LE_I1
+X1Y6.J_l_EF_END1.LF_I1
+X1Y6.LF_O.JE2BEG3
+X1Y6.JE2END3.J_l_EF_BEG1
+X1Y6.JE2BEG3.JE2END3
+X1Y6.J_l_EF_BEG1.J_l_EF_END1
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2108'
+
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2104'
+
+
+# routing for net 'top_i.test_sent'
+
+X2Y6.J2MID_CDa_END3.LD_I3
+X2Y6.J2MID_EFa_END3.LE_I3
+X2Y6.JW2END4.J2MID_CDa_BEG3
+X2Y6.JW2END5.J2MID_EFa_BEG3
+X2Y6.LA_O.JW2BEG4
+X2Y6.LA_O.JW2BEG5
+X2Y6.J2MID_CDa_BEG3.J2MID_CDa_END3
+X2Y6.J2MID_EFa_BEG3.J2MID_EFa_END3
+X2Y6.JW2BEG4.JW2END4
+X2Y6.JW2BEG5.JW2END5
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2084'
+
+
+# routing for net '$abc$2156$new_n207'
+
+X4Y4.J2MID_GHa_END3.LG_I3
+X4Y4.JW2END6.J2MID_GHa_BEG3
+X4Y4.LD_O.JW2BEG6
+X4Y4.J2MID_GHa_BEG3.J2MID_GHa_END3
+X4Y4.JW2BEG6.JW2END6
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2080'
+
+
+# routing for net '$abc$2156$new_n205'
+
+X4Y4.J_l_CD_END3.LC_I3
+X4Y4.LF_O.JW2BEG2
+X4Y4.JW2END2.J_l_CD_BEG3
+X4Y4.JW2BEG2.JW2END2
+X4Y4.J_l_CD_BEG3.J_l_CD_END3
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2076'
+
+
+# routing for net '$abc$2156$new_n203'
+
+X4Y4.J2MID_ABa_END2.LB_I2
+X4Y4.JS2END3.J2MID_ABa_BEG2
+X4Y4.LE_O.JS2BEG3
+X4Y4.J2MID_ABa_BEG2.J2MID_ABa_END2
+X4Y4.JS2BEG3.JS2END3
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2072'
+
+
+# routing for net '$abc$2156$new_n198'
+
+X4Y3.LH_O.S1BEG3
+X4Y3.JS2END0.S2BEG0
+X4Y3.J2MID_EFa_END1.LF_I1
+X4Y3.JE2END5.J2MID_EFa_BEG1
+X4Y3.LH_O.JE2BEG5
+X4Y3.LH_O.JS2BEG0
+X4Y3.S1BEG3.S1END3
+X4Y3.S2BEG0.S2MID0
+X4Y3.J2MID_EFa_BEG1.J2MID_EFa_END1
+X4Y3.JE2BEG5.JE2END5
+X4Y3.JS2BEG0.JS2END0
+X4Y4.J2MID_CDa_END1.LD_I1
+X4Y4.J2MID_EFa_END3.LE_I3
+X4Y4.J2MID_EFa_END3.LF_I3
+X4Y4.JE2END4.J2MID_CDa_BEG1
+X4Y4.S2MID0.J2MID_EFa_BEG3
+X4Y4.S1END3.JE2BEG4
+X4Y4.J2MID_CDa_BEG1.J2MID_CDa_END1
+X4Y4.J2MID_EFa_BEG3.J2MID_EFa_END3
+X4Y4.JE2BEG4.JE2END4
+
+# routing for net '$abc$2156$new_n199'
+
+X2Y2.JS2END5.S2BEG5
+X2Y2.LC_O.JS2BEG5
+X2Y2.S2BEG5.S2MID5
+X2Y2.JS2BEG5.JS2END5
+X2Y3.J2MID_ABb_END2.E1BEG3
+X2Y3.S2MID5.J2MID_ABb_BEG2
+X2Y3.E1BEG3.E1END3
+X2Y3.J2MID_ABb_BEG2.J2MID_ABb_END2
+X3Y3.JE2END6.E2BEG6
+X3Y3.E1END3.JE2BEG6
+X3Y3.E2BEG6.E2MID6
+X3Y3.JE2BEG6.JE2END6
+X4Y3.J2MID_GHa_END0.LH_I0
+X4Y3.E2MID6.J2MID_GHa_BEG0
+X4Y3.J2MID_GHa_BEG0.J2MID_GHa_END0
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2068'
+
+
+# routing for net '$abc$2156$new_n200'
+
+X2Y1.J_l_GH_END0.LH_I0
+X2Y1.LA_O.JN2BEG4
+X2Y1.JN2END4.J_l_GH_BEG0
+X2Y1.JN2BEG4.JN2END4
+X2Y1.J_l_GH_BEG0.J_l_GH_END0
+
+# routing for net '$abc$2156$new_n195'
+
+X2Y1.J_l_GH_END3.LH_I3
+X2Y1.LG_O.JW2BEG4
+X2Y1.JW2END4.J_l_GH_BEG3
+X2Y1.JW2BEG4.JW2END4
+X2Y1.J_l_GH_BEG3.J_l_GH_END3
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2064'
+
+
+# routing for net '$abc$2156$new_n196'
+
+X2Y1.J_l_AB_END0.LB_I0
+X2Y1.LE_O.JN2BEG1
+X2Y1.JN2END1.J_l_AB_BEG0
+X2Y1.JN2BEG1.JN2END1
+X2Y1.J_l_AB_BEG0.J_l_AB_END0
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2060'
+
+
+# routing for net '$abc$2156$new_n193'
+
+X2Y1.J_l_AB_END3.LB_I3
+X2Y1.J2MID_EFa_END0.LF_I0
+X2Y1.JN2END5.J2MID_EFa_BEG0
+X2Y1.LD_O.JN2BEG5
+X2Y1.LD_O.JW2BEG1
+X2Y1.JW2END1.J_l_AB_BEG3
+X2Y1.J2MID_EFa_BEG0.J2MID_EFa_END0
+X2Y1.JN2BEG5.JN2END5
+X2Y1.JW2BEG1.JW2END1
+X2Y1.J_l_AB_BEG3.J_l_AB_END3
+
+# routing for net '$abc$2156$new_n192'
+
+X2Y1.J_l_EF_END3.LF_I3
+X2Y1.LC_O.JW2BEG3
+X2Y1.JW2END3.J_l_EF_BEG3
+X2Y1.JW2BEG3.JW2END3
+X2Y1.J_l_EF_BEG3.J_l_EF_END3
+
+# routing for net '$abc$2156$new_n190'
+
+X2Y1.J2END_CD_END2.LC_I2
+X2Y1.J2END_CD_END2.LD_I2
+X2Y1.J_l_GH_END1.LG_I1
+X2Y1.W2END4.J2END_CD_BEG2
+X2Y1.W2END2.J_l_GH_BEG1
+X2Y1.J2END_CD_BEG2.J2END_CD_END2
+X2Y1.J_l_GH_BEG1.J_l_GH_END1
+X3Y1.W2MID2.W2BEGb2
+X3Y1.W2MID4.W2BEGb4
+X3Y1.W2BEGb2.W2END2
+X3Y1.W2BEGb4.W2END4
+X4Y1.JW2END2.W2BEG2
+X4Y1.JW2END4.W2BEG4
+X4Y1.N1END1.JW2BEG2
+X4Y1.N1END1.JW2BEG4
+X4Y1.W2BEG2.W2MID2
+X4Y1.W2BEG4.W2MID4
+X4Y1.JW2BEG2.JW2END2
+X4Y1.JW2BEG4.JW2END4
+X2Y2.J2END_CD_END3.LC_I3
+X2Y2.W2END0.J2END_CD_BEG3
+X2Y2.J2END_CD_BEG3.J2END_CD_END3
+X3Y2.W2MID0.W2BEGb0
+X3Y2.W2BEGb0.W2END0
+X4Y2.LD_O.N1BEG1
+X4Y2.JW2END0.W2BEG0
+X4Y2.LD_O.JW2BEG0
+X4Y2.N1BEG1.N1END1
+X4Y2.W2BEG0.W2MID0
+X4Y2.JW2BEG0.JW2END0
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2056'
+
+
+# routing for net '$abc$2156$new_n186'
+
+X4Y1.J2MID_CDa_END1.LC_I1
+X4Y1.N2MID2.J2MID_CDa_BEG1
+X4Y1.J2MID_CDa_BEG1.J2MID_CDa_END1
+X4Y2.JN2END2.N2BEG2
+X4Y2.LA_O.JN2BEG2
+X4Y2.N2BEG2.N2MID2
+X4Y2.JN2BEG2.JN2END2
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2052'
+
+
+# routing for net '$abc$2156$new_n187'
+
+X4Y1.J_l_CD_END1.LD_I1
+X4Y1.LB_O.JE2BEG2
+X4Y1.JE2END2.J_l_CD_BEG1
+X4Y1.JE2BEG2.JE2END2
+X4Y1.J_l_CD_BEG1.J_l_CD_END1
+
+# routing for net '$abc$2156$new_n183'
+
+X4Y1.J2MID_ABb_END2.LA_I2
+X4Y1.J2MID_GHb_END2.LG_I2
+X4Y1.N2MID5.J2MID_ABb_BEG2
+X4Y1.N2MID5.J2MID_GHb_BEG2
+X4Y1.J2MID_ABb_BEG2.J2MID_ABb_END2
+X4Y1.J2MID_GHb_BEG2.J2MID_GHb_END2
+X4Y2.JN2END5.N2BEG5
+X4Y2.J2MID_ABa_END0.LA_I0
+X4Y2.J_l_CD_END2.LD_I2
+X4Y2.JN2END3.J2MID_ABa_BEG0
+X4Y2.LG_O.JN2BEG3
+X4Y2.LG_O.JN2BEG5
+X4Y2.LG_O.JS2BEG2
+X4Y2.JS2END2.J_l_CD_BEG2
+X4Y2.N2BEG5.N2MID5
+X4Y2.J2MID_ABa_BEG0.J2MID_ABa_END0
+X4Y2.JN2BEG3.JN2END3
+X4Y2.JN2BEG5.JN2END5
+X4Y2.JS2BEG2.JS2END2
+X4Y2.J_l_CD_BEG2.J_l_CD_END2
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2048'
+
+
+# routing for net '$abc$2156$new_n184'
+
+X4Y1.J2MID_CDa_END0.LD_I0
+X4Y1.J_l_EF_END0.LF_I0
+X4Y1.JN2END4.J2MID_CDa_BEG0
+X4Y1.LG_O.JN2BEG3
+X4Y1.LG_O.JN2BEG4
+X4Y1.JN2END3.J_l_EF_BEG0
+X4Y1.J2MID_CDa_BEG0.J2MID_CDa_END0
+X4Y1.JN2BEG3.JN2END3
+X4Y1.JN2BEG4.JN2END4
+X4Y1.J_l_EF_BEG0.J_l_EF_END0
+
+# routing for net '$abc$2156$new_n182'
+
+X4Y1.J_l_EF_END1.LF_I1
+X4Y1.LA_O.JE2BEG3
+X4Y1.JE2END3.J_l_EF_BEG1
+X4Y1.JE2BEG3.JE2END3
+X4Y1.J_l_EF_BEG1.J_l_EF_END1
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2044'
+
+
+# routing for net '$abc$2156$new_n178'
+
+X4Y2.J_l_CD_END3.LC_I3
+X4Y2.LE_O.JW2BEG2
+X4Y2.JW2END2.J_l_CD_BEG3
+X4Y2.JW2BEG2.JW2END2
+X4Y2.J_l_CD_BEG3.J_l_CD_END3
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2040'
+
+
+# routing for net '$abc$2156$new_n177'
+
+X4Y2.JS2END5.S2BEG5
+X4Y2.J_l_GH_END0.LH_I0
+X4Y2.LC_O.JN2BEG4
+X4Y2.LC_O.JS2BEG5
+X4Y2.JN2END4.J_l_GH_BEG0
+X4Y2.S2BEG5.S2MID5
+X4Y2.JN2BEG4.JN2END4
+X4Y2.JS2BEG5.JS2END5
+X4Y2.J_l_GH_BEG0.J_l_GH_END0
+X4Y3.J2MID_ABb_END2.LB_I2
+X4Y3.S2MID5.J2MID_ABb_BEG2
+X4Y3.J2MID_ABb_BEG2.J2MID_ABb_END2
+
+# routing for net '$abc$2156$new_n176'
+
+X4Y3.J2MID_ABa_END1.LB_I1
+X4Y3.JE2END3.J2MID_ABa_BEG1
+X4Y3.LG_O.JE2BEG3
+X4Y3.J2MID_ABa_BEG1.J2MID_ABa_END1
+X4Y3.JE2BEG3.JE2END3
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2036'
+
+
+# routing for net '$abc$2156$new_n174'
+
+X4Y3.J_l_AB_END1.LA_I1
+X4Y3.LE_O.JE2BEG1
+X4Y3.JE2END1.J_l_AB_BEG1
+X4Y3.JE2BEG1.JE2END1
+X4Y3.J_l_AB_BEG1.J_l_AB_END1
+
+# routing for net '$abc$2156$new_n172'
+
+X2Y2.LG_O.E1BEG3
+X2Y2.E1BEG3.E1END3
+X3Y2.JN2END0.E1BEG1
+X3Y2.JE2END6.E2BEG6
+X3Y2.E1END3.JN2BEG0
+X3Y2.E1END3.JE2BEG6
+X3Y2.E1BEG1.E1END1
+X3Y2.E2BEG6.E2MID6
+X3Y2.JN2BEG0.JN2END0
+X3Y2.JE2BEG6.JE2END6
+X4Y2.JS2END4.S2BEG4
+X4Y2.J2MID_EFa_END0.LE_I0
+X4Y2.J2MID_GHa_END0.LG_I0
+X4Y2.E2MID6.J2MID_EFa_BEG0
+X4Y2.E2MID6.J2MID_GHa_BEG0
+X4Y2.E1END1.JS2BEG4
+X4Y2.S2BEG4.S2MID4
+X4Y2.J2MID_EFa_BEG0.J2MID_EFa_END0
+X4Y2.J2MID_GHa_BEG0.J2MID_GHa_END0
+X4Y2.JS2BEG4.JS2END4
+X4Y3.J2MID_EFa_END2.LE_I2
+X4Y3.J2MID_GHa_END2.LG_I2
+X4Y3.S2MID4.J2MID_EFa_BEG2
+X4Y3.S2MID4.J2MID_GHa_BEG2
+X4Y3.J2MID_EFa_BEG2.J2MID_EFa_END2
+X4Y3.J2MID_GHa_BEG2.J2MID_GHa_END2
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2032'
+
+
+# routing for net '$abc$2156$new_n170'
+
+X2Y2.J_l_AB_END2.LA_I2
+X2Y2.LD_O.JS2BEG1
+X2Y2.JS2END1.J_l_AB_BEG2
+X2Y2.JS2BEG1.JS2END1
+X2Y2.J_l_AB_BEG2.J_l_AB_END2
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2028'
+
+
+# routing for net '$abc$2156$new_n167'
+
+X2Y3.J_l_CD_END2.LC_I2
+X2Y3.LD_O.JS2BEG2
+X2Y3.JS2END2.J_l_CD_BEG2
+X2Y3.JS2BEG2.JS2END2
+X2Y3.J_l_CD_BEG2.J_l_CD_END2
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2024'
+
+
+# routing for net '$abc$2156$new_n165'
+
+X2Y3.J_l_GH_END1.LH_I1
+X2Y3.LA_O.JE2BEG4
+X2Y3.JE2END4.J_l_GH_BEG1
+X2Y3.JE2BEG4.JE2END4
+X2Y3.J_l_GH_BEG1.J_l_GH_END1
+
+# routing for net '$abc$2156$new_n163'
+
+X2Y2.J2MID_EFb_END1.LF_I1
+X2Y2.N2MID3.J2MID_EFb_BEG1
+X2Y2.J2MID_EFb_BEG1.J2MID_EFb_END1
+X2Y3.JN2END3.N2BEG3
+X2Y3.W2END4.JN2BEG3
+X2Y3.N2BEG3.N2MID3
+X2Y3.JN2BEG3.JN2END3
+X3Y3.W2MID4.W2BEGb4
+X3Y3.W2BEGb4.W2END4
+X4Y3.JW2END4.W2BEG4
+X4Y3.J_l_GH_END2.LH_I2
+X4Y3.N1END1.JS2BEG4
+X4Y3.N1END1.JW2BEG4
+X4Y3.JS2END4.J_l_GH_BEG2
+X4Y3.W2BEG4.W2MID4
+X4Y3.JS2BEG4.JS2END4
+X4Y3.JW2BEG4.JW2END4
+X4Y3.J_l_GH_BEG2.J_l_GH_END2
+X4Y4.JW2END0.N1BEG1
+X4Y4.N1END3.JW2BEG0
+X4Y4.N1BEG1.N1END1
+X4Y4.JW2BEG0.JW2END0
+X4Y5.LF_O.N1BEG3
+X4Y5.N1BEG3.N1END3
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2020'
+
+
+# routing for net '$abc$2156$new_n162'
+
+X2Y1.JE2END6.E2BEG6
+X2Y1.J2MID_CDa_END1.LC_I1
+X2Y1.J2MID_CDa_END3.LD_I3
+X2Y1.J2MID_GHa_END3.LG_I3
+X2Y1.N2MID2.J2MID_CDa_BEG1
+X2Y1.N2MID0.J2MID_CDa_BEG3
+X2Y1.JW2END6.J2MID_GHa_BEG3
+X2Y1.N1END3.JE2BEG6
+X2Y1.N1END3.JW2BEG6
+X2Y1.E2BEG6.E2MID6
+X2Y1.J2MID_CDa_BEG1.J2MID_CDa_END1
+X2Y1.J2MID_CDa_BEG3.J2MID_CDa_END3
+X2Y1.J2MID_GHa_BEG3.J2MID_GHa_END3
+X2Y1.JE2BEG6.JE2END6
+X2Y1.JW2BEG6.JW2END6
+X3Y1.E2MID6.E2BEGb6
+X3Y1.E2BEGb6.E2END6
+X4Y1.J2END_AB_END0.LA_I0
+X4Y1.J2MID_GHb_END3.LG_I3
+X4Y1.N2MID1.J2MID_GHb_BEG3
+X4Y1.E2END6.J2END_AB_BEG0
+X4Y1.J2MID_GHb_BEG3.J2MID_GHb_END3
+X4Y1.J2END_AB_BEG0.J2END_AB_END0
+X2Y2.LF_O.N1BEG3
+X2Y2.JN2END0.N2BEG0
+X2Y2.JN2END2.N2BEG2
+X2Y2.LF_O.E1BEG2
+X2Y2.LF_O.S1BEG1
+X2Y2.JS2END0.S2BEG0
+X2Y2.JS2END7.S2BEG7
+X2Y2.J_l_CD_END0.LD_I0
+X2Y2.LF_O.JN2BEG0
+X2Y2.LF_O.JN2BEG2
+X2Y2.LF_O.JS2BEG0
+X2Y2.LF_O.JS2BEG7
+X2Y2.JN2END2.J_l_CD_BEG0
+X2Y2.N1BEG3.N1END3
+X2Y2.N2BEG0.N2MID0
+X2Y2.N2BEG2.N2MID2
+X2Y2.E1BEG2.E1END2
+X2Y2.S1BEG1.S1END1
+X2Y2.S2BEG0.S2MID0
+X2Y2.S2BEG7.S2MID7
+X2Y2.JN2BEG0.JN2END0
+X2Y2.JN2BEG2.JN2END2
+X2Y2.JS2BEG0.JS2END0
+X2Y2.JS2BEG7.JS2END7
+X2Y2.J_l_CD_BEG0.J_l_CD_END0
+X3Y2.JN2END3.E1BEG0
+X3Y2.JE2END5.E2BEG5
+X3Y2.E1END2.JN2BEG3
+X3Y2.E1END2.JE2BEG5
+X3Y2.E1BEG0.E1END0
+X3Y2.E2BEG5.E2MID5
+X3Y2.JN2BEG3.JN2END3
+X3Y2.JE2BEG5.JE2END5
+X4Y2.JN2END1.N2BEG1
+X4Y2.JS2END1.S2BEG1
+X4Y2.J2MID_ABb_END2.LA_I2
+X4Y2.J2MID_CDb_END2.LC_I2
+X4Y2.E2MID5.J2MID_ABb_BEG2
+X4Y2.E2MID5.J2MID_CDb_BEG2
+X4Y2.E1END0.JN2BEG1
+X4Y2.E1END0.JS2BEG1
+X4Y2.N2BEG1.N2MID1
+X4Y2.S2BEG1.S2MID1
+X4Y2.J2MID_ABb_BEG2.J2MID_ABb_END2
+X4Y2.J2MID_CDb_BEG2.J2MID_CDb_END2
+X4Y2.JN2BEG1.JN2END1
+X4Y2.JS2BEG1.JS2END1
+X2Y3.J2MID_ABb_END0.LA_I0
+X2Y3.J2MID_CDa_END2.LD_I2
+X2Y3.J2MID_EFa_END3.LF_I3
+X2Y3.JS2END4.J2MID_CDa_BEG2
+X2Y3.S2MID0.J2MID_EFa_BEG3
+X2Y3.S2MID7.J2MID_ABb_BEG0
+X2Y3.S1END1.JS2BEG4
+X2Y3.J2MID_CDa_BEG2.J2MID_CDa_END2
+X2Y3.J2MID_EFa_BEG3.J2MID_EFa_END3
+X2Y3.J2MID_ABb_BEG0.J2MID_ABb_END0
+X2Y3.JS2BEG4.JS2END4
+X4Y3.J2MID_EFb_END3.LE_I3
+X4Y3.J2MID_GHb_END3.LG_I3
+X4Y3.S2MID1.J2MID_EFb_BEG3
+X4Y3.S2MID1.J2MID_GHb_BEG3
+X4Y3.J2MID_EFb_BEG3.J2MID_EFb_END3
+X4Y3.J2MID_GHb_BEG3.J2MID_GHb_END3
+
+# routing for net '$abc$2156$auto$alumacc.cc:495:replace_alu$818.CO[13]_new'
+
+X4Y5.J_l_AB_END3.LA_I3
+X4Y5.LE_O.JW2BEG1
+X4Y5.JW2END1.J_l_AB_BEG3
+X4Y5.JW2BEG1.JW2END1
+X4Y5.J_l_AB_BEG3.J_l_AB_END3
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2016'
+
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2014_new_inv'
+
+X4Y5.J_l_GH_END3.LH_I3
+X4Y5.LA_O.JW2BEG4
+X4Y5.JW2END4.J_l_GH_BEG3
+X4Y5.JW2BEG4.JW2END4
+X4Y5.J_l_GH_BEG3.J_l_GH_END3
+
+# routing for net '$abc$2156$auto$alumacc.cc:495:replace_alu$818.CO[12]_new'
+
+X4Y1.JS2END1.S2BEG1
+X4Y1.NN4END2.JS2BEG1
+X4Y1.S2BEG1.S2MID1
+X4Y1.JS2BEG1.JS2END1
+X2Y2.J2MID_EFb_END0.LF_I0
+X2Y2.W2MID7.J2MID_EFb_BEG0
+X2Y2.J2MID_EFb_BEG0.J2MID_EFb_END0
+X3Y2.JW2END7.W2BEG7
+X3Y2.W1END0.JW2BEG7
+X3Y2.W2BEG7.W2MID7
+X3Y2.JW2BEG7.JW2END7
+X4Y2.J2MID_CDb_END3.W1BEG0
+X4Y2.S2MID1.J2MID_CDb_BEG3
+X4Y2.NN4END6.NN4BEG6
+X4Y2.NN4BEG6.NN4END2
+X4Y2.W1BEG0.W1END0
+X4Y2.J2MID_CDb_BEG3.J2MID_CDb_END3
+X4Y3.J2END_GH_END3.LH_I3
+X4Y3.N2END1.J2END_GH_BEG3
+X4Y3.NN4END10.NN4BEG10
+X4Y3.NN4BEG10.NN4END6
+X4Y3.J2END_GH_BEG3.J2END_GH_END3
+X2Y4.J2END_EF_END3.LE_I3
+X2Y4.W2END1.J2END_EF_BEG3
+X2Y4.J2END_EF_BEG3.J2END_EF_END3
+X3Y4.W2MID1.W2BEGb1
+X3Y4.W2BEGb1.W2END1
+X4Y4.N2MID1.N2BEGb1
+X4Y4.JW2END1.W2BEG1
+X4Y4.N1END0.JW2BEG1
+X4Y4.N2BEGb1.N2END1
+X4Y4.NN4END14.NN4BEG14
+X4Y4.NN4BEG14.NN4END10
+X4Y4.W2BEG1.W2MID1
+X4Y4.JW2BEG1.JW2END1
+X4Y5.LC_O.N1BEG0
+X4Y5.JN2END1.N2BEG1
+X4Y5.LC_O.NN4BEG2
+X4Y5.J2MID_EFa_END3.LE_I3
+X4Y5.JW2END5.J2MID_EFa_BEG3
+X4Y5.LC_O.JN2BEG1
+X4Y5.LC_O.JW2BEG5
+X4Y5.N1BEG0.N1END0
+X4Y5.N2BEG1.N2MID1
+X4Y5.NN4BEG2.NN4END14
+X4Y5.J2MID_EFa_BEG3.J2MID_EFa_END3
+X4Y5.JN2BEG1.JN2END1
+X4Y5.JW2BEG5.JW2END5
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2012'
+
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2010_new_inv'
+
+X2Y4.J_l_CD_END1.LC_I1
+X2Y4.LE_O.JE2BEG2
+X2Y4.JE2END2.J_l_CD_BEG1
+X2Y4.JE2BEG2.JE2END2
+X2Y4.J_l_CD_BEG1.J_l_CD_END1
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2008'
+
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2006_new_inv'
+
+X4Y6.J_l_CD_END1.LC_I1
+X4Y6.LH_O.JE2BEG2
+X4Y6.JE2END2.J_l_CD_BEG1
+X4Y6.JE2BEG2.JE2END2
+X4Y6.J_l_CD_BEG1.J_l_CD_END1
+
+# routing for net '$abc$2156$auto$alumacc.cc:495:replace_alu$818.CO[11]_new'
+
+X4Y6.J2MID_GHa_END2.LH_I2
+X4Y6.JS2END6.J2MID_GHa_BEG2
+X4Y6.LA_O.JS2BEG6
+X4Y6.J2MID_GHa_BEG2.J2MID_GHa_END2
+X4Y6.JS2BEG6.JS2END6
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2000'
+
+
+# routing for net '$abc$2156$new_n148'
+
+X2Y6.J_l_AB_END0.LB_I0
+X2Y6.LH_O.JN2BEG1
+X2Y6.JN2END1.J_l_AB_BEG0
+X2Y6.JN2BEG1.JN2END1
+X2Y6.J_l_AB_BEG0.J_l_AB_END0
+
+# routing for net '$abc$2156$auto$alumacc.cc:495:replace_alu$818.CO[9]_new'
+
+X2Y5.JN2END0.E1BEG1
+X2Y5.LH_O.S1BEG3
+X2Y5.JS2END0.S2BEG0
+X2Y5.J_l_EF_END3.LF_I3
+X2Y5.LH_O.JN2BEG0
+X2Y5.LH_O.JS2BEG0
+X2Y5.LH_O.JW2BEG3
+X2Y5.JW2END3.J_l_EF_BEG3
+X2Y5.E1BEG1.E1END1
+X2Y5.S1BEG3.S1END3
+X2Y5.S2BEG0.S2MID0
+X2Y5.JN2BEG0.JN2END0
+X2Y5.JS2BEG0.JS2END0
+X2Y5.JW2BEG3.JW2END3
+X2Y5.J_l_EF_BEG3.J_l_EF_END3
+X3Y5.JE2END4.E2BEG4
+X3Y5.E1END1.JE2BEG4
+X3Y5.E2BEG4.E2MID4
+X3Y5.JE2BEG4.JE2END4
+X4Y5.J2MID_CDa_END2.LC_I2
+X4Y5.E2MID4.J2MID_CDa_BEG2
+X4Y5.J2MID_CDa_BEG2.J2MID_CDa_END2
+X2Y6.JE2END6.E2BEG6
+X2Y6.J2MID_ABa_END3.LB_I3
+X2Y6.J2MID_GHa_END1.LH_I1
+X2Y6.S2MID0.J2MID_ABa_BEG3
+X2Y6.JE2END6.J2MID_GHa_BEG1
+X2Y6.S1END3.JE2BEG6
+X2Y6.E2BEG6.E2MID6
+X2Y6.J2MID_ABa_BEG3.J2MID_ABa_END3
+X2Y6.J2MID_GHa_BEG1.J2MID_GHa_END1
+X2Y6.JE2BEG6.JE2END6
+X3Y6.E2MID6.E2BEGb6
+X3Y6.E2BEGb6.E2END6
+X4Y6.J2END_AB_END0.LA_I0
+X4Y6.J2END_CD_END0.LD_I0
+X4Y6.E2END6.J2END_AB_BEG0
+X4Y6.E2END6.J2END_CD_BEG0
+X4Y6.J2END_AB_BEG0.J2END_AB_END0
+X4Y6.J2END_CD_BEG0.J2END_CD_END0
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1996'
+
+
+# routing for net '$abc$2156$new_n146'
+
+X2Y5.J_l_AB_END1.LB_I1
+X2Y5.LE_O.JE2BEG1
+X2Y5.JE2END1.J_l_AB_BEG1
+X2Y5.JE2BEG1.JE2END1
+X2Y5.J_l_AB_BEG1.J_l_AB_END1
+
+# routing for net '$abc$2156$new_n144'
+
+X2Y5.J_l_AB_END0.LB_I0
+X2Y5.LF_O.JN2BEG1
+X2Y5.JN2END1.J_l_AB_BEG0
+X2Y5.JN2BEG1.JN2END1
+X2Y5.J_l_AB_BEG0.J_l_AB_END0
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1992'
+
+
+# routing for net '$abc$2156$new_n141'
+
+X2Y4.J_l_CD_END0.LD_I0
+X2Y4.LG_O.JN2BEG2
+X2Y4.JN2END2.J_l_CD_BEG0
+X2Y4.JN2BEG2.JN2END2
+X2Y4.J_l_CD_BEG0.J_l_CD_END0
+
+# routing for net '$abc$2156$auto$alumacc.cc:495:replace_alu$818.CO[7]_new'
+
+X2Y4.JS2END0.S2BEG0
+X2Y4.J2MID_CDa_END2.LD_I2
+X2Y4.J2MID_GHa_END3.LG_I3
+X2Y4.JS2END4.J2MID_CDa_BEG2
+X2Y4.JW2END6.J2MID_GHa_BEG3
+X2Y4.LB_O.JS2BEG0
+X2Y4.LB_O.JS2BEG4
+X2Y4.LB_O.JW2BEG6
+X2Y4.S2BEG0.S2MID0
+X2Y4.J2MID_CDa_BEG2.J2MID_CDa_END2
+X2Y4.J2MID_GHa_BEG3.J2MID_GHa_END3
+X2Y4.JS2BEG0.JS2END0
+X2Y4.JS2BEG4.JS2END4
+X2Y4.JW2BEG6.JW2END6
+X2Y5.J2MID_EFa_END3.LE_I3
+X2Y5.S2MID0.J2MID_EFa_BEG3
+X2Y5.J2MID_EFa_BEG3.J2MID_EFa_END3
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1988'
+
+
+# routing for net '$abc$2156$new_n139'
+
+X1Y2.J2MID_GHa_END2.LH_I2
+X1Y2.JS2END6.J2MID_GHa_BEG2
+X1Y2.LD_O.JS2BEG6
+X1Y2.J2MID_GHa_BEG2.J2MID_GHa_END2
+X1Y2.JS2BEG6.JS2END6
+
+# routing for net '$abc$2156$auto$alumacc.cc:495:replace_alu$818.CO[6]_new'
+
+X1Y1.J2MID_ABa_END0.LB_I0
+X1Y1.N2MID6.J2MID_ABa_BEG0
+X1Y1.J2MID_ABa_BEG0.J2MID_ABa_END0
+X1Y2.JN2END6.N2BEG6
+X1Y2.JS2END2.S2BEG2
+X1Y2.LB_O.S4BEG1
+X1Y2.J2MID_CDa_END3.LD_I3
+X1Y2.J2MID_GHa_END0.LH_I0
+X1Y2.JW2END4.J2MID_CDa_BEG3
+X1Y2.JN2END6.J2MID_GHa_BEG0
+X1Y2.LB_O.JN2BEG6
+X1Y2.LB_O.JS2BEG2
+X1Y2.LB_O.JW2BEG4
+X1Y2.N2BEG6.N2MID6
+X1Y2.S2BEG2.S2MID2
+X1Y2.S4BEG1.S4END13
+X1Y2.J2MID_CDa_BEG3.J2MID_CDa_END3
+X1Y2.J2MID_GHa_BEG0.J2MID_GHa_END0
+X1Y2.JN2BEG6.JN2END6
+X1Y2.JS2BEG2.JS2END2
+X1Y2.JW2BEG4.JW2END4
+X1Y3.S2MID2.S2BEGb2
+X1Y3.S2BEGb2.S2END2
+X1Y3.S4END13.S4BEG13
+X1Y3.S4BEG13.S4END9
+X1Y4.JE2END1.E2BEG1
+X1Y4.S2END2.JE2BEG1
+X1Y4.E2BEG1.E2MID1
+X1Y4.S4END9.S4BEG9
+X1Y4.S4BEG9.S4END5
+X1Y4.JE2BEG1.JE2END1
+X2Y4.J2MID_ABb_END3.LB_I3
+X2Y4.E2MID1.J2MID_ABb_BEG3
+X2Y4.J2MID_ABb_BEG3.J2MID_ABb_END3
+X1Y5.JE2END4.E2BEG4
+X1Y5.N1END1.JE2BEG4
+X1Y5.E2BEG4.E2MID4
+X1Y5.S4END5.S4BEG5
+X1Y5.S4BEG5.S4END1
+X1Y5.JE2BEG4.JE2END4
+X2Y5.J2MID_GHa_END2.LH_I2
+X2Y5.E2MID4.J2MID_GHa_BEG2
+X2Y5.J2MID_GHa_BEG2.J2MID_GHa_END2
+X1Y6.JW2END0.N1BEG1
+X1Y6.S4END1.JW2BEG0
+X1Y6.N1BEG1.N1END1
+X1Y6.JW2BEG0.JW2END0
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1984'
+
+
+# routing for net '$abc$2156$new_n137'
+
+X1Y1.J2MID_CDa_END3.LC_I3
+X1Y1.JW2END4.J2MID_CDa_BEG3
+X1Y1.LA_O.JW2BEG4
+X1Y1.J2MID_CDa_BEG3.J2MID_CDa_END3
+X1Y1.JW2BEG4.JW2END4
+
+# routing for net '$abc$2156$new_n135'
+
+X1Y1.J2MID_CDa_END0.LC_I0
+X1Y1.JN2END4.J2MID_CDa_BEG0
+X1Y1.LB_O.JN2BEG4
+X1Y1.J2MID_CDa_BEG0.J2MID_CDa_END0
+X1Y1.JN2BEG4.JN2END4
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1980'
+
+
+# routing for net '$abc$2156$new_n132'
+
+X1Y2.J_l_EF_END0.LF_I0
+X1Y2.LA_O.JN2BEG3
+X1Y2.JN2END3.J_l_EF_BEG0
+X1Y2.JN2BEG3.JN2END3
+X1Y2.J_l_EF_BEG0.J_l_EF_END0
+
+# routing for net '$abc$2156$auto$alumacc.cc:495:replace_alu$818.CO[4]_new'
+
+X1Y1.LE_O.S1BEG0
+X1Y1.JS2END2.S2BEG2
+X1Y1.J_l_AB_END0.LA_I0
+X1Y1.LE_O.JN2BEG1
+X1Y1.LE_O.JS2BEG2
+X1Y1.JN2END1.J_l_AB_BEG0
+X1Y1.S1BEG0.S1END0
+X1Y1.S2BEG2.S2MID2
+X1Y1.JN2BEG1.JN2END1
+X1Y1.JS2BEG2.JS2END2
+X1Y1.J_l_AB_BEG0.J_l_AB_END0
+X1Y2.J2MID_ABa_END1.LA_I1
+X1Y2.J2MID_EFa_END1.LF_I1
+X1Y2.S2MID2.J2MID_ABa_BEG1
+X1Y2.JE2END5.J2MID_EFa_BEG1
+X1Y2.S1END0.JE2BEG5
+X1Y2.J2MID_ABa_BEG1.J2MID_ABa_END1
+X1Y2.J2MID_EFa_BEG1.J2MID_EFa_END1
+X1Y2.JE2BEG5.JE2END5
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1976'
+
+
+# routing for net '$abc$2156$new_n130'
+
+X1Y1.J2MID_GHa_END0.LH_I0
+X1Y1.JN2END6.J2MID_GHa_BEG0
+X1Y1.LD_O.JN2BEG6
+X1Y1.J2MID_GHa_BEG0.J2MID_GHa_END0
+X1Y1.JN2BEG6.JN2END6
+
+# routing for net '$abc$2156$auto$alumacc.cc:495:replace_alu$818.CO[3]_new'
+
+X0Y1.WW4END13.E2BEG2
+X0Y1.E2BEG2.E2MID2
+X1Y1.N1END3.WW4BEG1
+X1Y1.J2MID_CDa_END1.LD_I1
+X1Y1.J2MID_EFa_END2.LE_I2
+X1Y1.J2MID_GHa_END2.LH_I2
+X1Y1.E2MID2.J2MID_CDa_BEG1
+X1Y1.N2MID4.J2MID_EFa_BEG2
+X1Y1.JS2END6.J2MID_GHa_BEG2
+X1Y1.N1END3.JS2BEG6
+X1Y1.WW4BEG1.WW4END13
+X1Y1.J2MID_CDa_BEG1.J2MID_CDa_END1
+X1Y1.J2MID_EFa_BEG2.J2MID_EFa_END2
+X1Y1.J2MID_GHa_BEG2.J2MID_GHa_END2
+X1Y1.JS2BEG6.JS2END6
+X1Y2.JW2END2.N1BEG3
+X1Y2.JN2END4.N2BEG4
+X1Y2.J2MID_ABa_END3.LB_I3
+X1Y2.N2MID0.J2MID_ABa_BEG3
+X1Y2.N1END1.JN2BEG4
+X1Y2.N1END1.JW2BEG2
+X1Y2.N1BEG3.N1END3
+X1Y2.N2BEG4.N2MID4
+X1Y2.J2MID_ABa_BEG3.J2MID_ABa_END3
+X1Y2.JN2BEG4.JN2END4
+X1Y2.JW2BEG2.JW2END2
+X1Y3.LD_O.N1BEG1
+X1Y3.JN2END0.N2BEG0
+X1Y3.JS2END7.S2BEG7
+X1Y3.LD_O.JN2BEG0
+X1Y3.LD_O.JS2BEG7
+X1Y3.N1BEG1.N1END1
+X1Y3.N2BEG0.N2MID0
+X1Y3.S2BEG7.S2MID7
+X1Y3.JN2BEG0.JN2END0
+X1Y3.JS2BEG7.JS2END7
+X1Y4.J2MID_ABb_END0.LA_I0
+X1Y4.S2MID7.J2MID_ABb_BEG0
+X1Y4.J2MID_ABb_BEG0.J2MID_ABb_END0
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1972'
+
+
+# routing for net '$abc$2156$new_n128'
+
+X1Y4.J_l_CD_END0.LC_I0
+X1Y4.LB_O.JN2BEG2
+X1Y4.JN2END2.J_l_CD_BEG0
+X1Y4.JN2BEG2.JN2END2
+X1Y4.J_l_CD_BEG0.J_l_CD_END0
+
+# routing for net '$abc$2156$new_n126'
+
+X1Y4.J_l_CD_END2.LC_I2
+X1Y4.LA_O.JS2BEG2
+X1Y4.JS2END2.J_l_CD_BEG2
+X1Y4.JS2BEG2.JS2END2
+X1Y4.J_l_CD_BEG2.J_l_CD_END2
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1968'
+
+
+# routing for net '$abc$2156$new_n123'
+
+X1Y3.J2MID_GHa_END1.LH_I1
+X1Y3.JE2END6.J2MID_GHa_BEG1
+X1Y3.LC_O.JE2BEG6
+X1Y3.J2MID_GHa_BEG1.J2MID_GHa_END1
+X1Y3.JE2BEG6.JE2END6
+
+# routing for net '$abc$2156$auto$alumacc.cc:495:replace_alu$818.CO[1]_new'
+
+X1Y3.JS2END1.S2BEG1
+X1Y3.J2MID_CDa_END2.LC_I2
+X1Y3.J_l_GH_END2.LH_I2
+X1Y3.JS2END4.J2MID_CDa_BEG2
+X1Y3.LA_O.JS2BEG1
+X1Y3.LA_O.JS2BEG4
+X1Y3.JS2END4.J_l_GH_BEG2
+X1Y3.S2BEG1.S2MID1
+X1Y3.J2MID_CDa_BEG2.J2MID_CDa_END2
+X1Y3.JS2BEG1.JS2END1
+X1Y3.JS2BEG4.JS2END4
+X1Y3.J_l_GH_BEG2.J_l_GH_END2
+X1Y4.J2MID_ABb_END3.LB_I3
+X1Y4.S2MID1.J2MID_ABb_BEG3
+X1Y4.J2MID_ABb_BEG3.J2MID_ABb_END3
+
+# routing for net '$abc$2156$new_n121'
+
+X1Y1.J2MID_ABa_END3.LB_I3
+X1Y1.J2MID_CDb_END0.LD_I0
+X1Y1.JW2END3.J2MID_ABa_BEG3
+X1Y1.N2MID7.J2MID_CDb_BEG0
+X1Y1.N1END2.JW2BEG3
+X1Y1.J2MID_ABa_BEG3.J2MID_ABa_END3
+X1Y1.J2MID_CDb_BEG0.J2MID_CDb_END0
+X1Y1.JW2BEG3.JW2END3
+X1Y2.LE_O.N1BEG2
+X1Y2.JN2END7.N2BEG7
+X1Y2.LE_O.S1BEG0
+X1Y2.JS2END7.S2BEG7
+X1Y2.LE_O.JN2BEG7
+X1Y2.LE_O.JS2BEG7
+X1Y2.N1BEG2.N1END2
+X1Y2.N2BEG7.N2MID7
+X1Y2.S1BEG0.S1END0
+X1Y2.S2BEG7.S2MID7
+X1Y2.JN2BEG7.JN2END7
+X1Y2.JS2BEG7.JS2END7
+X1Y3.J2MID_CDb_END0.LC_I0
+X1Y3.J2MID_EFa_END1.LF_I1
+X1Y3.JE2END5.J2MID_EFa_BEG1
+X1Y3.S2MID7.J2MID_CDb_BEG0
+X1Y3.S1END0.JE2BEG5
+X1Y3.J2MID_EFa_BEG1.J2MID_EFa_END1
+X1Y3.J2MID_CDb_BEG0.J2MID_CDb_END0
+X1Y3.JE2BEG5.JE2END5
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1964'
+
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1962_new_inv'
+
+X1Y3.J2MID_ABa_END1.LB_I1
+X1Y3.JE2END3.J2MID_ABa_BEG1
+X1Y3.LF_O.JE2BEG3
+X1Y3.J2MID_ABa_BEG1.J2MID_ABa_END1
+X1Y3.JE2BEG3.JE2END3
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1960'
+
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1956'
+
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1952'
+
+
+# routing for net '$abc$2156$new_n116'
+
+X1Y5.J2MID_EFa_END1.LE_I1
+X1Y5.J2MID_GHa_END3.LG_I3
+X1Y5.JE2END5.J2MID_EFa_BEG1
+X1Y5.JW2END6.J2MID_GHa_BEG3
+X1Y5.LB_O.JE2BEG5
+X1Y5.LB_O.JW2BEG6
+X1Y5.J2MID_EFa_BEG1.J2MID_EFa_END1
+X1Y5.J2MID_GHa_BEG3.J2MID_GHa_END3
+X1Y5.JE2BEG5.JE2END5
+X1Y5.JW2BEG6.JW2END6
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1948'
+
+
+# routing for net '$abc$2156$auto$opt_dff.cc:219:make_patterns_logic$478_new'
+
+X1Y5.J_l_AB_END2.LB_I2
+X1Y5.J_l_CD_END0.LD_I0
+X1Y5.LH_O.JN2BEG2
+X1Y5.LH_O.JS2BEG1
+X1Y5.JS2END1.J_l_AB_BEG2
+X1Y5.JN2END2.J_l_CD_BEG0
+X1Y5.JN2BEG2.JN2END2
+X1Y5.JS2BEG1.JS2END1
+X1Y5.J_l_AB_BEG2.J_l_AB_END2
+X1Y5.J_l_CD_BEG0.J_l_CD_END0
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1944'
+
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$1942_new_inv'
+
+X1Y4.J_l_CD_END1.LD_I1
+X1Y4.LE_O.JE2BEG2
+X1Y4.JE2END2.J_l_CD_BEG1
+X1Y4.JE2BEG2.JE2END2
+X1Y4.J_l_CD_BEG1.J_l_CD_END1
+
+# routing for net '$abc$2156$auto$opt_dff.cc:194:make_patterns_logic$460_new_inv'
+
+X1Y1.J2MID_ABb_END2.LB_I2
+X1Y1.J2MID_CDb_END2.LD_I2
+X1Y1.W2MID5.J2MID_ABb_BEG2
+X1Y1.W2MID5.J2MID_CDb_BEG2
+X1Y1.J2MID_ABb_BEG2.J2MID_ABb_END2
+X1Y1.J2MID_CDb_BEG2.J2MID_CDb_END2
+X2Y1.JW2END5.W2BEG5
+X2Y1.N2END6.JW2BEG5
+X2Y1.W2BEG5.W2MID5
+X2Y1.JW2BEG5.JW2END5
+X2Y2.N2MID6.N2BEGb6
+X2Y2.N2BEGb6.N2END6
+X1Y3.J2MID_CDa_END3.LC_I3
+X1Y3.J2MID_EFa_END3.LF_I3
+X1Y3.W2MID0.J2MID_CDa_BEG3
+X1Y3.W2MID0.J2MID_EFa_BEG3
+X1Y3.J2MID_CDa_BEG3.J2MID_CDa_END3
+X1Y3.J2MID_EFa_BEG3.J2MID_EFa_END3
+X2Y3.JN2END6.N2BEG6
+X2Y3.JW2END0.W2BEG0
+X2Y3.N1END3.JN2BEG6
+X2Y3.N1END3.JW2BEG0
+X2Y3.N2BEG6.N2MID6
+X2Y3.W2BEG0.W2MID0
+X2Y3.JN2BEG6.JN2END6
+X2Y3.JW2BEG0.JW2END0
+X1Y4.J2MID_GHb_END1.LH_I1
+X1Y4.W2MID3.J2MID_GHb_BEG1
+X1Y4.J2MID_GHb_BEG1.J2MID_GHb_END1
+X2Y4.LF_O.N1BEG3
+X2Y4.JW2END3.W2BEG3
+X2Y4.LF_O.JW2BEG3
+X2Y4.N1BEG3.N1END3
+X2Y4.W2BEG3.W2MID3
+X2Y4.JW2BEG3.JW2END3
+
+# routing for net '$abc$2156$new_n109'
+
+X1Y4.J2END_GH_END0.LG_I0
+X1Y4.N2END7.J2END_GH_BEG0
+X1Y4.J2END_GH_BEG0.J2END_GH_END0
+X1Y5.N2MID7.N2BEGb7
+X1Y5.N2BEGb7.N2END7
+X1Y6.JN2END7.N2BEG7
+X1Y6.LA_O.JN2BEG7
+X1Y6.N2BEG7.N2MID7
+X1Y6.JN2BEG7.JN2END7
+
+# routing for net 'top_i.uart_test.bit_index[1]'
+
+X0Y5.W6END10.E6BEG1
+X0Y5.E6BEG1.E6END1
+X1Y5.JS2END3.S2BEG3
+X1Y5.LE_O.W6BEG0
+X1Y5.J_l_EF_END2.LE_I2
+X1Y5.J_l_GH_END2.LG_I2
+X1Y5.LE_O.JS2BEG3
+X1Y5.JS2END3.J_l_EF_BEG2
+X1Y5.E6END1.J_l_GH_BEG2
+X1Y5.S2BEG3.S2MID3
+X1Y5.W6BEG0.W6END10
+X1Y5.JS2BEG3.JS2END3
+X1Y5.J_l_EF_BEG2.J_l_EF_END2
+X1Y5.J_l_GH_BEG2.J_l_GH_END2
+X1Y6.J2MID_ABb_END1.LA_I1
+X1Y6.J2MID_CDb_END1.LD_I1
+X1Y6.S2MID3.J2MID_ABb_BEG1
+X1Y6.S2MID3.J2MID_CDb_BEG1
+X1Y6.J2MID_ABb_BEG1.J2MID_ABb_END1
+X1Y6.J2MID_CDb_BEG1.J2MID_CDb_END1
+
+# routing for net 'top_i.uart_test.bit_index[0]'
+
+X1Y5.JS2END5.S2BEG5
+X1Y5.J_l_AB_END3.LB_I3
+X1Y5.J_l_CD_END2.LD_I2
+X1Y5.LD_O.JS2BEG2
+X1Y5.LD_O.JS2BEG5
+X1Y5.LD_O.JW2BEG1
+X1Y5.JW2END1.J_l_AB_BEG3
+X1Y5.JS2END2.J_l_CD_BEG2
+X1Y5.S2BEG5.S2MID5
+X1Y5.JS2BEG2.JS2END2
+X1Y5.JS2BEG5.JS2END5
+X1Y5.JW2BEG1.JW2END1
+X1Y5.J_l_AB_BEG3.J_l_AB_END3
+X1Y5.J_l_CD_BEG2.J_l_CD_END2
+X1Y6.J2MID_ABb_END2.LA_I2
+X1Y6.J2MID_ABb_END2.LB_I2
+X1Y6.S2MID5.J2MID_ABb_BEG2
+X1Y6.J2MID_ABb_BEG2.J2MID_ABb_END2
+
+# routing for net 'top_i.uart_test.bit_index[2]'
+
+X0Y5.WW4END12.E2BEGb3
+X0Y5.E2BEGb3.E2END3
+X1Y5.JS2END0.S2BEG0
+X1Y5.LG_O.WW4BEG0
+X1Y5.J2END_GH_END1.LG_I1
+X1Y5.E2END3.J2END_GH_BEG1
+X1Y5.LG_O.JS2BEG0
+X1Y5.S2BEG0.S2MID0
+X1Y5.WW4BEG0.WW4END12
+X1Y5.J2END_GH_BEG1.J2END_GH_END1
+X1Y5.JS2BEG0.JS2END0
+X1Y6.J2MID_ABa_END3.LA_I3
+X1Y6.J2MID_ABa_END3.LB_I3
+X1Y6.S2MID0.J2MID_ABa_BEG3
+X1Y6.J2MID_ABa_BEG3.J2MID_ABa_END3
+
+# routing for net 'top_i.uart_test.baud_counter[0]'
+
+X1Y3.J_l_AB_END1.LA_I1
+X1Y3.J_l_CD_END2.LD_I2
+X1Y3.J_l_EF_END3.LE_I3
+X1Y3.J_l_EF_END2.LF_I2
+X1Y3.J2MID_GHa_END2.LG_I2
+X1Y3.JS2END6.J2MID_GHa_BEG2
+X1Y3.LE_O.JE2BEG1
+X1Y3.LE_O.JS2BEG2
+X1Y3.LE_O.JS2BEG3
+X1Y3.LE_O.JS2BEG6
+X1Y3.LE_O.JW2BEG3
+X1Y3.JE2END1.J_l_AB_BEG1
+X1Y3.JS2END2.J_l_CD_BEG2
+X1Y3.JS2END3.J_l_EF_BEG2
+X1Y3.JW2END3.J_l_EF_BEG3
+X1Y3.J2MID_GHa_BEG2.J2MID_GHa_END2
+X1Y3.JE2BEG1.JE2END1
+X1Y3.JS2BEG2.JS2END2
+X1Y3.JS2BEG3.JS2END3
+X1Y3.JS2BEG6.JS2END6
+X1Y3.JW2BEG3.JW2END3
+X1Y3.J_l_AB_BEG1.J_l_AB_END1
+X1Y3.J_l_CD_BEG2.J_l_CD_END2
+X1Y3.J_l_EF_BEG2.J_l_EF_END2
+X1Y3.J_l_EF_BEG3.J_l_EF_END3
+
+# routing for net 'top_i.uart_test.baud_counter[2]'
+
+X0Y3.WW4END13.E2BEGb2
+X0Y3.E2BEGb2.E2END2
+X1Y3.LH_O.S1BEG3
+X1Y3.LH_O.WW4BEG1
+X1Y3.J_l_CD_END1.LC_I1
+X1Y3.J2MID_CDa_END0.LD_I0
+X1Y3.J_l_GH_END0.LG_I0
+X1Y3.J2MID_GHa_END3.LH_I3
+X1Y3.JN2END4.J2MID_CDa_BEG0
+X1Y3.JW2END6.J2MID_GHa_BEG3
+X1Y3.LH_O.JN2BEG4
+X1Y3.LH_O.JW2BEG6
+X1Y3.E2END2.J_l_CD_BEG1
+X1Y3.JN2END4.J_l_GH_BEG0
+X1Y3.S1BEG3.S1END3
+X1Y3.WW4BEG1.WW4END13
+X1Y3.J2MID_CDa_BEG0.J2MID_CDa_END0
+X1Y3.J2MID_GHa_BEG3.J2MID_GHa_END3
+X1Y3.JN2BEG4.JN2END4
+X1Y3.JW2BEG6.JW2END6
+X1Y3.J_l_CD_BEG1.J_l_CD_END1
+X1Y3.J_l_GH_BEG0.J_l_GH_END0
+X0Y4.WW4END13.E2BEGb2
+X0Y4.E2BEGb2.E2END2
+X1Y4.S1END3.WW4BEG1
+X1Y4.J2END_AB_END1.LB_I1
+X1Y4.E2END2.J2END_AB_BEG1
+X1Y4.WW4BEG1.WW4END13
+X1Y4.J2END_AB_BEG1.J2END_AB_END1
+
+# routing for net 'top_i.uart_test.baud_counter[3]'
+
+X1Y3.J2MID_CDb_END3.LD_I3
+X1Y3.J2MID_GHb_END3.LG_I3
+X1Y3.N2MID1.J2MID_CDb_BEG3
+X1Y3.N2MID1.J2MID_GHb_BEG3
+X1Y3.J2MID_CDb_BEG3.J2MID_CDb_END3
+X1Y3.J2MID_GHb_BEG3.J2MID_GHb_END3
+X1Y4.JN2END1.N2BEG1
+X1Y4.J_l_AB_END3.LA_I3
+X1Y4.J_l_AB_END2.LB_I2
+X1Y4.LC_O.JN2BEG1
+X1Y4.LC_O.JS2BEG1
+X1Y4.LC_O.JW2BEG1
+X1Y4.JS2END1.J_l_AB_BEG2
+X1Y4.JW2END1.J_l_AB_BEG3
+X1Y4.N2BEG1.N2MID1
+X1Y4.JN2BEG1.JN2END1
+X1Y4.JS2BEG1.JS2END1
+X1Y4.JW2BEG1.JW2END1
+X1Y4.J_l_AB_BEG2.J_l_AB_END2
+X1Y4.J_l_AB_BEG3.J_l_AB_END3
+
+# routing for net 'top_i.uart_test.baud_counter[1]'
+
+X0Y3.W6END11.E6BEG0
+X0Y3.E6BEG0.E6END0
+X1Y3.LB_O.W6BEG1
+X1Y3.J_l_AB_END3.LA_I3
+X1Y3.J2MID_CDa_END1.LD_I1
+X1Y3.J_l_EF_END0.LF_I0
+X1Y3.J_l_GH_END1.LG_I1
+X1Y3.JE2END4.J2MID_CDa_BEG1
+X1Y3.LB_O.JN2BEG3
+X1Y3.LB_O.JE2BEG4
+X1Y3.E6END0.J_l_AB_BEG3
+X1Y3.JN2END3.J_l_EF_BEG0
+X1Y3.JE2END4.J_l_GH_BEG1
+X1Y3.W6BEG1.W6END11
+X1Y3.J2MID_CDa_BEG1.J2MID_CDa_END1
+X1Y3.JN2BEG3.JN2END3
+X1Y3.JE2BEG4.JE2END4
+X1Y3.J_l_AB_BEG3.J_l_AB_END3
+X1Y3.J_l_EF_BEG0.J_l_EF_END0
+X1Y3.J_l_GH_BEG1.J_l_GH_END1
+
+# routing for net 'top_i.uart_test.baud_counter[4]'
+
+X1Y1.JS2END5.S2BEG5
+X1Y1.J_l_CD_END3.LD_I3
+X1Y1.J2MID_EFa_END1.LE_I1
+X1Y1.J2MID_GHa_END1.LH_I1
+X1Y1.JE2END5.J2MID_EFa_BEG1
+X1Y1.JE2END6.J2MID_GHa_BEG1
+X1Y1.LH_O.JE2BEG5
+X1Y1.LH_O.JE2BEG6
+X1Y1.LH_O.JS2BEG5
+X1Y1.LH_O.JW2BEG2
+X1Y1.JW2END2.J_l_CD_BEG3
+X1Y1.S2BEG5.S2MID5
+X1Y1.J2MID_EFa_BEG1.J2MID_EFa_END1
+X1Y1.J2MID_GHa_BEG1.J2MID_GHa_END1
+X1Y1.JE2BEG5.JE2END5
+X1Y1.JE2BEG6.JE2END6
+X1Y1.JS2BEG5.JS2END5
+X1Y1.JW2BEG2.JW2END2
+X1Y1.J_l_CD_BEG3.J_l_CD_END3
+X1Y2.J2MID_ABb_END2.LB_I2
+X1Y2.J2MID_CDb_END2.LC_I2
+X1Y2.S2MID5.J2MID_ABb_BEG2
+X1Y2.S2MID5.J2MID_CDb_BEG2
+X1Y2.J2MID_ABb_BEG2.J2MID_ABb_END2
+X1Y2.J2MID_CDb_BEG2.J2MID_CDb_END2
+
+# routing for net 'top_i.uart_test.baud_counter[6]'
+
+X1Y1.JS2END1.S2BEG1
+X1Y1.JS2END3.S2BEG3
+X1Y1.J_l_AB_END2.LA_I2
+X1Y1.J_l_AB_END1.LB_I1
+X1Y1.LC_O.JE2BEG1
+X1Y1.LC_O.JS2BEG1
+X1Y1.LC_O.JS2BEG3
+X1Y1.JE2END1.J_l_AB_BEG1
+X1Y1.JS2END1.J_l_AB_BEG2
+X1Y1.S2BEG1.S2MID1
+X1Y1.S2BEG3.S2MID3
+X1Y1.JE2BEG1.JE2END1
+X1Y1.JS2BEG1.JS2END1
+X1Y1.JS2BEG3.JS2END3
+X1Y1.J_l_AB_BEG1.J_l_AB_END1
+X1Y1.J_l_AB_BEG2.J_l_AB_END2
+X1Y2.J2MID_ABb_END1.LB_I1
+X1Y2.J2MID_CDb_END3.LC_I3
+X1Y2.S2MID3.J2MID_ABb_BEG1
+X1Y2.S2MID1.J2MID_CDb_BEG3
+X1Y2.J2MID_ABb_BEG1.J2MID_ABb_END1
+X1Y2.J2MID_CDb_BEG3.J2MID_CDb_END3
+
+# routing for net 'top_i.uart_test.baud_counter[7]'
+
+X1Y2.LH_O.S1BEG3
+X1Y2.LH_O.SS4BEG1
+X1Y2.J2MID_CDa_END1.LC_I1
+X1Y2.J2MID_CDa_END1.LD_I1
+X1Y2.J2MID_GHa_END3.LH_I3
+X1Y2.JE2END4.J2MID_CDa_BEG1
+X1Y2.JW2END6.J2MID_GHa_BEG3
+X1Y2.LH_O.JE2BEG4
+X1Y2.LH_O.JW2BEG6
+X1Y2.S1BEG3.S1END3
+X1Y2.SS4BEG1.SS4END13
+X1Y2.J2MID_CDa_BEG1.J2MID_CDa_END1
+X1Y2.J2MID_GHa_BEG3.J2MID_GHa_END3
+X1Y2.JE2BEG4.JE2END4
+X1Y2.JW2BEG6.JW2END6
+X1Y3.J_l_GH_END3.E1BEG2
+X1Y3.S1END3.JW2BEG4
+X1Y3.JW2END4.J_l_GH_BEG3
+X1Y3.E1BEG2.E1END2
+X1Y3.SS4END13.SS4BEG13
+X1Y3.SS4BEG13.SS4END9
+X1Y3.JW2BEG4.JW2END4
+X1Y3.J_l_GH_BEG3.J_l_GH_END3
+X2Y3.JS2END5.S2BEG5
+X2Y3.E1END2.JS2BEG5
+X2Y3.S2BEG5.S2MID5
+X2Y3.JS2BEG5.JS2END5
+X1Y4.SS4END9.SS4BEG9
+X1Y4.SS4BEG9.SS4END5
+X2Y4.J2MID_ABb_END2.LB_I2
+X2Y4.S2MID5.J2MID_ABb_BEG2
+X2Y4.J2MID_ABb_BEG2.J2MID_ABb_END2
+X1Y5.SS4END5.SS4BEG5
+X1Y5.SS4BEG5.SS4END1
+X2Y5.J2MID_GHa_END1.LH_I1
+X2Y5.N2MID2.J2MID_GHa_BEG1
+X2Y5.J2MID_GHa_BEG1.J2MID_GHa_END1
+X1Y6.J_l_EF_END2.E1BEG1
+X1Y6.SS4END1.J_l_EF_BEG2
+X1Y6.E1BEG1.E1END1
+X1Y6.J_l_EF_BEG2.J_l_EF_END2
+X2Y6.JN2END2.N2BEG2
+X2Y6.E1END1.JN2BEG2
+X2Y6.N2BEG2.N2MID2
+X2Y6.JN2BEG2.JN2END2
+
+# routing for net 'top_i.uart_test.baud_counter[5]'
+
+X1Y1.J2MID_ABb_END3.LA_I3
+X1Y1.N2MID1.J2MID_ABb_BEG3
+X1Y1.J2MID_ABb_BEG3.J2MID_ABb_END3
+X1Y2.JN2END1.N2BEG1
+X1Y2.J_l_AB_END3.LA_I3
+X1Y2.J_l_AB_END0.LB_I0
+X1Y2.J_l_CD_END0.LC_I0
+X1Y2.J_l_EF_END3.LF_I3
+X1Y2.LF_O.JN2BEG1
+X1Y2.LF_O.JN2BEG2
+X1Y2.LF_O.JW2BEG1
+X1Y2.LF_O.JW2BEG3
+X1Y2.JN2END1.J_l_AB_BEG0
+X1Y2.JW2END1.J_l_AB_BEG3
+X1Y2.JN2END2.J_l_CD_BEG0
+X1Y2.JW2END3.J_l_EF_BEG3
+X1Y2.N2BEG1.N2MID1
+X1Y2.JN2BEG1.JN2END1
+X1Y2.JN2BEG2.JN2END2
+X1Y2.JW2BEG1.JW2END1
+X1Y2.JW2BEG3.JW2END3
+X1Y2.J_l_AB_BEG0.J_l_AB_END0
+X1Y2.J_l_AB_BEG3.J_l_AB_END3
+X1Y2.J_l_CD_BEG0.J_l_CD_END0
+X1Y2.J_l_EF_BEG3.J_l_EF_END3
+
+# routing for net 'top_i.uart_test.baud_counter[11]'
+
+X2Y5.J2END_GH_END1.LG_I1
+X2Y5.W2END3.J2END_GH_BEG1
+X2Y5.J2END_GH_BEG1.J2END_GH_END1
+X3Y5.W2MID3.W2BEGb3
+X3Y5.W2BEGb3.W2END3
+X4Y5.JW2END3.W2BEG3
+X4Y5.J2MID_CDa_END1.LC_I1
+X4Y5.N2MID2.J2MID_CDa_BEG1
+X4Y5.N1END2.JW2BEG3
+X4Y5.W2BEG3.W2MID3
+X4Y5.J2MID_CDa_BEG1.J2MID_CDa_END1
+X4Y5.JW2BEG3.JW2END3
+X4Y6.LE_O.N1BEG2
+X4Y6.JN2END2.N2BEG2
+X4Y6.J2MID_ABa_END2.LA_I2
+X4Y6.J2MID_EFa_END3.LE_I3
+X4Y6.JS2END3.J2MID_ABa_BEG2
+X4Y6.JW2END5.J2MID_EFa_BEG3
+X4Y6.LE_O.JN2BEG2
+X4Y6.LE_O.JS2BEG3
+X4Y6.LE_O.JW2BEG5
+X4Y6.N1BEG2.N1END2
+X4Y6.N2BEG2.N2MID2
+X4Y6.J2MID_ABa_BEG2.J2MID_ABa_END2
+X4Y6.J2MID_EFa_BEG3.J2MID_EFa_END3
+X4Y6.JN2BEG2.JN2END2
+X4Y6.JS2BEG3.JS2END3
+X4Y6.JW2BEG5.JW2END5
+
+# routing for net 'top_i.uart_test.baud_counter[10]'
+
+X2Y5.J2MID_ABb_END2.E1BEG3
+X2Y5.J2MID_GHb_END2.LG_I2
+X2Y5.N2MID5.J2MID_ABb_BEG2
+X2Y5.N2MID5.J2MID_GHb_BEG2
+X2Y5.E1BEG3.E1END3
+X2Y5.J2MID_ABb_BEG2.J2MID_ABb_END2
+X2Y5.J2MID_GHb_BEG2.J2MID_GHb_END2
+X3Y5.JE2END6.E2BEG6
+X3Y5.E1END3.JE2BEG6
+X3Y5.E2BEG6.E2MID6
+X3Y5.JE2BEG6.JE2END6
+X4Y5.J2MID_CDa_END0.LC_I0
+X4Y5.E2MID6.J2MID_CDa_BEG0
+X4Y5.J2MID_CDa_BEG0.J2MID_CDa_END0
+X2Y6.JN2END5.N2BEG5
+X2Y6.JE2END0.E2BEG0
+X2Y6.J2MID_ABa_END1.LB_I1
+X2Y6.J2MID_GHa_END3.LH_I3
+X2Y6.JE2END3.J2MID_ABa_BEG1
+X2Y6.JW2END6.J2MID_GHa_BEG3
+X2Y6.LB_O.JN2BEG5
+X2Y6.LB_O.JE2BEG0
+X2Y6.LB_O.JE2BEG3
+X2Y6.LB_O.JW2BEG6
+X2Y6.N2BEG5.N2MID5
+X2Y6.E2BEG0.E2MID0
+X2Y6.J2MID_ABa_BEG1.J2MID_ABa_END1
+X2Y6.J2MID_GHa_BEG3.J2MID_GHa_END3
+X2Y6.JN2BEG5.JN2END5
+X2Y6.JE2BEG0.JE2END0
+X2Y6.JE2BEG3.JE2END3
+X2Y6.JW2BEG6.JW2END6
+X3Y6.E2MID0.E2BEGb0
+X3Y6.E2BEGb0.E2END0
+X4Y6.JS2END7.S2BEG7
+X4Y6.J2END_AB_END3.LA_I3
+X4Y6.J2MID_CDa_END3.LD_I3
+X4Y6.JW2END4.J2MID_CDa_BEG3
+X4Y6.E2END0.J2END_AB_BEG3
+X4Y6.E2END0.JS2BEG7
+X4Y6.N1END1.JW2BEG4
+X4Y6.S2BEG7.S2MID7
+X4Y6.J2MID_CDa_BEG3.J2MID_CDa_END3
+X4Y6.J2END_AB_BEG3.J2END_AB_END3
+X4Y6.JS2BEG7.JS2END7
+X4Y6.JW2BEG4.JW2END4
+X4Y7.J2MID_EFb_END0.N1BEG1
+X4Y7.S2MID7.J2MID_EFb_BEG0
+X4Y7.N1BEG1.N1END1
+X4Y7.J2MID_EFb_BEG0.J2MID_EFb_END0
+
+# routing for net 'top_i.uart_test.baud_counter[9]'
+
+X2Y5.J2MID_EFa_END0.LE_I0
+X2Y5.J_l_EF_END2.LF_I2
+X2Y5.J2MID_GHa_END0.LG_I0
+X2Y5.J2MID_GHa_END0.LH_I0
+X2Y5.JN2END5.J2MID_EFa_BEG0
+X2Y5.JN2END6.J2MID_GHa_BEG0
+X2Y5.LB_O.JN2BEG5
+X2Y5.LB_O.JN2BEG6
+X2Y5.LB_O.JS2BEG3
+X2Y5.JS2END3.J_l_EF_BEG2
+X2Y5.J2MID_EFa_BEG0.J2MID_EFa_END0
+X2Y5.J2MID_GHa_BEG0.J2MID_GHa_END0
+X2Y5.JN2BEG5.JN2END5
+X2Y5.JN2BEG6.JN2END6
+X2Y5.JS2BEG3.JS2END3
+X2Y5.J_l_EF_BEG2.J_l_EF_END2
+
+# routing for net 'top_i.uart_test.baud_counter[8]'
+
+X2Y4.JS2END1.S2BEG1
+X2Y4.JS2END2.S2BEG2
+X2Y4.J_l_CD_END3.LD_I3
+X2Y4.J_l_GH_END0.LG_I0
+X2Y4.LD_O.JN2BEG4
+X2Y4.LD_O.JS2BEG1
+X2Y4.LD_O.JS2BEG2
+X2Y4.LD_O.JW2BEG2
+X2Y4.JW2END2.J_l_CD_BEG3
+X2Y4.JN2END4.J_l_GH_BEG0
+X2Y4.S2BEG1.S2MID1
+X2Y4.S2BEG2.S2MID2
+X2Y4.JN2BEG4.JN2END4
+X2Y4.JS2BEG1.JS2END1
+X2Y4.JS2BEG2.JS2END2
+X2Y4.JW2BEG2.JW2END2
+X2Y4.J_l_CD_BEG3.J_l_CD_END3
+X2Y4.J_l_GH_BEG0.J_l_GH_END0
+X2Y5.J2MID_EFa_END1.LE_I1
+X2Y5.J2MID_GHb_END3.LG_I3
+X2Y5.J2MID_GHb_END3.LH_I3
+X2Y5.S2MID2.J2MID_EFa_BEG1
+X2Y5.S2MID1.J2MID_GHb_BEG3
+X2Y5.J2MID_EFa_BEG1.J2MID_EFa_END1
+X2Y5.J2MID_GHb_BEG3.J2MID_GHb_END3
+
+# routing for net 'top_i.uart_test.baud_counter[15]'
+
+X2Y2.J2MID_CDb_END3.LD_I3
+X2Y2.J2MID_GHa_END0.LG_I0
+X2Y2.JN2END6.J2MID_GHa_BEG0
+X2Y2.N2MID1.J2MID_CDb_BEG3
+X2Y2.N1END3.JN2BEG6
+X2Y2.J2MID_GHa_BEG0.J2MID_GHa_END0
+X2Y2.J2MID_CDb_BEG3.J2MID_CDb_END3
+X2Y2.JN2BEG6.JN2END6
+X2Y3.LF_O.N1BEG3
+X2Y3.JN2END1.N2BEG1
+X2Y3.LF_O.S1BEG1
+X2Y3.J_l_AB_END1.LA_I1
+X2Y3.J_l_CD_END1.LD_I1
+X2Y3.J_l_EF_END2.LF_I2
+X2Y3.LF_O.JN2BEG1
+X2Y3.LF_O.JE2BEG1
+X2Y3.LF_O.JE2BEG2
+X2Y3.LF_O.JS2BEG3
+X2Y3.JE2END1.J_l_AB_BEG1
+X2Y3.JE2END2.J_l_CD_BEG1
+X2Y3.JS2END3.J_l_EF_BEG2
+X2Y3.N1BEG3.N1END3
+X2Y3.N2BEG1.N2MID1
+X2Y3.S1BEG1.S1END1
+X2Y3.JN2BEG1.JN2END1
+X2Y3.JE2BEG1.JE2END1
+X2Y3.JE2BEG2.JE2END2
+X2Y3.JS2BEG3.JS2END3
+X2Y3.J_l_AB_BEG1.J_l_AB_END1
+X2Y3.J_l_CD_BEG1.J_l_CD_END1
+X2Y3.J_l_EF_BEG2.J_l_EF_END2
+X2Y4.J_l_GH_END3.E1BEG2
+X2Y4.S1END1.JW2BEG4
+X2Y4.JW2END4.J_l_GH_BEG3
+X2Y4.E1BEG2.E1END2
+X2Y4.JW2BEG4.JW2END4
+X2Y4.J_l_GH_BEG3.J_l_GH_END3
+X3Y4.JE2END5.E2BEG5
+X3Y4.E1END2.JE2BEG5
+X3Y4.E2BEG5.E2MID5
+X3Y4.JE2BEG5.JE2END5
+X4Y4.J2MID_GHb_END2.LH_I2
+X4Y4.E2MID5.J2MID_GHb_BEG2
+X4Y4.J2MID_GHb_BEG2.J2MID_GHb_END2
+
+# routing for net 'top_i.uart_test.baud_counter[14]'
+
+X4Y4.J2MID_GHb_END1.LH_I1
+X4Y4.N2MID3.J2MID_GHb_BEG1
+X4Y4.J2MID_GHb_BEG1.J2MID_GHb_END1
+X4Y5.JN2END3.N2BEG3
+X4Y5.J2MID_ABa_END0.LA_I0
+X4Y5.J_l_EF_END0.LF_I0
+X4Y5.JN2END3.J2MID_ABa_BEG0
+X4Y5.LH_O.JN2BEG3
+X4Y5.JN2END3.J_l_EF_BEG0
+X4Y5.N2BEG3.N2MID3
+X4Y5.J2MID_ABa_BEG0.J2MID_ABa_END0
+X4Y5.JN2BEG3.JN2END3
+X4Y5.J_l_EF_BEG0.J_l_EF_END0
+
+# routing for net 'top_i.uart_test.baud_counter[13]'
+
+X2Y2.J_l_EF_END3.LF_I3
+X2Y2.N1END2.JW2BEG3
+X2Y2.JW2END3.J_l_EF_BEG3
+X2Y2.JW2BEG3.JW2END3
+X2Y2.J_l_EF_BEG3.J_l_EF_END3
+X2Y3.JW2END1.N1BEG2
+X2Y3.JE2END7.E2BEG7
+X2Y3.N1END0.JE2BEG7
+X2Y3.N1END0.JW2BEG1
+X2Y3.N1BEG2.N1END2
+X2Y3.E2BEG7.E2MID7
+X2Y3.JE2BEG7.JE2END7
+X2Y3.JW2BEG1.JW2END1
+X3Y3.E2MID7.E2BEGb7
+X3Y3.E2BEGb7.E2END7
+X4Y3.J2MID_GHa_END1.LH_I1
+X4Y3.JE2END6.J2MID_GHa_BEG1
+X4Y3.E2END7.JE2BEG6
+X4Y3.J2MID_GHa_BEG1.J2MID_GHa_END1
+X4Y3.JE2BEG6.JE2END6
+X2Y4.LC_O.N1BEG0
+X2Y4.JE2END5.E2BEG5
+X2Y4.J2MID_EFa_END1.LE_I1
+X2Y4.JE2END5.J2MID_EFa_BEG1
+X2Y4.LC_O.JE2BEG5
+X2Y4.N1BEG0.N1END0
+X2Y4.E2BEG5.E2MID5
+X2Y4.J2MID_EFa_BEG1.J2MID_EFa_END1
+X2Y4.JE2BEG5.JE2END5
+X3Y4.E2MID5.E2BEGb5
+X3Y4.E2BEGb5.E2END5
+X4Y4.J_l_GH_END3.S1BEG2
+X4Y4.J_l_GH_END3.LH_I3
+X4Y4.E2END5.JW2BEG4
+X4Y4.JW2END4.J_l_GH_BEG3
+X4Y4.S1BEG2.S1END2
+X4Y4.JW2BEG4.JW2END4
+X4Y4.J_l_GH_BEG3.J_l_GH_END3
+X4Y5.J2MID_EFa_END1.LE_I1
+X4Y5.JE2END5.J2MID_EFa_BEG1
+X4Y5.S1END2.JE2BEG5
+X4Y5.J2MID_EFa_BEG1.J2MID_EFa_END1
+X4Y5.JE2BEG5.JE2END5
+
+# routing for net 'top_i.uart_test.baud_counter[12]'
+
+X4Y4.J2MID_GHb_END0.LH_I0
+X4Y4.N2MID7.J2MID_GHb_BEG0
+X4Y4.J2MID_GHb_BEG0.J2MID_GHb_END0
+X4Y5.JN2END7.N2BEG7
+X4Y5.J2MID_CDa_END3.LC_I3
+X4Y5.N2MID0.J2MID_CDa_BEG3
+X4Y5.N1END0.JN2BEG7
+X4Y5.N2BEG7.N2MID7
+X4Y5.J2MID_CDa_BEG3.J2MID_CDa_END3
+X4Y5.JN2BEG7.JN2END7
+X4Y6.LC_O.N1BEG0
+X4Y6.JN2END0.N2BEG0
+X4Y6.J2MID_GHa_END3.LH_I3
+X4Y6.JW2END6.J2MID_GHa_BEG3
+X4Y6.LC_O.JN2BEG0
+X4Y6.LC_O.JW2BEG6
+X4Y6.N1BEG0.N1END0
+X4Y6.N2BEG0.N2MID0
+X4Y6.J2MID_GHa_BEG3.J2MID_GHa_END3
+X4Y6.JN2BEG0.JN2END0
+X4Y6.JW2BEG6.JW2END6
+
+# routing for net '$abc$2156$auto$simplemap.cc:125:simplemap_reduce$1152[2]_new_inv'
+
+X2Y4.J2MID_GHa_END1.LH_I1
+X2Y4.N2MID2.J2MID_GHa_BEG1
+X2Y4.J2MID_GHa_BEG1.J2MID_GHa_END1
+X2Y5.JN2END2.N2BEG2
+X2Y5.LG_O.JN2BEG2
+X2Y5.N2BEG2.N2MID2
+X2Y5.JN2BEG2.JN2END2
+
+# routing for net '$abc$2156$auto$simplemap.cc:125:simplemap_reduce$1152[3]_new_inv'
+
+X2Y4.J2MID_GHb_END2.LH_I2
+X2Y4.W2MID5.J2MID_GHb_BEG2
+X2Y4.J2MID_GHb_BEG2.J2MID_GHb_END2
+X3Y4.JW2END5.W2BEG5
+X3Y4.W1END2.JW2BEG5
+X3Y4.W2BEG5.W2MID5
+X3Y4.JW2BEG5.JW2END5
+X4Y4.LH_O.W1BEG2
+X4Y4.W1BEG2.W1END2
+
+# routing for net 'top_i.uart_test.baud_counter[27]'
+
+X2Y1.JS2END2.S2BEG2
+X2Y1.JS2END6.S2BEG6
+X2Y1.J_l_AB_END2.LA_I2
+X2Y1.LH_O.JS2BEG1
+X2Y1.LH_O.JS2BEG2
+X2Y1.LH_O.JS2BEG6
+X2Y1.JS2END1.J_l_AB_BEG2
+X2Y1.S2BEG2.S2MID2
+X2Y1.S2BEG6.S2MID6
+X2Y1.JS2BEG1.JS2END1
+X2Y1.JS2BEG2.JS2END2
+X2Y1.JS2BEG6.JS2END6
+X2Y1.J_l_AB_BEG2.J_l_AB_END2
+X2Y2.J2MID_CDa_END0.LC_I0
+X2Y2.J2MID_EFa_END1.LE_I1
+X2Y2.S2MID6.J2MID_CDa_BEG0
+X2Y2.S2MID2.J2MID_EFa_BEG1
+X2Y2.J2MID_CDa_BEG0.J2MID_CDa_END0
+X2Y2.J2MID_EFa_BEG1.J2MID_EFa_END1
+
+# routing for net 'top_i.uart_test.baud_counter[26]'
+
+X2Y1.JS2END4.S2BEG4
+X2Y1.J_l_EF_END0.LE_I0
+X2Y1.J_l_GH_END2.LG_I2
+X2Y1.LB_O.JN2BEG3
+X2Y1.LB_O.JS2BEG4
+X2Y1.JN2END3.J_l_EF_BEG0
+X2Y1.JS2END4.J_l_GH_BEG2
+X2Y1.S2BEG4.S2MID4
+X2Y1.JN2BEG3.JN2END3
+X2Y1.JS2BEG4.JS2END4
+X2Y1.J_l_EF_BEG0.J_l_EF_END0
+X2Y1.J_l_GH_BEG2.J_l_GH_END2
+X2Y2.J2MID_CDa_END2.LC_I2
+X2Y2.J2MID_EFa_END2.LE_I2
+X2Y2.S2MID4.J2MID_CDa_BEG2
+X2Y2.S2MID4.J2MID_EFa_BEG2
+X2Y2.J2MID_CDa_BEG2.J2MID_CDa_END2
+X2Y2.J2MID_EFa_BEG2.J2MID_EFa_END2
+
+# routing for net 'top_i.uart_test.baud_counter[25]'
+
+X2Y1.JS2END0.S2BEG0
+X2Y1.JS2END3.S2BEG3
+X2Y1.J_l_CD_END0.LC_I0
+X2Y1.J_l_CD_END0.LD_I0
+X2Y1.J2MID_GHa_END0.LG_I0
+X2Y1.JN2END6.J2MID_GHa_BEG0
+X2Y1.LF_O.JN2BEG2
+X2Y1.LF_O.JN2BEG6
+X2Y1.LF_O.JS2BEG0
+X2Y1.LF_O.JS2BEG3
+X2Y1.JN2END2.J_l_CD_BEG0
+X2Y1.S2BEG0.S2MID0
+X2Y1.S2BEG3.S2MID3
+X2Y1.J2MID_GHa_BEG0.J2MID_GHa_END0
+X2Y1.JN2BEG2.JN2END2
+X2Y1.JN2BEG6.JN2END6
+X2Y1.JS2BEG0.JS2END0
+X2Y1.JS2BEG3.JS2END3
+X2Y1.J_l_CD_BEG0.J_l_CD_END0
+X2Y2.J2MID_CDb_END1.LC_I1
+X2Y2.J2MID_EFa_END3.LE_I3
+X2Y2.S2MID0.J2MID_EFa_BEG3
+X2Y2.S2MID3.J2MID_CDb_BEG1
+X2Y2.J2MID_EFa_BEG3.J2MID_EFa_END3
+X2Y2.J2MID_CDb_BEG1.J2MID_CDb_END1
+
+# routing for net 'top_i.uart_test.baud_counter[24]'
+
+X4Y0.N2MID7.S2BEG0
+X4Y0.S2BEG0.S2MID0
+X3Y1.J2MID_ABb_END2.S1BEG3
+X3Y1.W2MID5.J2MID_ABb_BEG2
+X3Y1.S1BEG3.S1END3
+X3Y1.J2MID_ABb_BEG2.J2MID_ABb_END2
+X4Y1.JN2END7.N2BEG7
+X4Y1.JS2END6.S2BEG6
+X4Y1.JW2END5.W2BEG5
+X4Y1.J2MID_CDa_END3.LC_I3
+X4Y1.S2MID0.J2MID_CDa_BEG3
+X4Y1.LC_O.JN2BEG7
+X4Y1.LC_O.JS2BEG6
+X4Y1.LC_O.JW2BEG5
+X4Y1.N2BEG7.N2MID7
+X4Y1.S2BEG6.S2MID6
+X4Y1.W2BEG5.W2MID5
+X4Y1.J2MID_CDa_BEG3.J2MID_CDa_END3
+X4Y1.JN2BEG7.JN2END7
+X4Y1.JS2BEG6.JS2END6
+X4Y1.JW2BEG5.JW2END5
+X2Y2.J2MID_EFa_END0.LE_I0
+X2Y2.W2MID6.J2MID_EFa_BEG0
+X2Y2.J2MID_EFa_BEG0.J2MID_EFa_END0
+X3Y2.JW2END6.W2BEG6
+X3Y2.S1END3.JW2BEG6
+X3Y2.W2BEG6.W2MID6
+X3Y2.JW2BEG6.JW2END6
+X4Y2.J2MID_CDa_END0.LD_I0
+X4Y2.S2MID6.J2MID_CDa_BEG0
+X4Y2.J2MID_CDa_BEG0.J2MID_CDa_END0
+
+# routing for net 'top_i.uart_test.baud_counter[31]'
+
+X4Y4.J_l_AB_END2.LA_I2
+X4Y4.J_l_GH_END2.LG_I2
+X4Y4.LG_O.JS2BEG1
+X4Y4.LG_O.JS2BEG4
+X4Y4.JS2END1.J_l_AB_BEG2
+X4Y4.JS2END4.J_l_GH_BEG2
+X4Y4.JS2BEG1.JS2END1
+X4Y4.JS2BEG4.JS2END4
+X4Y4.J_l_AB_BEG2.J_l_AB_END2
+X4Y4.J_l_GH_BEG2.J_l_GH_END2
+
+# routing for net 'top_i.uart_test.baud_counter[30]'
+
+X4Y4.J_l_AB_END0.LA_I0
+X4Y4.J2MID_CDa_END0.LC_I0
+X4Y4.J2MID_CDa_END0.LD_I0
+X4Y4.JN2END4.J2MID_CDa_BEG0
+X4Y4.LC_O.JN2BEG1
+X4Y4.LC_O.JN2BEG4
+X4Y4.JN2END1.J_l_AB_BEG0
+X4Y4.J2MID_CDa_BEG0.J2MID_CDa_END0
+X4Y4.JN2BEG1.JN2END1
+X4Y4.JN2BEG4.JN2END4
+X4Y4.J_l_AB_BEG0.J_l_AB_END0
+
+# routing for net 'top_i.uart_test.baud_counter[29]'
+
+X4Y4.J2MID_ABa_END3.LA_I3
+X4Y4.J2MID_ABa_END3.LB_I3
+X4Y4.J_l_CD_END2.LD_I2
+X4Y4.J2MID_EFa_END0.LF_I0
+X4Y4.JW2END3.J2MID_ABa_BEG3
+X4Y4.JN2END5.J2MID_EFa_BEG0
+X4Y4.LB_O.JN2BEG5
+X4Y4.LB_O.JS2BEG2
+X4Y4.LB_O.JW2BEG3
+X4Y4.JS2END2.J_l_CD_BEG2
+X4Y4.J2MID_ABa_BEG3.J2MID_ABa_END3
+X4Y4.J2MID_EFa_BEG0.J2MID_EFa_END0
+X4Y4.JN2BEG5.JN2END5
+X4Y4.JS2BEG2.JS2END2
+X4Y4.JW2BEG3.JW2END3
+X4Y4.J_l_CD_BEG2.J_l_CD_END2
+
+# routing for net 'top_i.uart_test.baud_counter[28]'
+
+X4Y3.JS2END1.S2BEG1
+X4Y3.JS2END2.S2BEG2
+X4Y3.J_l_EF_END3.LF_I3
+X4Y3.LF_O.JS2BEG1
+X4Y3.LF_O.JS2BEG2
+X4Y3.LF_O.JW2BEG3
+X4Y3.JW2END3.J_l_EF_BEG3
+X4Y3.S2BEG1.S2MID1
+X4Y3.S2BEG2.S2MID2
+X4Y3.JS2BEG1.JS2END1
+X4Y3.JS2BEG2.JS2END2
+X4Y3.JW2BEG3.JW2END3
+X4Y3.J_l_EF_BEG3.J_l_EF_END3
+X4Y4.J2MID_ABa_END1.LA_I1
+X4Y4.J2MID_CDb_END3.LD_I3
+X4Y4.J2MID_EFa_END1.LE_I1
+X4Y4.J2MID_EFa_END1.LF_I1
+X4Y4.S2MID2.J2MID_ABa_BEG1
+X4Y4.S2MID2.J2MID_EFa_BEG1
+X4Y4.S2MID1.J2MID_CDb_BEG3
+X4Y4.J2MID_ABa_BEG1.J2MID_ABa_END1
+X4Y4.J2MID_EFa_BEG1.J2MID_EFa_END1
+X4Y4.J2MID_CDb_BEG3.J2MID_CDb_END3
+
+# routing for net 'top_i.uart_test.baud_counter[19]'
+
+X2Y2.J2END_GH_END2.LH_I2
+X2Y2.W2END5.J2END_GH_BEG2
+X2Y2.J2END_GH_BEG2.J2END_GH_END2
+X3Y2.W2MID5.W2BEGb5
+X3Y2.W2BEGb5.W2END5
+X4Y2.JW2END5.W2BEG5
+X4Y2.J2MID_EFb_END3.LE_I3
+X4Y2.J2MID_GHb_END3.LG_I3
+X4Y2.N2MID1.J2MID_EFb_BEG3
+X4Y2.N2MID1.J2MID_GHb_BEG3
+X4Y2.N1END2.JW2BEG5
+X4Y2.W2BEG5.W2MID5
+X4Y2.J2MID_EFb_BEG3.J2MID_EFb_END3
+X4Y2.J2MID_GHb_BEG3.J2MID_GHb_END3
+X4Y2.JW2BEG5.JW2END5
+X4Y3.JW2END1.N1BEG2
+X4Y3.JN2END1.N2BEG1
+X4Y3.J_l_AB_END3.LA_I3
+X4Y3.J_l_GH_END1.LG_I1
+X4Y3.LA_O.JN2BEG1
+X4Y3.LA_O.JE2BEG4
+X4Y3.LA_O.JW2BEG1
+X4Y3.JW2END1.J_l_AB_BEG3
+X4Y3.JE2END4.J_l_GH_BEG1
+X4Y3.N1BEG2.N1END2
+X4Y3.N2BEG1.N2MID1
+X4Y3.JN2BEG1.JN2END1
+X4Y3.JE2BEG4.JE2END4
+X4Y3.JW2BEG1.JW2END1
+X4Y3.J_l_AB_BEG3.J_l_AB_END3
+X4Y3.J_l_GH_BEG1.J_l_GH_END1
+
+# routing for net 'top_i.uart_test.baud_counter[18]'
+
+X2Y2.J2MID_ABa_END0.LA_I0
+X2Y2.J2MID_GHa_END1.LG_I1
+X2Y2.J2MID_GHa_END1.LH_I1
+X2Y2.JN2END3.J2MID_ABa_BEG0
+X2Y2.JE2END6.J2MID_GHa_BEG1
+X2Y2.LA_O.JN2BEG3
+X2Y2.LA_O.JE2BEG6
+X2Y2.J2MID_ABa_BEG0.J2MID_ABa_END0
+X2Y2.J2MID_GHa_BEG1.J2MID_GHa_END1
+X2Y2.JN2BEG3.JN2END3
+X2Y2.JE2BEG6.JE2END6
+
+# routing for net 'top_i.uart_test.baud_counter[17]'
+
+X2Y2.J2MID_CDb_END2.LD_I2
+X2Y2.J2MID_GHb_END2.LG_I2
+X2Y2.J2MID_GHb_END0.LH_I0
+X2Y2.N2MID5.J2MID_CDb_BEG2
+X2Y2.N2MID7.J2MID_GHb_BEG0
+X2Y2.N2MID5.J2MID_GHb_BEG2
+X2Y2.J2MID_CDb_BEG2.J2MID_CDb_END2
+X2Y2.J2MID_GHb_BEG0.J2MID_GHb_END0
+X2Y2.J2MID_GHb_BEG2.J2MID_GHb_END2
+X2Y3.JN2END5.N2BEG5
+X2Y3.JN2END7.N2BEG7
+X2Y3.J2MID_CDa_END0.LC_I0
+X2Y3.JN2END4.J2MID_CDa_BEG0
+X2Y3.LC_O.JN2BEG4
+X2Y3.LC_O.JN2BEG5
+X2Y3.LC_O.JN2BEG7
+X2Y3.N2BEG5.N2MID5
+X2Y3.N2BEG7.N2MID7
+X2Y3.J2MID_CDa_BEG0.J2MID_CDa_END0
+X2Y3.JN2BEG4.JN2END4
+X2Y3.JN2BEG5.JN2END5
+X2Y3.JN2BEG7.JN2END7
+
+# routing for net 'top_i.uart_test.baud_counter[16]'
+
+X2Y2.J2MID_CDa_END1.LD_I1
+X2Y2.J2MID_GHa_END3.LG_I3
+X2Y2.J2MID_GHa_END3.LH_I3
+X2Y2.N2MID2.J2MID_CDa_BEG1
+X2Y2.N2MID0.J2MID_GHa_BEG3
+X2Y2.J2MID_CDa_BEG1.J2MID_CDa_END1
+X2Y2.J2MID_GHa_BEG3.J2MID_GHa_END3
+X2Y3.JN2END0.N2BEG0
+X2Y3.JN2END2.N2BEG2
+X2Y3.J_l_CD_END3.LD_I3
+X2Y3.J2MID_GHa_END2.LH_I2
+X2Y3.JS2END6.J2MID_GHa_BEG2
+X2Y3.LH_O.JN2BEG0
+X2Y3.LH_O.JN2BEG2
+X2Y3.LH_O.JS2BEG6
+X2Y3.LH_O.JW2BEG2
+X2Y3.JW2END2.J_l_CD_BEG3
+X2Y3.N2BEG0.N2MID0
+X2Y3.N2BEG2.N2MID2
+X2Y3.J2MID_GHa_BEG2.J2MID_GHa_END2
+X2Y3.JN2BEG0.JN2END0
+X2Y3.JN2BEG2.JN2END2
+X2Y3.JS2BEG6.JS2END6
+X2Y3.JW2BEG2.JW2END2
+X2Y3.J_l_CD_BEG3.J_l_CD_END3
+
+# routing for net 'top_i.uart_test.baud_counter[23]'
+
+X4Y1.JS2END0.S2BEG0
+X4Y1.J_l_AB_END0.LB_I0
+X4Y1.LD_O.JN2BEG1
+X4Y1.LD_O.JS2BEG0
+X4Y1.JN2END1.J_l_AB_BEG0
+X4Y1.S2BEG0.S2MID0
+X4Y1.JN2BEG1.JN2END1
+X4Y1.JS2BEG0.JS2END0
+X4Y1.J_l_AB_BEG0.J_l_AB_END0
+X4Y2.J2MID_ABa_END3.LA_I3
+X4Y2.J2MID_ABa_END3.LB_I3
+X4Y2.J2MID_CDa_END3.LD_I3
+X4Y2.S2MID0.J2MID_ABa_BEG3
+X4Y2.S2MID0.J2MID_CDa_BEG3
+X4Y2.J2MID_ABa_BEG3.J2MID_ABa_END3
+X4Y2.J2MID_CDa_BEG3.J2MID_CDa_END3
+
+# routing for net 'top_i.uart_test.baud_counter[22]'
+
+X4Y1.LF_O.S1BEG1
+X4Y1.JS2END3.S2BEG3
+X4Y1.J_l_AB_END1.LA_I1
+X4Y1.J2MID_GHa_END0.LG_I0
+X4Y1.JN2END6.J2MID_GHa_BEG0
+X4Y1.LF_O.JN2BEG6
+X4Y1.LF_O.JE2BEG1
+X4Y1.LF_O.JS2BEG3
+X4Y1.JE2END1.J_l_AB_BEG1
+X4Y1.S1BEG1.S1END1
+X4Y1.S2BEG3.S2MID3
+X4Y1.J2MID_GHa_BEG0.J2MID_GHa_END0
+X4Y1.JN2BEG6.JN2END6
+X4Y1.JE2BEG1.JE2END1
+X4Y1.JS2BEG3.JS2END3
+X4Y1.J_l_AB_BEG1.J_l_AB_END1
+X4Y2.J2MID_ABb_END1.LA_I1
+X4Y2.J2MID_ABb_END1.LB_I1
+X4Y2.J2MID_CDa_END1.LD_I1
+X4Y2.JE2END4.J2MID_CDa_BEG1
+X4Y2.S2MID3.J2MID_ABb_BEG1
+X4Y2.S1END1.JE2BEG4
+X4Y2.J2MID_CDa_BEG1.J2MID_CDa_END1
+X4Y2.J2MID_ABb_BEG1.J2MID_ABb_END1
+X4Y2.JE2BEG4.JE2END4
+
+# routing for net 'top_i.uart_test.baud_counter[21]'
+
+X4Y2.J2MID_ABa_END2.LB_I2
+X4Y2.J2MID_GHa_END1.LG_I1
+X4Y2.J2MID_GHa_END1.LH_I1
+X4Y2.JS2END3.J2MID_ABa_BEG2
+X4Y2.JE2END6.J2MID_GHa_BEG1
+X4Y2.LH_O.JE2BEG6
+X4Y2.LH_O.JS2BEG3
+X4Y2.J2MID_ABa_BEG2.J2MID_ABa_END2
+X4Y2.J2MID_GHa_BEG1.J2MID_GHa_END1
+X4Y2.JE2BEG6.JE2END6
+X4Y2.JS2BEG3.JS2END3
+
+# routing for net 'top_i.uart_test.baud_counter[20]'
+
+X4Y2.J2MID_ABb_END0.LB_I0
+X4Y2.J2MID_EFb_END2.LE_I2
+X4Y2.J2MID_GHb_END2.LG_I2
+X4Y2.N2MID7.J2MID_ABb_BEG0
+X4Y2.N2MID5.J2MID_EFb_BEG2
+X4Y2.N2MID5.J2MID_GHb_BEG2
+X4Y2.J2MID_ABb_BEG0.J2MID_ABb_END0
+X4Y2.J2MID_EFb_BEG2.J2MID_EFb_END2
+X4Y2.J2MID_GHb_BEG2.J2MID_GHb_END2
+X4Y3.JN2END5.N2BEG5
+X4Y3.JN2END7.N2BEG7
+X4Y3.J_l_GH_END0.LG_I0
+X4Y3.LB_O.JN2BEG4
+X4Y3.LB_O.JN2BEG5
+X4Y3.LB_O.JN2BEG7
+X4Y3.JN2END4.J_l_GH_BEG0
+X4Y3.N2BEG5.N2MID5
+X4Y3.N2BEG7.N2MID7
+X4Y3.JN2BEG4.JN2END4
+X4Y3.JN2BEG5.JN2END5
+X4Y3.JN2BEG7.JN2END7
+X4Y3.J_l_GH_BEG0.J_l_GH_END0
+
+# routing for net '$abc$2156$auto$simplemap.cc:125:simplemap_reduce$1152[6]_new_inv'
+
+X2Y2.J_l_AB_END3.LB_I3
+X2Y2.LE_O.JW2BEG1
+X2Y2.JW2END1.J_l_AB_BEG3
+X2Y2.JW2BEG1.JW2END1
+X2Y2.J_l_AB_BEG3.J_l_AB_END3
+
+# routing for net '$abc$2156$auto$simplemap.cc:125:simplemap_reduce$1152[7]_new_inv'
+
+X2Y2.J2MID_ABb_END2.LB_I2
+X2Y2.W2MID5.J2MID_ABb_BEG2
+X2Y2.J2MID_ABb_BEG2.J2MID_ABb_END2
+X3Y2.JW2END5.W2BEG5
+X3Y2.N2END6.JW2BEG5
+X3Y2.W2BEG5.W2MID5
+X3Y2.JW2BEG5.JW2END5
+X3Y3.N2MID6.N2BEGb6
+X3Y3.N2BEGb6.N2END6
+X3Y4.JN2END6.N2BEG6
+X3Y4.W1END3.JN2BEG6
+X3Y4.N2BEG6.N2MID6
+X3Y4.JN2BEG6.JN2END6
+X4Y4.LA_O.W1BEG3
+X4Y4.W1BEG3.W1END3
+
+# routing for net '$abc$2156$auto$simplemap.cc:125:simplemap_reduce$1152[4]_new_inv'
+
+X2Y2.J2MID_ABa_END1.LB_I1
+X2Y2.JE2END3.J2MID_ABa_BEG1
+X2Y2.LH_O.JE2BEG3
+X2Y2.J2MID_ABa_BEG1.J2MID_ABa_END1
+X2Y2.JE2BEG3.JE2END3
+
+# routing for net '$abc$2156$auto$simplemap.cc:125:simplemap_reduce$1152[5]_new_inv'
+
+X2Y2.J2END_AB_END0.LB_I0
+X2Y2.W2END6.J2END_AB_BEG0
+X2Y2.J2END_AB_BEG0.J2END_AB_END0
+X3Y2.W2MID6.W2BEGb6
+X3Y2.W2BEGb6.W2END6
+X4Y2.JW2END6.W2BEG6
+X4Y2.LB_O.JW2BEG6
+X4Y2.W2BEG6.W2MID6
+X4Y2.JW2BEG6.JW2END6
+
+# routing for net '$abc$2156$auto$simplemap.cc:254:simplemap_eqne$1133_new_inv'
+
+X1Y2.LG_O.S1BEG2
+X1Y2.J_l_EF_END2.LE_I2
+X1Y2.LG_O.JS2BEG3
+X1Y2.JS2END3.J_l_EF_BEG2
+X1Y2.S1BEG2.S1END2
+X1Y2.JS2BEG3.JS2END3
+X1Y2.J_l_EF_BEG2.J_l_EF_END2
+X1Y3.JS2END5.S2BEG5
+X1Y3.S1END2.JS2BEG5
+X1Y3.S2BEG5.S2MID5
+X1Y3.JS2BEG5.JS2END5
+X1Y4.S2MID5.S2BEGb5
+X1Y4.J2MID_EFb_END2.LE_I2
+X1Y4.J2MID_GHb_END2.LG_I2
+X1Y4.S2MID5.J2MID_EFb_BEG2
+X1Y4.S2MID5.J2MID_GHb_BEG2
+X1Y4.S2BEGb5.S2END5
+X1Y4.J2MID_EFb_BEG2.J2MID_EFb_END2
+X1Y4.J2MID_GHb_BEG2.J2MID_GHb_END2
+X1Y5.JS2END4.S2BEG4
+X1Y5.J2END_GH_END2.LH_I2
+X1Y5.S2END5.J2END_GH_BEG2
+X1Y5.S2END5.JS2BEG4
+X1Y5.S2BEG4.S2MID4
+X1Y5.J2END_GH_BEG2.J2END_GH_END2
+X1Y5.JS2BEG4.JS2END4
+X1Y6.J2MID_CDa_END2.LC_I2
+X1Y6.S2MID4.J2MID_CDa_BEG2
+X1Y6.J2MID_CDa_BEG2.J2MID_CDa_END2
+
+# routing for net '$abc$2156$auto$simplemap.cc:125:simplemap_reduce$1152[0]_new_inv'
+
+X1Y2.J2MID_GHb_END3.LG_I3
+X1Y2.N2MID1.J2MID_GHb_BEG3
+X1Y2.J2MID_GHb_BEG3.J2MID_GHb_END3
+X1Y3.JN2END1.N2BEG1
+X1Y3.LG_O.JN2BEG1
+X1Y3.N2BEG1.N2MID1
+X1Y3.JN2BEG1.JN2END1
+
+# routing for net '$abc$2156$auto$simplemap.cc:125:simplemap_reduce$1152[1]_new_inv'
+
+X1Y2.J2MID_GHa_END1.LG_I1
+X1Y2.JE2END6.J2MID_GHa_BEG1
+X1Y2.LC_O.JE2BEG6
+X1Y2.J2MID_GHa_BEG1.J2MID_GHa_END1
+X1Y2.JE2BEG6.JE2END6
+
+# routing for net '$abc$2156$auto$simplemap.cc:125:simplemap_reduce$1161[1]_new_inv'
+
+X1Y2.J2END_GH_END0.LG_I0
+X1Y2.N2END7.J2END_GH_BEG0
+X1Y2.J2END_GH_BEG0.J2END_GH_END0
+X1Y3.N2MID7.N2BEGb7
+X1Y3.N2BEGb7.N2END7
+X1Y4.JN2END7.N2BEG7
+X1Y4.W1END2.JN2BEG7
+X1Y4.N2BEG7.N2MID7
+X1Y4.JN2BEG7.JN2END7
+X2Y4.LH_O.W1BEG2
+X2Y4.W1BEG2.W1END2
+
+# routing for net '$abc$2156$auto$simplemap.cc:125:simplemap_reduce$1166[1]_new_inv'
+
+X1Y2.J2MID_GHb_END2.LG_I2
+X1Y2.W2MID5.J2MID_GHb_BEG2
+X1Y2.J2MID_GHb_BEG2.J2MID_GHb_END2
+X2Y2.JW2END5.W2BEG5
+X2Y2.LB_O.JW2BEG5
+X2Y2.W2BEG5.W2MID5
+X2Y2.JW2BEG5.JW2END5
+
+# routing for net 'top_i.uart_test.state[1]'
+
+X1Y4.JS2END7.S2BEG7
+X1Y4.J2MID_EFa_END1.LE_I1
+X1Y4.J2MID_EFa_END1.LF_I1
+X1Y4.J_l_GH_END1.LG_I1
+X1Y4.JE2END5.J2MID_EFa_BEG1
+X1Y4.LD_O.JE2BEG4
+X1Y4.LD_O.JE2BEG5
+X1Y4.LD_O.JS2BEG7
+X1Y4.JE2END4.J_l_GH_BEG1
+X1Y4.S2BEG7.S2MID7
+X1Y4.J2MID_EFa_BEG1.J2MID_EFa_END1
+X1Y4.JE2BEG4.JE2END4
+X1Y4.JE2BEG5.JE2END5
+X1Y4.JS2BEG7.JS2END7
+X1Y4.J_l_GH_BEG1.J_l_GH_END1
+X1Y5.S2MID7.S2BEGb7
+X1Y5.J2MID_GHb_END0.LH_I0
+X1Y5.S2MID7.J2MID_GHb_BEG0
+X1Y5.S2BEGb7.S2END7
+X1Y5.J2MID_GHb_BEG0.J2MID_GHb_END0
+X1Y6.J2MID_GHa_END3.LG_I3
+X1Y6.JW2END6.J2MID_GHa_BEG3
+X1Y6.S2END7.JW2BEG6
+X1Y6.J2MID_GHa_BEG3.J2MID_GHa_END3
+X1Y6.JW2BEG6.JW2END6
+
+# routing for net 'top_i.uart_test.state[0]'
+
+X1Y4.LH_O.S1BEG3
+X1Y4.J2MID_EFa_END0.LE_I0
+X1Y4.J2MID_EFa_END2.LF_I2
+X1Y4.J_l_GH_END3.LG_I3
+X1Y4.J_l_GH_END3.LH_I3
+X1Y4.JN2END5.J2MID_EFa_BEG0
+X1Y4.JS2END5.J2MID_EFa_BEG2
+X1Y4.LH_O.JN2BEG5
+X1Y4.LH_O.JS2BEG5
+X1Y4.LH_O.JW2BEG4
+X1Y4.JW2END4.J_l_GH_BEG3
+X1Y4.S1BEG3.S1END3
+X1Y4.J2MID_EFa_BEG0.J2MID_EFa_END0
+X1Y4.J2MID_EFa_BEG2.J2MID_EFa_END2
+X1Y4.JN2BEG5.JN2END5
+X1Y4.JS2BEG5.JS2END5
+X1Y4.JW2BEG4.JW2END4
+X1Y4.J_l_GH_BEG3.J_l_GH_END3
+X1Y5.JS2END6.S2BEG6
+X1Y5.J2MID_GHa_END1.LH_I1
+X1Y5.JE2END6.J2MID_GHa_BEG1
+X1Y5.S1END3.JE2BEG6
+X1Y5.S1END3.JS2BEG6
+X1Y5.S2BEG6.S2MID6
+X1Y5.J2MID_GHa_BEG1.J2MID_GHa_END1
+X1Y5.JE2BEG6.JE2END6
+X1Y5.JS2BEG6.JS2END6
+X1Y6.J2MID_ABa_END0.LA_I0
+X1Y6.J2MID_GHa_END0.LG_I0
+X1Y6.S2MID6.J2MID_ABa_BEG0
+X1Y6.S2MID6.J2MID_GHa_BEG0
+X1Y6.J2MID_ABa_BEG0.J2MID_ABa_END0
+X1Y6.J2MID_GHa_BEG0.J2MID_GHa_END0
+
+# routing for net 'top_i.test_wr_en'
+
+X0Y2.W6END10.E6BEG1
+X0Y2.E6BEG1.E6END1
+X1Y2.W1END3.W6BEG0
+X1Y2.J_l_AB_END2.LA_I2
+X1Y2.J2MID_CDa_END2.LD_I2
+X1Y2.JS2END4.J2MID_CDa_BEG2
+X1Y2.W1END3.JS2BEG4
+X1Y2.E6END1.J_l_AB_BEG2
+X1Y2.W6BEG0.W6END10
+X1Y2.J2MID_CDa_BEG2.J2MID_CDa_END2
+X1Y2.JS2BEG4.JS2END4
+X1Y2.J_l_AB_BEG2.J_l_AB_END2
+X2Y2.J_l_AB_END0.S1BEG3
+X2Y2.J_l_AB_END0.W1BEG3
+X2Y2.NN4END3.J_l_AB_BEG0
+X2Y2.S1BEG3.S1END3
+X2Y2.W1BEG3.W1END3
+X2Y2.J_l_AB_BEG0.J_l_AB_END0
+X1Y3.J2MID_EFb_END1.LE_I1
+X1Y3.W2MID3.J2MID_EFb_BEG1
+X1Y3.J2MID_EFb_BEG1.J2MID_EFb_END1
+X2Y3.JE2END6.E2BEG6
+X2Y3.JW2END3.W2BEG3
+X2Y3.S1END3.JE2BEG6
+X2Y3.N2END4.JW2BEG3
+X2Y3.NN4END7.NN4BEG7
+X2Y3.NN4BEG7.NN4END3
+X2Y3.E2BEG6.E2MID6
+X2Y3.W2BEG3.W2MID3
+X2Y3.JE2BEG6.JE2END6
+X2Y3.JW2BEG3.JW2END3
+X3Y3.E2MID6.E2BEGb6
+X3Y3.E2BEGb6.E2END6
+X4Y3.J2END_CD_END0.LC_I0
+X4Y3.E2END6.J2END_CD_BEG0
+X4Y3.J2END_CD_BEG0.J2END_CD_END0
+X0Y4.WW4END11.E2BEG4
+X0Y4.E2BEG4.E2MID4
+X1Y4.J2MID_ABa_END2.LA_I2
+X1Y4.E2MID4.J2MID_ABa_BEG2
+X1Y4.WW4END15.WW4BEG15
+X1Y4.WW4BEG15.WW4END11
+X1Y4.J2MID_ABa_BEG2.J2MID_ABa_END2
+X2Y4.N2MID4.N2BEGb4
+X2Y4.J2MID_EFa_END2.WW4BEG3
+X2Y4.J2MID_EFa_END2.LE_I2
+X2Y4.J2MID_EFa_END2.LF_I2
+X2Y4.J2MID_GHa_END2.LG_I2
+X2Y4.N2MID4.J2MID_EFa_BEG2
+X2Y4.JS2END6.J2MID_GHa_BEG2
+X2Y4.N1END3.JS2BEG6
+X2Y4.N2BEGb4.N2END4
+X2Y4.NN4END11.NN4BEG11
+X2Y4.NN4BEG11.NN4END7
+X2Y4.WW4BEG3.WW4END15
+X2Y4.J2MID_EFa_BEG2.J2MID_EFa_END2
+X2Y4.J2MID_GHa_BEG2.J2MID_GHa_END2
+X2Y4.JS2BEG6.JS2END6
+X2Y5.JW2END2.N1BEG3
+X2Y5.JN2END4.N2BEG4
+X2Y5.JE2END2.E2BEG2
+X2Y5.J2MID_EFb_END0.LF_I0
+X2Y5.N2MID7.J2MID_EFb_BEG0
+X2Y5.N1END1.JN2BEG4
+X2Y5.N1END1.JE2BEG2
+X2Y5.N1END1.JW2BEG2
+X2Y5.N1BEG3.N1END3
+X2Y5.N2BEG4.N2MID4
+X2Y5.NN4END15.NN4BEG15
+X2Y5.NN4BEG15.NN4END11
+X2Y5.E2BEG2.E2MID2
+X2Y5.J2MID_EFb_BEG0.J2MID_EFb_END0
+X2Y5.JN2BEG4.JN2END4
+X2Y5.JE2BEG2.JE2END2
+X2Y5.JW2BEG2.JW2END2
+X3Y5.E2MID2.E2BEGb2
+X3Y5.E2BEGb2.E2END2
+X4Y5.J2END_AB_END1.LA_I1
+X4Y5.E2END2.J2END_AB_BEG1
+X4Y5.J2END_AB_BEG1.J2END_AB_END1
+X2Y6.LD_O.N1BEG1
+X2Y6.JN2END7.N2BEG7
+X2Y6.LD_O.NN4BEG3
+X2Y6.LD_O.E1BEG0
+X2Y6.JE2END5.E2BEG5
+X2Y6.J2MID_GHa_END0.LH_I0
+X2Y6.JN2END6.J2MID_GHa_BEG0
+X2Y6.LD_O.JN2BEG6
+X2Y6.LD_O.JN2BEG7
+X2Y6.LD_O.JE2BEG5
+X2Y6.N1BEG1.N1END1
+X2Y6.N2BEG7.N2MID7
+X2Y6.NN4BEG3.NN4END15
+X2Y6.E1BEG0.E1END0
+X2Y6.E2BEG5.E2MID5
+X2Y6.J2MID_GHa_BEG0.J2MID_GHa_END0
+X2Y6.JN2BEG6.JN2END6
+X2Y6.JN2BEG7.JN2END7
+X2Y6.JE2BEG5.JE2END5
+X3Y6.JE2END7.E2BEG7
+X3Y6.E2MID5.E2BEGb5
+X3Y6.E1END0.JE2BEG7
+X3Y6.E2BEG7.E2MID7
+X3Y6.E2BEGb5.E2END5
+X3Y6.JE2BEG7.JE2END7
+X4Y6.J2MID_CDa_END2.LD_I2
+X4Y6.J2MID_GHb_END0.LH_I0
+X4Y6.JS2END4.J2MID_CDa_BEG2
+X4Y6.E2MID7.J2MID_GHb_BEG0
+X4Y6.E2END5.JS2BEG4
+X4Y6.J2MID_CDa_BEG2.J2MID_CDa_END2
+X4Y6.J2MID_GHb_BEG0.J2MID_GHb_END0
+X4Y6.JS2BEG4.JS2END4
+
+# routing for net '$abc$2156$top_i.uart_test.tx_ready_new'
+
+X1Y2.J2MID_ABa_END0.LA_I0
+X1Y2.J2MID_CDb_END0.LD_I0
+X1Y2.J2MID_EFa_END0.LE_I0
+X1Y2.N2MID6.J2MID_ABa_BEG0
+X1Y2.N2MID6.J2MID_EFa_BEG0
+X1Y2.N2MID7.J2MID_CDb_BEG0
+X1Y2.J2MID_ABa_BEG0.J2MID_ABa_END0
+X1Y2.J2MID_EFa_BEG0.J2MID_EFa_END0
+X1Y2.J2MID_CDb_BEG0.J2MID_CDb_END0
+X4Y2.J_l_GH_END3.LH_I3
+X4Y2.N1END1.JW2BEG4
+X4Y2.JW2END4.J_l_GH_BEG3
+X4Y2.JW2BEG4.JW2END4
+X4Y2.J_l_GH_BEG3.J_l_GH_END3
+X1Y3.JN2END6.N2BEG6
+X1Y3.JN2END7.N2BEG7
+X1Y3.JE2END0.E2BEG0
+X1Y3.J2MID_EFa_END2.LE_I2
+X1Y3.N2MID4.J2MID_EFa_BEG2
+X1Y3.N1END3.JN2BEG6
+X1Y3.N1END0.JN2BEG7
+X1Y3.N1END3.JE2BEG0
+X1Y3.N2BEG6.N2MID6
+X1Y3.N2BEG7.N2MID7
+X1Y3.E2BEG0.E2MID0
+X1Y3.J2MID_EFa_BEG2.J2MID_EFa_END2
+X1Y3.JN2BEG6.JN2END6
+X1Y3.JN2BEG7.JN2END7
+X1Y3.JE2BEG0.JE2END0
+X2Y3.J2MID_GHb_END1.E1BEG2
+X2Y3.E2MID0.E2BEGb0
+X2Y3.N2MID3.J2MID_GHb_BEG1
+X2Y3.E1BEG2.E1END2
+X2Y3.E2BEGb0.E2END0
+X2Y3.J2MID_GHb_BEG1.J2MID_GHb_END1
+X3Y3.JE2END5.E2BEG5
+X3Y3.JE2END7.E2BEG7
+X3Y3.E1END2.JE2BEG5
+X3Y3.E2END0.JE2BEG7
+X3Y3.E2BEG5.E2MID5
+X3Y3.E2BEG7.E2MID7
+X3Y3.JE2BEG5.JE2END5
+X3Y3.JE2BEG7.JE2END7
+X4Y3.J2MID_EFb_END0.N1BEG1
+X4Y3.W1END1.SS4BEG3
+X4Y3.J2MID_CDb_END2.LC_I2
+X4Y3.E2MID5.J2MID_CDb_BEG2
+X4Y3.E2MID7.J2MID_EFb_BEG0
+X4Y3.N1BEG1.N1END1
+X4Y3.SS4BEG3.SS4END15
+X4Y3.J2MID_CDb_BEG2.J2MID_CDb_END2
+X4Y3.J2MID_EFb_BEG0.J2MID_EFb_END0
+X5Y3.J2MID_EFb_END0.W1BEG1
+X5Y3.N2MID7.J2MID_EFb_BEG0
+X5Y3.W1BEG1.W1END1
+X5Y3.J2MID_EFb_BEG0.J2MID_EFb_END0
+X1Y4.JW2END3.N1BEG0
+X1Y4.LF_O.N1BEG3
+X1Y4.JN2END4.N2BEG4
+X1Y4.LF_O.E1BEG2
+X1Y4.JE2END3.E2BEG3
+X1Y4.LF_O.EE4BEG0
+X1Y4.JS2END0.S2BEG0
+X1Y4.J2MID_ABa_END1.LA_I1
+X1Y4.JE2END3.J2MID_ABa_BEG1
+X1Y4.LF_O.JN2BEG4
+X1Y4.LF_O.JE2BEG3
+X1Y4.LF_O.JS2BEG0
+X1Y4.LF_O.JW2BEG3
+X1Y4.N1BEG0.N1END0
+X1Y4.N1BEG3.N1END3
+X1Y4.N2BEG4.N2MID4
+X1Y4.E1BEG2.E1END2
+X1Y4.E2BEG3.E2MID3
+X1Y4.EE4BEG0.EE4END12
+X1Y4.S2BEG0.S2MID0
+X1Y4.J2MID_ABa_BEG1.J2MID_ABa_END1
+X1Y4.JN2BEG4.JN2END4
+X1Y4.JE2BEG3.JE2END3
+X1Y4.JS2BEG0.JS2END0
+X1Y4.JW2BEG3.JW2END3
+X2Y4.JN2END3.N2BEG3
+X2Y4.JS2END3.S2BEG3
+X2Y4.JS2END5.S2BEG5
+X2Y4.J2MID_EFa_END0.LE_I0
+X2Y4.J2MID_EFa_END3.LF_I3
+X2Y4.J2MID_GHb_END1.LG_I1
+X2Y4.JN2END5.J2MID_EFa_BEG0
+X2Y4.JW2END5.J2MID_EFa_BEG3
+X2Y4.E2MID3.J2MID_GHb_BEG1
+X2Y4.E1END2.JN2BEG3
+X2Y4.E1END2.JN2BEG5
+X2Y4.E1END2.JS2BEG3
+X2Y4.E1END2.JS2BEG5
+X2Y4.E1END2.JW2BEG5
+X2Y4.N2BEG3.N2MID3
+X2Y4.EE4END12.EE4BEG12
+X2Y4.EE4BEG12.EE4END8
+X2Y4.S2BEG3.S2MID3
+X2Y4.S2BEG5.S2MID5
+X2Y4.J2MID_EFa_BEG0.J2MID_EFa_END0
+X2Y4.J2MID_EFa_BEG3.J2MID_EFa_END3
+X2Y4.J2MID_GHb_BEG1.J2MID_GHb_END1
+X2Y4.JN2BEG3.JN2END3
+X2Y4.JN2BEG5.JN2END5
+X2Y4.JS2BEG3.JS2END3
+X2Y4.JS2BEG5.JS2END5
+X2Y4.JW2BEG5.JW2END5
+X3Y4.EE4END8.EE4BEG8
+X3Y4.EE4BEG8.EE4END4
+X4Y4.EE4END4.EE4BEG4
+X4Y4.EE4BEG4.EE4END0
+X4Y4.SS4END15.SS4BEG15
+X4Y4.SS4BEG15.SS4END11
+X5Y4.JN2END7.N2BEG7
+X5Y4.EE4END0.JN2BEG7
+X5Y4.N2BEG7.N2MID7
+X5Y4.JN2BEG7.JN2END7
+X1Y5.S2MID0.S2BEGb0
+X1Y5.S2BEGb0.S2END0
+X2Y5.J2MID_GHb_END1.E1BEG2
+X2Y5.S2MID3.S2BEGb3
+X2Y5.S2MID5.S2BEGb5
+X2Y5.J2MID_EFb_END1.LF_I1
+X2Y5.S2MID3.J2MID_EFb_BEG1
+X2Y5.S2MID3.J2MID_GHb_BEG1
+X2Y5.E1BEG2.E1END2
+X2Y5.S2BEGb3.S2END3
+X2Y5.S2BEGb5.S2END5
+X2Y5.J2MID_EFb_BEG1.J2MID_EFb_END1
+X2Y5.J2MID_GHb_BEG1.J2MID_GHb_END1
+X3Y5.JE2END5.E2BEG5
+X3Y5.E1END2.JE2BEG5
+X3Y5.E2BEG5.E2MID5
+X3Y5.JE2BEG5.JE2END5
+X4Y5.J2MID_ABb_END2.LA_I2
+X4Y5.J2MID_EFb_END2.LF_I2
+X4Y5.E2MID5.J2MID_ABb_BEG2
+X4Y5.E2MID5.J2MID_EFb_BEG2
+X4Y5.SS4END11.SS4BEG11
+X4Y5.SS4BEG11.SS4END7
+X4Y5.J2MID_ABb_BEG2.J2MID_ABb_END2
+X4Y5.J2MID_EFb_BEG2.J2MID_EFb_END2
+X1Y6.J2END_CD_END3.LC_I3
+X1Y6.S2END0.J2END_CD_BEG3
+X1Y6.J2END_CD_BEG3.J2END_CD_END3
+X2Y6.JE2END2.E2BEG2
+X2Y6.J2END_GH_END2.LH_I2
+X2Y6.S2END5.J2END_GH_BEG2
+X2Y6.S2END3.JE2BEG2
+X2Y6.E2BEG2.E2MID2
+X2Y6.J2END_GH_BEG2.J2END_GH_END2
+X2Y6.JE2BEG2.JE2END2
+X3Y6.E2MID2.E2BEGb2
+X3Y6.E2BEGb2.E2END2
+X4Y6.JE2END0.S1BEG1
+X4Y6.J2END_CD_END1.LD_I1
+X4Y6.J2MID_EFa_END2.LE_I2
+X4Y6.J2MID_GHa_END1.LH_I1
+X4Y6.N2MID4.J2MID_EFa_BEG2
+X4Y6.JE2END6.J2MID_GHa_BEG1
+X4Y6.E2END2.J2END_CD_BEG1
+X4Y6.N1END3.JE2BEG0
+X4Y6.N1END3.JE2BEG6
+X4Y6.S1BEG1.S1END1
+X4Y6.SS4END7.SS4BEG7
+X4Y6.SS4BEG7.SS4END3
+X4Y6.J2MID_EFa_BEG2.J2MID_EFa_END2
+X4Y6.J2MID_GHa_BEG1.J2MID_GHa_END1
+X4Y6.J2END_CD_BEG1.J2END_CD_END1
+X4Y6.JE2BEG0.JE2END0
+X4Y6.JE2BEG6.JE2END6
+X4Y7.JW2END2.N1BEG3
+X4Y7.JN2END4.N2BEG4
+X4Y7.S1END1.JN2BEG4
+X4Y7.SS4END3.JW2BEG2
+X4Y7.N1BEG3.N1END3
+X4Y7.N2BEG4.N2MID4
+X4Y7.JN2BEG4.JN2END4
+X4Y7.JW2BEG2.JW2END2
+
+# routing for net '$abc$2156$auto$rtlil.cc:3209:MuxGate$2094'
+
+
+# routing for net '$auto$ff.cc:704:flip_bits$2095'
+
+X1Y0.N1END2.S1BEG1
+X1Y0.S1BEG1.S1END1
+X1Y1.J_l_GH_END3.N1BEG2
+X1Y1.J_l_GH_END3.E1BEG2
+X1Y1.JE2END2.E2BEG2
+X1Y1.JE2END4.E2BEG4
+X1Y1.J_l_GH_END3.S1BEG2
+X1Y1.J2END_AB_END1.LA_I1
+X1Y1.J_l_GH_END3.LH_I3
+X1Y1.NN4END0.J2END_AB_BEG1
+X1Y1.N1END1.JE2BEG2
+X1Y1.S1END1.JE2BEG4
+X1Y1.NN4END0.J_l_GH_BEG3
+X1Y1.N1BEG2.N1END2
+X1Y1.E1BEG2.E1END2
+X1Y1.E2BEG2.E2MID2
+X1Y1.E2BEG4.E2MID4
+X1Y1.S1BEG2.S1END2
+X1Y1.J2END_AB_BEG1.J2END_AB_END1
+X1Y1.JE2BEG2.JE2END2
+X1Y1.JE2BEG4.JE2END4
+X1Y1.J_l_GH_BEG3.J_l_GH_END3
+X2Y1.JE2END5.E2BEG5
+X2Y1.J2END_AB_END1.LB_I1
+X2Y1.J2MID_EFa_END1.LF_I1
+X2Y1.J2MID_GHa_END2.LH_I2
+X2Y1.E2MID2.J2MID_EFa_BEG1
+X2Y1.E2MID4.J2MID_GHa_BEG2
+X2Y1.NN4END0.J2END_AB_BEG1
+X2Y1.E1END2.JE2BEG5
+X2Y1.E2BEG5.E2MID5
+X2Y1.J2MID_EFa_BEG1.J2MID_EFa_END1
+X2Y1.J2MID_GHa_BEG2.J2MID_GHa_END2
+X2Y1.J2END_AB_BEG1.J2END_AB_END1
+X2Y1.JE2BEG5.JE2END5
+X3Y1.E2MID5.E2BEGb5
+X3Y1.E2BEGb5.E2END5
+X4Y1.JS2END4.S2BEG4
+X4Y1.J2MID_CDa_END2.LC_I2
+X4Y1.J2MID_CDa_END2.LD_I2
+X4Y1.J2END_EF_END2.LF_I2
+X4Y1.JS2END4.J2MID_CDa_BEG2
+X4Y1.E2END5.J2END_EF_BEG2
+X4Y1.E2END5.JS2BEG4
+X4Y1.S2BEG4.S2MID4
+X4Y1.J2MID_CDa_BEG2.J2MID_CDa_END2
+X4Y1.J2END_EF_BEG2.J2END_EF_END2
+X4Y1.JS2BEG4.JS2END4
+X0Y2.WW4END12.E2BEGb3
+X0Y2.E2BEGb3.E2END3
+X1Y2.JW2END0.N1BEG1
+X1Y2.JE2END0.E2BEG0
+X1Y2.S1END2.WW4BEG0
+X1Y2.J2MID_EFa_END2.LF_I2
+X1Y2.J2END_GH_END1.LH_I1
+X1Y2.JS2END5.J2MID_EFa_BEG2
+X1Y2.E2END3.J2END_GH_BEG1
+X1Y2.N1END3.JE2BEG0
+X1Y2.N2END6.JS2BEG5
+X1Y2.N1END3.JW2BEG0
+X1Y2.N1BEG1.N1END1
+X1Y2.NN4END4.NN4BEG4
+X1Y2.NN4BEG4.NN4END0
+X1Y2.E2BEG0.E2MID0
+X1Y2.WW4BEG0.WW4END12
+X1Y2.J2MID_EFa_BEG2.J2MID_EFa_END2
+X1Y2.J2END_GH_BEG1.J2END_GH_END1
+X1Y2.JE2BEG0.JE2END0
+X1Y2.JS2BEG5.JS2END5
+X1Y2.JW2BEG0.JW2END0
+X2Y2.J2MID_ABa_END3.LA_I3
+X2Y2.E2MID0.J2MID_ABa_BEG3
+X2Y2.NN4END4.NN4BEG4
+X2Y2.NN4BEG4.NN4END0
+X2Y2.J2MID_ABa_BEG3.J2MID_ABa_END3
+X4Y2.J2MID_GHa_END2.LH_I2
+X4Y2.S2MID4.J2MID_GHa_BEG2
+X4Y2.J2MID_GHa_BEG2.J2MID_GHa_END2
+X0Y3.WW4END15.E2BEGb0
+X0Y3.E2BEGb0.E2END0
+X1Y3.JW2END2.N1BEG3
+X1Y3.N2MID6.N2BEGb6
+X1Y3.JE2END2.E2BEG2
+X1Y3.JE2END7.E2BEG7
+X1Y3.N1END1.WW4BEG3
+X1Y3.J2MID_ABa_END0.LB_I0
+X1Y3.J2MID_EFa_END0.LE_I0
+X1Y3.J2MID_GHa_END0.LH_I0
+X1Y3.N2MID6.J2MID_ABa_BEG0
+X1Y3.N2MID6.J2MID_EFa_BEG0
+X1Y3.N2MID6.J2MID_GHa_BEG0
+X1Y3.N1END1.JE2BEG2
+X1Y3.E2END0.JE2BEG7
+X1Y3.N1END1.JW2BEG2
+X1Y3.N1BEG3.N1END3
+X1Y3.N2BEGb6.N2END6
+X1Y3.NN4END8.NN4BEG8
+X1Y3.NN4BEG8.NN4END4
+X1Y3.E2BEG2.E2MID2
+X1Y3.E2BEG7.E2MID7
+X1Y3.WW4BEG3.WW4END15
+X1Y3.J2MID_ABa_BEG0.J2MID_ABa_END0
+X1Y3.J2MID_EFa_BEG0.J2MID_EFa_END0
+X1Y3.J2MID_GHa_BEG0.J2MID_GHa_END0
+X1Y3.JE2BEG2.JE2END2
+X1Y3.JE2BEG7.JE2END7
+X1Y3.JW2BEG2.JW2END2
+X2Y3.J2MID_CDa_END1.LC_I1
+X2Y3.J2MID_EFa_END1.LF_I1
+X2Y3.J2MID_GHb_END0.LH_I0
+X2Y3.E2MID2.J2MID_CDa_BEG1
+X2Y3.E2MID2.J2MID_EFa_BEG1
+X2Y3.E2MID7.J2MID_GHb_BEG0
+X2Y3.NN4END8.NN4BEG8
+X2Y3.NN4BEG8.NN4END4
+X2Y3.J2MID_CDa_BEG1.J2MID_CDa_END1
+X2Y3.J2MID_EFa_BEG1.J2MID_EFa_END1
+X2Y3.J2MID_GHb_BEG0.J2MID_GHb_END0
+X3Y3.J2MID_EFb_END0.E1BEG1
+X3Y3.N2MID7.J2MID_EFb_BEG0
+X3Y3.E1BEG1.E1END1
+X3Y3.J2MID_EFb_BEG0.J2MID_EFb_END0
+X4Y3.JN2END2.E1BEG3
+X4Y3.J2MID_ABa_END0.LA_I0
+X4Y3.J2MID_ABa_END0.LB_I0
+X4Y3.J2MID_EFa_END0.LF_I0
+X4Y3.W2MID6.J2MID_ABa_BEG0
+X4Y3.W2MID6.J2MID_EFa_BEG0
+X4Y3.E1END1.JN2BEG2
+X4Y3.E1BEG3.E1END3
+X4Y3.J2MID_ABa_BEG0.J2MID_ABa_END0
+X4Y3.J2MID_EFa_BEG0.J2MID_EFa_END0
+X4Y3.JN2BEG2.JN2END2
+X5Y3.JW2END6.W2BEG6
+X5Y3.E1END3.JW2BEG6
+X5Y3.W2BEG6.W2MID6
+X5Y3.JW2BEG6.JW2END6
+X1Y4.JW2END0.N1BEG1
+X1Y4.JN2END6.N2BEG6
+X1Y4.JE2END0.E2BEG0
+X1Y4.JE2END6.E2BEG6
+X1Y4.J2MID_ABa_END0.LB_I0
+X1Y4.J2MID_CDa_END2.LD_I2
+X1Y4.J2MID_GHa_END0.LH_I0
+X1Y4.N2MID6.J2MID_ABa_BEG0
+X1Y4.N2MID4.J2MID_CDa_BEG2
+X1Y4.JN2END6.J2MID_GHa_BEG0
+X1Y4.N1END3.JN2BEG6
+X1Y4.N1END3.JE2BEG0
+X1Y4.N1END3.JE2BEG6
+X1Y4.N1END3.JW2BEG0
+X1Y4.N1BEG1.N1END1
+X1Y4.N2BEG6.N2MID6
+X1Y4.NN4END12.NN4BEG12
+X1Y4.NN4BEG12.NN4END8
+X1Y4.E2BEG0.E2MID0
+X1Y4.E2BEG6.E2MID6
+X1Y4.J2MID_ABa_BEG0.J2MID_ABa_END0
+X1Y4.J2MID_CDa_BEG2.J2MID_CDa_END2
+X1Y4.J2MID_GHa_BEG0.J2MID_GHa_END0
+X1Y4.JN2BEG6.JN2END6
+X1Y4.JE2BEG0.JE2END0
+X1Y4.JE2BEG6.JE2END6
+X1Y4.JW2BEG0.JW2END0
+X2Y4.E2MID0.E2BEGb0
+X2Y4.J2MID_CDa_END0.LC_I0
+X2Y4.J2MID_CDb_END1.LD_I1
+X2Y4.E2MID6.J2MID_CDa_BEG0
+X2Y4.N2MID3.J2MID_CDb_BEG1
+X2Y4.NN4END12.NN4BEG12
+X2Y4.NN4BEG12.NN4END8
+X2Y4.E2BEGb0.E2END0
+X2Y4.J2MID_CDa_BEG0.J2MID_CDa_END0
+X2Y4.J2MID_CDb_BEG1.J2MID_CDb_END1
+X3Y4.JN2END7.N2BEG7
+X3Y4.JE2END7.E2BEG7
+X3Y4.E2END0.JN2BEG7
+X3Y4.E2END0.JE2BEG7
+X3Y4.N2BEG7.N2MID7
+X3Y4.E2BEG7.E2MID7
+X3Y4.JN2BEG7.JN2END7
+X3Y4.JE2BEG7.JE2END7
+X4Y4.J2MID_EFb_END0.E1BEG1
+X4Y4.J2MID_ABb_END0.LB_I0
+X4Y4.J2MID_CDb_END2.LC_I2
+X4Y4.J2MID_GHa_END1.LG_I1
+X4Y4.JE2END6.J2MID_GHa_BEG1
+X4Y4.E2MID7.J2MID_ABb_BEG0
+X4Y4.N2MID5.J2MID_CDb_BEG2
+X4Y4.E2MID7.J2MID_EFb_BEG0
+X4Y4.W1END3.JE2BEG6
+X4Y4.E1BEG1.E1END1
+X4Y4.J2MID_GHa_BEG1.J2MID_GHa_END1
+X4Y4.J2MID_ABb_BEG0.J2MID_ABb_END0
+X4Y4.J2MID_CDb_BEG2.J2MID_CDb_END2
+X4Y4.J2MID_EFb_BEG0.J2MID_EFb_END0
+X4Y4.JE2BEG6.JE2END6
+X5Y4.JS2END2.W1BEG3
+X5Y4.E1END1.JS2BEG2
+X5Y4.W1BEG3.W1END3
+X5Y4.JS2BEG2.JS2END2
+X1Y5.LF_O.N1BEG3
+X1Y5.JN2END4.N2BEG4
+X1Y5.JN2END6.N2BEG6
+X1Y5.LF_O.NN4BEG0
+X1Y5.LF_O.E1BEG2
+X1Y5.JS2END7.S2BEG7
+X1Y5.J_l_CD_END1.LD_I1
+X1Y5.J_l_EF_END3.LE_I3
+X1Y5.J_l_GH_END0.LG_I0
+X1Y5.LF_O.JN2BEG4
+X1Y5.LF_O.JN2BEG6
+X1Y5.LF_O.JE2BEG2
+X1Y5.LF_O.JS2BEG7
+X1Y5.LF_O.JW2BEG3
+X1Y5.JE2END2.J_l_CD_BEG1
+X1Y5.JW2END3.J_l_EF_BEG3
+X1Y5.JN2END4.J_l_GH_BEG0
+X1Y5.N1BEG3.N1END3
+X1Y5.N2BEG4.N2MID4
+X1Y5.N2BEG6.N2MID6
+X1Y5.NN4BEG0.NN4END12
+X1Y5.E1BEG2.E1END2
+X1Y5.S2BEG7.S2MID7
+X1Y5.JN2BEG4.JN2END4
+X1Y5.JN2BEG6.JN2END6
+X1Y5.JE2BEG2.JE2END2
+X1Y5.JS2BEG7.JS2END7
+X1Y5.JW2BEG3.JW2END3
+X1Y5.J_l_CD_BEG1.J_l_CD_END1
+X1Y5.J_l_EF_BEG3.J_l_EF_END3
+X1Y5.J_l_GH_BEG0.J_l_GH_END0
+X2Y5.JN2END3.N2BEG3
+X2Y5.E1END2.NN4BEG0
+X2Y5.JN2END3.E1BEG0
+X2Y5.JS2END5.S2BEG5
+X2Y5.J2MID_EFa_END2.LE_I2
+X2Y5.JS2END5.J2MID_EFa_BEG2
+X2Y5.E1END2.JN2BEG3
+X2Y5.E1END2.JS2BEG5
+X2Y5.N2BEG3.N2MID3
+X2Y5.NN4BEG0.NN4END12
+X2Y5.E1BEG0.E1END0
+X2Y5.S2BEG5.S2MID5
+X2Y5.J2MID_EFa_BEG2.J2MID_EFa_END2
+X2Y5.JN2BEG3.JN2END3
+X2Y5.JS2BEG5.JS2END5
+X3Y5.JN2END1.E1BEG2
+X3Y5.JE2END7.E2BEG7
+X3Y5.E1END0.JN2BEG1
+X3Y5.E1END0.JE2BEG7
+X3Y5.E1BEG2.E1END2
+X3Y5.E2BEG7.E2MID7
+X3Y5.JN2BEG1.JN2END1
+X3Y5.JE2BEG7.JE2END7
+X4Y5.JN2END5.N2BEG5
+X4Y5.J2MID_GHb_END0.LH_I0
+X4Y5.E2MID7.J2MID_GHb_BEG0
+X4Y5.E1END2.JN2BEG5
+X4Y5.N2BEG5.N2MID5
+X4Y5.J2MID_GHb_BEG0.J2MID_GHb_END0
+X4Y5.JN2BEG5.JN2END5
+X1Y6.J2MID_EFb_END0.LF_I0
+X1Y6.S2MID7.J2MID_EFb_BEG0
+X1Y6.J2MID_EFb_BEG0.J2MID_EFb_END0
+X2Y6.J2MID_ABb_END2.E1BEG3
+X2Y6.J2MID_ABb_END2.LA_I2
+X2Y6.J2MID_ABb_END2.LB_I2
+X2Y6.J2MID_CDb_END2.LC_I2
+X2Y6.J2MID_CDb_END2.LD_I2
+X2Y6.J2MID_EFb_END2.LE_I2
+X2Y6.S2MID5.J2MID_ABb_BEG2
+X2Y6.S2MID5.J2MID_CDb_BEG2
+X2Y6.S2MID5.J2MID_EFb_BEG2
+X2Y6.E1BEG3.E1END3
+X2Y6.J2MID_ABb_BEG2.J2MID_ABb_END2
+X2Y6.J2MID_CDb_BEG2.J2MID_CDb_END2
+X2Y6.J2MID_EFb_BEG2.J2MID_EFb_END2
+X3Y6.JE2END6.E2BEG6
+X3Y6.E1END3.JE2BEG6
+X3Y6.E2BEG6.E2MID6
+X3Y6.JE2BEG6.JE2END6
+X4Y6.J2MID_CDa_END0.LC_I0
+X4Y6.J2MID_EFa_END0.LE_I0
+X4Y6.E2MID6.J2MID_CDa_BEG0
+X4Y6.E2MID6.J2MID_EFa_BEG0
+X4Y6.J2MID_CDa_BEG0.J2MID_CDa_END0
+X4Y6.J2MID_EFa_BEG0.J2MID_EFa_END0
+
+# routing for net '$abc$2156$top_i.uart_test.uart_wr_en_new'
+
+X2Y1.J_l_AB_END1.LA_I1
+X2Y1.J_l_CD_END3.LC_I3
+X2Y1.J2MID_EFa_END2.LE_I2
+X2Y1.N2MID4.J2MID_EFa_BEG2
+X2Y1.N1END0.JE2BEG1
+X2Y1.W2END3.JW2BEG2
+X2Y1.JE2END1.J_l_AB_BEG1
+X2Y1.JW2END2.J_l_CD_BEG3
+X2Y1.J2MID_EFa_BEG2.J2MID_EFa_END2
+X2Y1.JE2BEG1.JE2END1
+X2Y1.JW2BEG2.JW2END2
+X2Y1.J_l_AB_BEG1.J_l_AB_END1
+X2Y1.J_l_CD_BEG3.J_l_CD_END3
+X3Y1.W2MID3.W2BEGb3
+X3Y1.W2BEGb3.W2END3
+X4Y1.JW2END3.W2BEG3
+X4Y1.J2MID_ABa_END3.LA_I3
+X4Y1.J2MID_ABa_END3.LB_I3
+X4Y1.J2MID_CDb_END0.LC_I0
+X4Y1.JW2END3.J2MID_ABa_BEG3
+X4Y1.N2MID7.J2MID_CDb_BEG0
+X4Y1.N1END2.JW2BEG3
+X4Y1.W2BEG3.W2MID3
+X4Y1.J2MID_ABa_BEG3.J2MID_ABa_END3
+X4Y1.J2MID_CDb_BEG0.J2MID_CDb_END0
+X4Y1.JW2BEG3.JW2END3
+X2Y2.J_l_CD_END1.N1BEG0
+X2Y2.JN2END4.N2BEG4
+X2Y2.J_l_AB_END1.LA_I1
+X2Y2.W1END1.JN2BEG4
+X2Y2.W2END7.J_l_AB_BEG1
+X2Y2.W2END7.J_l_CD_BEG1
+X2Y2.N1BEG0.N1END0
+X2Y2.N2BEG4.N2MID4
+X2Y2.JN2BEG4.JN2END4
+X2Y2.J_l_AB_BEG1.J_l_AB_END1
+X2Y2.J_l_CD_BEG1.J_l_CD_END1
+X3Y2.J2MID_EFb_END0.W1BEG1
+X3Y2.W2MID7.W2BEGb7
+X3Y2.W2MID7.J2MID_EFb_BEG0
+X3Y2.W1BEG1.W1END1
+X3Y2.W2BEGb7.W2END7
+X3Y2.J2MID_EFb_BEG0.J2MID_EFb_END0
+X4Y2.JW2END1.N1BEG2
+X4Y2.JN2END7.N2BEG7
+X4Y2.JW2END7.W2BEG7
+X4Y2.J2MID_CDb_END1.LC_I1
+X4Y2.N2MID3.J2MID_CDb_BEG1
+X4Y2.N1END0.JN2BEG7
+X4Y2.N1END0.JW2BEG1
+X4Y2.N1END0.JW2BEG7
+X4Y2.N1BEG2.N1END2
+X4Y2.N2BEG7.N2MID7
+X4Y2.W2BEG7.W2MID7
+X4Y2.J2MID_CDb_BEG1.J2MID_CDb_END1
+X4Y2.JN2BEG7.JN2END7
+X4Y2.JW2BEG1.JW2END1
+X4Y2.JW2BEG7.JW2END7
+X2Y3.J2END_CD_END3.LC_I3
+X2Y3.J2MID_EFb_END0.LF_I0
+X2Y3.J_l_GH_END3.LH_I3
+X2Y3.W2MID7.J2MID_EFb_BEG0
+X2Y3.W2END0.J2END_CD_BEG3
+X2Y3.W2END0.J_l_GH_BEG3
+X2Y3.J2MID_EFb_BEG0.J2MID_EFb_END0
+X2Y3.J2END_CD_BEG3.J2END_CD_END3
+X2Y3.J_l_GH_BEG3.J_l_GH_END3
+X3Y3.JW2END7.W2BEG7
+X3Y3.W2MID0.W2BEGb0
+X3Y3.W1END0.JW2BEG7
+X3Y3.W2BEG7.W2MID7
+X3Y3.W2BEGb0.W2END0
+X3Y3.JW2BEG7.JW2END7
+X4Y3.LC_O.N1BEG0
+X4Y3.JN2END3.N2BEG3
+X4Y3.JS2END3.S2BEG3
+X4Y3.JS2END6.S2BEG6
+X4Y3.LC_O.SS4BEG2
+X4Y3.JS2END3.W1BEG0
+X4Y3.JW2END0.W2BEG0
+X4Y3.J2MID_ABa_END2.LA_I2
+X4Y3.J_l_EF_END2.LF_I2
+X4Y3.JS2END3.J2MID_ABa_BEG2
+X4Y3.LC_O.JN2BEG3
+X4Y3.LC_O.JS2BEG3
+X4Y3.LC_O.JS2BEG6
+X4Y3.LC_O.JW2BEG0
+X4Y3.JS2END3.J_l_EF_BEG2
+X4Y3.N1BEG0.N1END0
+X4Y3.N2BEG3.N2MID3
+X4Y3.S2BEG3.S2MID3
+X4Y3.S2BEG6.S2MID6
+X4Y3.SS4BEG2.SS4END14
+X4Y3.W1BEG0.W1END0
+X4Y3.W2BEG0.W2MID0
+X4Y3.J2MID_ABa_BEG2.J2MID_ABa_END2
+X4Y3.JN2BEG3.JN2END3
+X4Y3.JS2BEG3.JS2END3
+X4Y3.JS2BEG6.JS2END6
+X4Y3.JW2BEG0.JW2END0
+X4Y3.J_l_EF_BEG2.J_l_EF_END2
+X4Y4.J2MID_ABb_END1.LB_I1
+X4Y4.J2MID_CDb_END1.LC_I1
+X4Y4.J2MID_GHa_END0.LG_I0
+X4Y4.S2MID6.J2MID_GHa_BEG0
+X4Y4.S2MID3.J2MID_ABb_BEG1
+X4Y4.S2MID3.J2MID_CDb_BEG1
+X4Y4.SS4END14.SS4BEG14
+X4Y4.SS4BEG14.SS4END10
+X4Y4.J2MID_GHa_BEG0.J2MID_GHa_END0
+X4Y4.J2MID_ABb_BEG1.J2MID_ABb_END1
+X4Y4.J2MID_CDb_BEG1.J2MID_CDb_END1
+X4Y5.SS4END10.SS4BEG10
+X4Y5.SS4BEG10.SS4END6
+X2Y6.J2MID_CDa_END0.LC_I0
+X2Y6.JN2END4.J2MID_CDa_BEG0
+X2Y6.W1END3.JN2BEG4
+X2Y6.J2MID_CDa_BEG0.J2MID_CDa_END0
+X2Y6.JN2BEG4.JN2END4
+X3Y6.J2MID_ABb_END2.W1BEG3
+X3Y6.N2MID5.J2MID_ABb_BEG2
+X3Y6.W1BEG3.W1END3
+X3Y6.J2MID_ABb_BEG2.J2MID_ABb_END2
+X4Y6.SS4END6.SS4BEG6
+X4Y6.SS4BEG6.SS4END2
+X3Y7.JN2END5.N2BEG5
+X3Y7.W1END2.JN2BEG5
+X3Y7.N2BEG5.N2MID5
+X3Y7.JN2BEG5.JN2END5
+X4Y7.JS2END1.W1BEG2
+X4Y7.SS4END2.JS2BEG1
+X4Y7.W1BEG2.W1END2
+X4Y7.JS2BEG1.JS2END1
+
+# routing for net 'top_i.uart_test.shift_reg[3]'
+
+X1Y6.J2MID_CDb_END3.LD_I3
+X1Y6.W2MID1.J2MID_CDb_BEG3
+X1Y6.J2MID_CDb_BEG3.J2MID_CDb_END3
+X2Y6.JW2END1.W2BEG1
+X2Y6.J2MID_CDa_END1.LC_I1
+X2Y6.JE2END4.J2MID_CDa_BEG1
+X2Y6.LC_O.JE2BEG4
+X2Y6.LC_O.JW2BEG1
+X2Y6.W2BEG1.W2MID1
+X2Y6.J2MID_CDa_BEG1.J2MID_CDa_END1
+X2Y6.JE2BEG4.JE2END4
+X2Y6.JW2BEG1.JW2END1
+
+# routing for net 'top_i.test_wdata[10]'
+
+X2Y6.J_l_CD_END3.LC_I3
+X2Y6.J_l_EF_END0.LE_I0
+X2Y6.LE_O.JN2BEG3
+X2Y6.LE_O.JW2BEG2
+X2Y6.JW2END2.J_l_CD_BEG3
+X2Y6.JN2END3.J_l_EF_BEG0
+X2Y6.JN2BEG3.JN2END3
+X2Y6.JW2BEG2.JW2END2
+X2Y6.J_l_CD_BEG3.J_l_CD_END3
+X2Y6.J_l_EF_BEG0.J_l_EF_END0
+
+# config for cell 'op116_i'
+
+
+# config for cell 'op114_i'
+
+
+# config for cell 'op113_i'
+
+
+# config for cell 'op112_i'
+
+
+# config for cell 'op111_i'
+
+
+# config for cell 'op110_i'
+
+
+# config for cell 'op48_i'
+
+
+# config for cell 'op47_i'
+
+
+# config for cell 'op46_i'
+
+
+# config for cell 'op45_i'
+
+
+# config for cell 'op10_i'
+
+
+# config for cell 'op109_i'
+
+
+# config for cell 'op108_i'
+
+
+# config for cell 'op106_i'
+
+
+# config for cell 'op104_i'
+
+
+# config for cell 'op102_i'
+
+
+# config for cell 'op100_i'
+
+
+# config for cell 'op44_i'
+
+
+# config for cell 'op43_i'
+
+
+# config for cell 'op42_i'
+
+
+# config for cell 'op40_i'
+
+
+# config for cell 'op0_i'
+
+
+# config for cell 'ip9_i'
+
+
+# config for cell 'ip99_i'
+
+
+# config for cell 'ip97_i'
+
+
+# config for cell 'ip95_i'
+
+
+# config for cell 'ip93_i'
+
+
+# config for cell 'ip85_i'
+
+
+# config for cell 'ip83_i'
+
+
+# config for cell 'ip81_i'
+
+
+# config for cell 'ip7_i'
+
+
+# config for cell 'ip79_i'
+
+
+# config for cell 'ip77_i'
+
+
+# config for cell 'ip75_i'
+
+
+# config for cell 'ip73_i'
+
+
+# config for cell 'ip71_i'
+
+
+# config for cell 'ip63_i'
+
+
+# config for cell 'ip61_i'
+
+
+# config for cell 'ip5_i'
+
+
+# config for cell 'ip59_i'
+
+
+# config for cell 'ip57_i'
+
+
+# config for cell 'ip55_i'
+
+
+# config for cell 'ip53_i'
+
+
+# config for cell 'ip51_i'
+
+
+# config for cell 'ip49_i'
+
+
+# config for cell 'ip41_i'
+
+
+# config for cell 'ip39_i'
+
+
+# config for cell 'ip37_i'
+
+
+# config for cell 'ip35_i'
+
+
+# config for cell 'ip33_i'
+
+
+# config for cell 'ip31_i'
+
+
+# config for cell 'ip29_i'
+
+
+# config for cell 'ip27_i'
+
+
+# config for cell 'ip19_i'
+
+
+# config for cell 'ip17_i'
+
+
+# config for cell 'ip15_i'
+
+
+# config for cell 'ip13_i'
+
+
+# config for cell 'ip129_i'
+
+
+# config for cell 'ip127_i'
+
+
+# config for cell 'ip125_i'
+
+
+# config for cell 'ip123_i'
+
+
+# config for cell 'ip121_i'
+
+
+# config for cell 'ip11_i'
+
+
+# config for cell 'ip119_i'
+
+
+# config for cell 'ip117_i'
+
+
+# config for cell 'ip115_i'
+
+
+# config for cell 'ip107_i'
+
+
+# config for cell 'ip105_i'
+
+
+# config for cell 'ip103_i'
+
+
+# config for cell 'ip101_i'
+
+
+# config for cell 'op8_i'
+
+
+# config for cell 'io9_i'
+
+
+# config for cell 'op89_i'
+
+
+# config for cell 'io8_i'
+
+
+# config for cell 'op88_i'
+
+
+# config for cell 'io7_i'
+
+
+# config for cell 'op87_i'
+
+
+# config for cell 'io6_i'
+
+
+# config for cell 'op3_i'
+
+
+# config for cell 'io5_i'
+
+
+# config for cell 'op38_i'
+
+
+# config for cell 'io4_i'
+
+
+# config for cell 'op36_i'
+
+
+# config for cell 'io3_i'
+
+
+# config for cell 'op34_i'
+
+
+# config for cell 'io2_i'
+
+
+# config for cell 'op32_i'
+
+
+# config for cell 'io23_i'
+
+
+# config for cell 'op30_i'
+
+
+# config for cell 'io22_i'
+
+
+# config for cell 'op86_i'
+
+
+# config for cell 'io21_i'
+
+
+# config for cell 'op84_i'
+
+
+# config for cell 'io20_i'
+
+
+# config for cell 'op82_i'
+
+
+# config for cell 'io1_i'
+
+
+# config for cell 'op80_i'
+
+
+# config for cell 'io19_i'
+
+
+# config for cell 'op2_i'
+
+
+# config for cell 'io18_i'
+
+
+# config for cell 'op28_i'
+
+
+# config for cell 'io17_i'
+
+
+# config for cell 'op26_i'
+
+
+# config for cell 'io16_i'
+
+
+# config for cell 'op25_i'
+
+
+# config for cell 'io15_i'
+
+
+# config for cell 'op24_i'
+
+
+# config for cell 'io14_i'
+
+
+# config for cell 'io13_i'
+
+
+# config for cell 'io12_i'
+
+
+# config for cell 'op23_i'
+
+
+# config for cell 'io11_i'
+
+
+# config for cell 'op22_i'
+
+
+# config for cell 'io10_i'
+
+
+# config for cell 'op78_i'
+
+
+# config for cell 'io0_i'
+
+
+# config for cell 'clk_i'
+
+
+# config for cell '$auto$ff.cc:266:slice$1361'
+
+ # permute phys 2 log 0
+X2Y6.A.INIT[15:0] = 16'b1111000011110000
+X2Y6.A.FF
+
+# config for cell 'op118_i'
+
+
+# config for cell 'op120_i'
+
+
+# config for cell 'op122_i'
+
+
+# config for cell '$auto$ff.cc:266:slice$1357'
+
+ # permute phys 0 log 0
+X1Y5.F.INIT[15:0] = 16'b1010101010101010
+X1Y5.F.FF
+
+# config for cell 'op124_i'
+
+
+# config for cell 'op126_i'
+
+
+# config for cell 'op128_i'
+
+
+# config for cell 'op12_i'
+
+
+# config for cell 'op4_i'
+
+
+# config for cell 'op96_i'
+
+
+# config for cell 'op98_i'
+
+
+# config for cell '$PACKER_VCC_DRV'
+
+
+# config for cell 'op130_i'
+
+
+# config for cell 'op131_i'
+
+
+# config for cell 'op14_i'
+
+
+# config for cell '$PACKER_GND_DRV'
+
+
+# config for cell 'op50_i'
+
+
+# config for cell 'op52_i'
+
+
+# config for cell 'op54_i'
+
+
+# config for cell 'op16_i'
+
+
+# config for cell 'op56_i'
+
+
+# config for cell 'op58_i'
+
+
+# config for cell 'op60_i'
+
+
+# config for cell 'op62_i'
+
+
+# config for cell 'op18_i'
+
+
+# config for cell 'op64_i'
+
+
+# config for cell 'op65_i'
+
+
+# config for cell 'op66_i'
+
+
+# config for cell 'op67_i'
+
+
+# config for cell 'op1_i'
+
+
+# config for cell 'op68_i'
+
+
+# config for cell 'op69_i'
+
+
+# config for cell 'op6_i'
+
+
+# config for cell 'op90_i'
+
+
+# config for cell 'op20_i'
+
+
+# config for cell 'op91_i'
+
+
+# config for cell 'op92_i'
+
+
+# config for cell 'op94_i'
+
+
+# config for cell 'op70_i'
+
+
+# config for cell 'op21_i'
+
+
+# config for cell 'op72_i'
+
+
+# config for cell 'op74_i'
+
+
+# config for cell 'op76_i'
+
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2277'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+ # permute phys 3 log 2
+X4Y6.E.INIT[15:0] = 16'b1000001000001000
+X4Y6.E.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2276'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 3
+ # permute phys 2 log 2
+ # permute phys 3 log 0
+X4Y6.D.INIT[15:0] = 16'b0010111000001100
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2275'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 0
+ # permute phys 2 log 3
+ # permute phys 3 log 1
+X1Y4.H.INIT[15:0] = 16'b1010000000100000
+X1Y4.H.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2274'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 1
+ # permute phys 2 log 2
+ # permute phys 3 log 3
+X1Y4.G.INIT[15:0] = 16'b0000111101110011
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2271'
+
+ # permute phys 3 log 0
+X1Y5.C.INIT[15:0] = 16'b0000000011111111
+X1Y5.C.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2270'
+
+ # permute phys 1 log 0
+X1Y6.E.INIT[15:0] = 16'b0011001100110011
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2269'
+
+ # permute phys 2 log 0
+ # permute phys 3 log 1
+X1Y6.B.INIT[15:0] = 16'b0000111111110000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2268'
+
+ # permute phys 1 log 0
+ # permute phys 3 log 1
+X1Y6.D.INIT[15:0] = 16'b1100110000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2267'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+ # permute phys 3 log 3
+X1Y6.G.INIT[15:0] = 16'b0001010110101010
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2266'
+
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X1Y6.C.INIT[15:0] = 16'b0000000011110000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2265'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 0
+ # permute phys 2 log 1
+ # permute phys 3 log 2
+X1Y6.F.INIT[15:0] = 16'b1010000010001000
+X1Y6.F.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2264'
+
+ # permute phys 0 log 1
+ # permute phys 2 log 2
+ # permute phys 3 log 0
+X2Y6.E.INIT[15:0] = 16'b1010000011110000
+X2Y6.E.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2263'
+
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X2Y6.D.INIT[15:0] = 16'b0000000011110000
+X2Y6.D.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2262'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 0
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X4Y4.D.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2261'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 3
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X4Y4.G.INIT[15:0] = 16'b0000110001000000
+X4Y4.G.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2260'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 1
+ # permute phys 3 log 0
+X4Y4.F.INIT[15:0] = 16'b1000100000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2259'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 0
+ # permute phys 2 log 3
+ # permute phys 3 log 1
+X4Y4.C.INIT[15:0] = 16'b0001000000100000
+X4Y4.C.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2258'
+
+ # permute phys 1 log 1
+ # permute phys 3 log 0
+X4Y4.E.INIT[15:0] = 16'b1100110000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2257'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 0
+ # permute phys 2 log 1
+ # permute phys 3 log 2
+X4Y4.B.INIT[15:0] = 16'b0000001010100000
+X4Y4.B.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2256'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+ # permute phys 3 log 2
+X4Y3.F.INIT[15:0] = 16'b0000001010001000
+X4Y3.F.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2255'
+
+ # permute phys 1 log 0
+ # permute phys 2 log 1
+X2Y1.A.INIT[15:0] = 16'b0011000000110000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2254'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 1
+ # permute phys 2 log 2
+ # permute phys 3 log 0
+X2Y2.C.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2253'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 3
+ # permute phys 2 log 2
+ # permute phys 3 log 0
+X4Y3.H.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2252'
+
+ # permute phys 0 log 0
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X2Y1.H.INIT[15:0] = 16'b0101000010100000
+X2Y1.H.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2251'
+
+ # permute phys 0 log 1
+ # permute phys 2 log 0
+X2Y1.E.INIT[15:0] = 16'b0000101000001010
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2250'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 1
+ # permute phys 2 log 3
+ # permute phys 3 log 0
+X2Y1.G.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2249'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 2
+ # permute phys 3 log 1
+X2Y1.B.INIT[15:0] = 16'b0100010010001000
+X2Y1.B.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2248'
+
+ # permute phys 0 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X2Y1.D.INIT[15:0] = 16'b1010000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2247'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 2
+ # permute phys 2 log 3
+ # permute phys 3 log 0
+X2Y1.C.INIT[15:0] = 16'b0011111100010101
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2246'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 2
+ # permute phys 3 log 0
+X2Y1.F.INIT[15:0] = 16'b0000000001000100
+X2Y1.F.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2245'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+ # permute phys 3 log 2
+X4Y2.D.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2244'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 1
+ # permute phys 2 log 3
+ # permute phys 3 log 2
+X4Y1.C.INIT[15:0] = 16'b0001000011000000
+X4Y1.C.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2243'
+
+ # permute phys 0 log 1
+ # permute phys 3 log 0
+X4Y1.B.INIT[15:0] = 16'b0000000010101010
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2242'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 2
+ # permute phys 2 log 0
+ # permute phys 3 log 3
+X4Y2.A.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2241'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 0
+ # permute phys 2 log 2
+X4Y1.D.INIT[15:0] = 16'b0110000001100000
+X4Y1.D.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2240'
+
+ # permute phys 0 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X4Y1.G.INIT[15:0] = 16'b1010000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2239'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 3
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X4Y2.G.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2238'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 1
+ # permute phys 2 log 3
+ # permute phys 3 log 0
+X4Y1.A.INIT[15:0] = 16'b0101111100010011
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2237'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 0
+ # permute phys 2 log 2
+X4Y1.F.INIT[15:0] = 16'b0001000000010000
+X4Y1.F.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2236'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 1
+ # permute phys 2 log 3
+ # permute phys 3 log 0
+X4Y2.H.INIT[15:0] = 16'b1000000010010000
+X4Y2.H.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2235'
+
+ # permute phys 0 log 0
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X4Y2.E.INIT[15:0] = 16'b1010000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2234'
+
+ # permute phys 1 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X4Y2.C.INIT[15:0] = 16'b0000001100110011
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2233'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X4Y3.G.INIT[15:0] = 16'b0001010101010101
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2232'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 0
+ # permute phys 2 log 1
+X4Y3.B.INIT[15:0] = 16'b0010000000100000
+X4Y3.B.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2231'
+
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X4Y3.E.INIT[15:0] = 16'b1111000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2230'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+ # permute phys 3 log 2
+X4Y3.A.INIT[15:0] = 16'b0000001010001000
+X4Y3.A.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2229'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 3
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X2Y2.G.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2228'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 2
+ # permute phys 2 log 3
+ # permute phys 3 log 1
+X2Y2.D.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2227'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 0
+ # permute phys 2 log 1
+ # permute phys 3 log 3
+X2Y2.A.INIT[15:0] = 16'b0101001000000000
+X2Y2.A.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2226'
+
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+ # permute phys 3 log 2
+X2Y3.D.INIT[15:0] = 16'b1100000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2225'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 3
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X2Y3.C.INIT[15:0] = 16'b0100000001001000
+X2Y3.C.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2224'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 1
+X2Y3.A.INIT[15:0] = 16'b1000100010001000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2223'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 1
+ # permute phys 2 log 2
+ # permute phys 3 log 0
+X2Y3.H.INIT[15:0] = 16'b0000000000101000
+X2Y3.H.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2222'
+
+ # permute phys 0 log 1
+ # permute phys 2 log 0
+X4Y5.F.INIT[15:0] = 16'b0000101000001010
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2221'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 1
+ # permute phys 3 log 2
+X2Y2.F.INIT[15:0] = 16'b1000100000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2220'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 3
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X2Y3.F.INIT[15:0] = 16'b0000110001000000
+X2Y3.F.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2219'
+
+ # permute phys 1 log 1
+ # permute phys 3 log 0
+X4Y5.E.INIT[15:0] = 16'b1100110000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2218'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 0
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X4Y5.A.INIT[15:0] = 16'b1101101011010101
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2217'
+
+ # permute phys 0 log 1
+ # permute phys 3 log 0
+X4Y5.H.INIT[15:0] = 16'b0000000010101010
+X4Y5.H.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2216'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 2
+ # permute phys 2 log 0
+ # permute phys 3 log 3
+X4Y5.C.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2215'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 3
+ # permute phys 2 log 0
+ # permute phys 3 log 1
+X2Y4.E.INIT[15:0] = 16'b1110011010110011
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2214'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 0
+X2Y4.C.INIT[15:0] = 16'b0010001000100010
+X2Y4.C.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2213'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 3
+X4Y6.H.INIT[15:0] = 16'b1011100011001111
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2212'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 0
+X4Y6.C.INIT[15:0] = 16'b0010001000100010
+X4Y6.C.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2211'
+
+ # permute phys 0 log 0
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X4Y6.A.INIT[15:0] = 16'b1010000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2210'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 0
+ # permute phys 2 log 3
+ # permute phys 3 log 2
+X2Y6.H.INIT[15:0] = 16'b1010110011110000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2209'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 0
+ # permute phys 2 log 3
+ # permute phys 3 log 1
+X2Y6.B.INIT[15:0] = 16'b0101000001000000
+X2Y6.B.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2208'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 0
+ # permute phys 2 log 3
+ # permute phys 3 log 1
+X2Y5.E.INIT[15:0] = 16'b1110000010100000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2207'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+ # permute phys 3 log 2
+X2Y5.H.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2206'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 3
+ # permute phys 2 log 1
+ # permute phys 3 log 2
+X2Y5.F.INIT[15:0] = 16'b1011111110001100
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2205'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 1
+X2Y5.B.INIT[15:0] = 16'b0100010001000100
+X2Y5.B.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2204'
+
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X2Y4.B.INIT[15:0] = 16'b1111000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2203'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 3
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X2Y4.G.INIT[15:0] = 16'b1110011011000100
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2202'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 3
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X2Y4.D.INIT[15:0] = 16'b0100010001000000
+X2Y4.D.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2201'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X1Y2.D.INIT[15:0] = 16'b1110011010100010
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2200'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 3
+ # permute phys 2 log 2
+ # permute phys 3 log 0
+X1Y2.H.INIT[15:0] = 16'b0000110000001000
+X1Y2.H.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2199'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 3
+ # permute phys 2 log 2
+ # permute phys 3 log 0
+X1Y1.A.INIT[15:0] = 16'b1100100011000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2198'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 3
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X1Y2.B.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2197'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+ # permute phys 3 log 3
+X1Y1.B.INIT[15:0] = 16'b0010101000111111
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2196'
+
+ # permute phys 0 log 0
+ # permute phys 3 log 1
+X1Y1.C.INIT[15:0] = 16'b0101010100000000
+X1Y1.C.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2195'
+
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+X1Y1.E.INIT[15:0] = 16'b1100000011000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2194'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 0
+ # permute phys 2 log 1
+ # permute phys 3 log 2
+X1Y2.A.INIT[15:0] = 16'b1110010010101010
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2193'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 1
+ # permute phys 2 log 3
+ # permute phys 3 log 0
+X1Y2.F.INIT[15:0] = 16'b0101000001000000
+X1Y2.F.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2192'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 0
+ # permute phys 2 log 2
+ # permute phys 3 log 3
+X1Y1.D.INIT[15:0] = 16'b0000110101010101
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2191'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 0
+ # permute phys 2 log 1
+ # permute phys 3 log 3
+X1Y1.H.INIT[15:0] = 16'b0101010000000000
+X1Y1.H.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2190'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 0
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X1Y4.B.INIT[15:0] = 16'b1010100010100000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2189'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+ # permute phys 3 log 3
+X1Y3.D.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2188'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 3
+ # permute phys 2 log 0
+ # permute phys 3 log 1
+X1Y4.A.INIT[15:0] = 16'b1110001011101110
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2187'
+
+ # permute phys 0 log 1
+ # permute phys 2 log 0
+X1Y4.C.INIT[15:0] = 16'b0000101000001010
+X1Y4.C.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2186'
+
+ # permute phys 1 log 0
+ # permute phys 3 log 1
+X1Y3.A.INIT[15:0] = 16'b1100110000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2185'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 3
+ # permute phys 2 log 0
+ # permute phys 3 log 2
+X1Y3.C.INIT[15:0] = 16'b0001000111010101
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2184'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X1Y3.H.INIT[15:0] = 16'b0010001000100000
+X1Y3.H.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2183'
+
+ # permute phys 0 log 1
+ # permute phys 2 log 0
+X1Y2.E.INIT[15:0] = 16'b0000010100000101
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2182'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X1Y3.F.INIT[15:0] = 16'b0001010110110111
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2181'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 0
+X1Y3.B.INIT[15:0] = 16'b0010001000100010
+X1Y3.B.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2180'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 0
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X1Y3.E.INIT[15:0] = 16'b0010000000001010
+X1Y3.E.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2179'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X1Y5.G.INIT[15:0] = 16'b0010100010001000
+X1Y5.G.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2178'
+
+ # permute phys 2 log 0
+ # permute phys 3 log 1
+X1Y5.B.INIT[15:0] = 16'b1111000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2177'
+
+ # permute phys 1 log 0
+ # permute phys 2 log 1
+ # permute phys 3 log 2
+X1Y5.E.INIT[15:0] = 16'b0011110000000000
+X1Y5.E.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2176'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 0
+ # permute phys 2 log 1
+X1Y5.H.INIT[15:0] = 16'b0010000000100000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2175'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 2
+ # permute phys 2 log 1
+X1Y5.D.INIT[15:0] = 16'b0100100001001000
+X1Y5.D.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2174'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 2
+ # permute phys 2 log 0
+X1Y4.E.INIT[15:0] = 16'b1001001110010011
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2173'
+
+ # permute phys 1 log 0
+ # permute phys 2 log 1
+X1Y4.D.INIT[15:0] = 16'b0011000000110000
+X1Y4.D.FF
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2172'
+
+ # permute phys 2 log 0
+ # permute phys 3 log 1
+X2Y4.F.INIT[15:0] = 16'b0000111100000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2171'
+
+ # permute phys 0 log 3
+ # permute phys 1 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 0
+X1Y6.A.INIT[15:0] = 16'b0001010101010101
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2170'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 0
+ # permute phys 2 log 3
+ # permute phys 3 log 1
+X1Y3.G.INIT[15:0] = 16'b0000000000100000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2169'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 1
+ # permute phys 2 log 3
+ # permute phys 3 log 2
+X1Y2.C.INIT[15:0] = 16'b0001000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2168'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 3
+ # permute phys 2 log 2
+ # permute phys 3 log 0
+X2Y5.G.INIT[15:0] = 16'b0000000000000001
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2167'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 2
+ # permute phys 2 log 3
+ # permute phys 3 log 1
+X4Y4.H.INIT[15:0] = 16'b0000000000000001
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2166'
+
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+X2Y4.H.INIT[15:0] = 16'b1100000011000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2165'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 3
+ # permute phys 2 log 2
+ # permute phys 3 log 1
+X2Y2.E.INIT[15:0] = 16'b0000000000000001
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2164'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 0
+ # permute phys 2 log 3
+ # permute phys 3 log 1
+X4Y4.A.INIT[15:0] = 16'b0000000000000001
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2163'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 2
+ # permute phys 2 log 3
+ # permute phys 3 log 0
+X2Y2.H.INIT[15:0] = 16'b0000000000000001
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2162'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 2
+ # permute phys 2 log 1
+ # permute phys 3 log 3
+X4Y2.B.INIT[15:0] = 16'b0000000000000001
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2161'
+
+ # permute phys 0 log 0
+ # permute phys 1 log 1
+ # permute phys 2 log 2
+ # permute phys 3 log 3
+X2Y2.B.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2160'
+
+ # permute phys 0 log 1
+ # permute phys 1 log 2
+ # permute phys 2 log 0
+ # permute phys 3 log 3
+X1Y2.G.INIT[15:0] = 16'b1000000000000000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2159'
+
+ # permute phys 1 log 1
+ # permute phys 2 log 0
+X1Y4.F.INIT[15:0] = 16'b0000001100000011
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2158'
+
+ # permute phys 0 log 1
+ # permute phys 2 log 0
+X4Y3.C.INIT[15:0] = 16'b1010000010100000
+
+# config for cell '$abc$2156$auto$blifparse.cc:535:parse_blif$2157'
+
+ # permute phys 0 log 2
+ # permute phys 1 log 1
+ # permute phys 2 log 3
+ # permute phys 3 log 0
+X2Y6.C.INIT[15:0] = 16'b1110110001001100
+X2Y6.C.FF
+

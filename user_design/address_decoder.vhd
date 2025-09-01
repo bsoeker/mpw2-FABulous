@@ -12,7 +12,8 @@ entity address_decoder is
         rom_en       : out std_logic;
         rom_addr     : out std_logic_vector(9 downto 0);  -- 1KB ROM
         spi_en       : out std_logic;
-        spi_addr     : out std_logic_vector(1 downto 0) -- select data/status
+        spi_addr     : out std_logic_vector(1 downto 0); -- select data/status
+        io_en        : out std_logic
     );
 end address_decoder;
 
@@ -33,5 +34,8 @@ begin
     -- SPI: 0x30000000, 0x30000004, 0x30000008
     spi_en    <= '1' when addr(31 downto 4) = x"3000000" else '0';
     spi_addr  <= addr(3 downto 2); -- 00 = TX, 01 = RX, 10 = DONE_STATUS
+
+    -- IO: 0x70000000
+    io_en     <= '1' when addr(31 downto 0) = x"70000000" else '0';
 end Behavioral;
 

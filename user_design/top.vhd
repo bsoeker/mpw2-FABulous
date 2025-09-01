@@ -12,7 +12,7 @@ entity top is
         bram0_rd_data : in std_logic_vector(31 downto 0);
         bram0_wr_addr : out std_logic_vector(7 downto 0);
         bram0_wr_data : out std_logic_vector(31 downto 0);
-        bram0_config  : out std_logic_vector(7 downto 0)
+        bram0_config  : out std_logic_vector(5 downto 0)
     );
 end top;
 
@@ -69,6 +69,9 @@ architecture Behavioral of top is
     signal rom_addr         : std_logic_vector(9 downto 0);
     signal rom_read_data    : std_logic_vector(31 downto 0);
 
+    -- GPIO
+    signal io_en         : std_logic;
+    signal gpio_register : std_logic_vector(31 downto 0) := (others => '0');
 
     -- UART
     signal uart_addr      : std_logic_vector(1 downto 0);
@@ -111,24 +114,11 @@ signal effective_addr  : std_logic_vector(31 downto 0) := (others => '0');
 
 begin
 
-    io_out(0)  <= '1';
-    io_oeb(0)  <= OUTPUT_ENABLE;
-    io_oeb(1)  <= OUTPUT_ENABLE;
-    io_out(2)  <= '1';
-    io_oeb(2)  <= OUTPUT_ENABLE;
-    io_out(20) <= '1';
-    io_oeb(20) <= OUTPUT_ENABLE;
-    io_out(21) <= '1';
-    io_oeb(21) <= OUTPUT_ENABLE;
-    io_out(22) <= '1';
-    io_oeb(22) <= OUTPUT_ENABLE;
-    io_out(19) <= '1';
-    io_oeb(19) <= OUTPUT_ENABLE;
-    io_out(18) <= '1';
-    io_oeb(18) <= OUTPUT_ENABLE;
-
     reset <= io_in(RESET_PIN);
-    io_oeb(RESET_PIN) <= OUTPUT_DISABLE;
+    io_oeb(23 downto 22) <= (others => OUTPUT_DISABLE);
+    io_oeb(11 downto 10) <= (others => OUTPUT_DISABLE);
+    io_oeb(21 downto 14) <= (others => OUTPUT_ENABLE);
+    io_oeb(9 downto 0)   <= (others => OUTPUT_ENABLE);
 
     process(clk)
     begin
@@ -167,7 +157,7 @@ begin
     begin
         if rising_edge(clk) then
             if load_phase1 = '1' then
-                load_addr_latch <= rs1_data;      -- freeze 0x3000_0004
+                load_addr_latch <= rs1_data;
             end if;
         end if;
     end process;
@@ -295,7 +285,8 @@ begin
         rom_en    => rom_en,
         rom_addr  => rom_addr,
         spi_en    => spi_en,
-        spi_addr  => spi_addr
+        spi_addr  => spi_addr,
+        io_en     => io_en
     );
 
     byte_offset <= alu_result(1 downto 0);
@@ -311,33 +302,25 @@ begin
     bram0_rd_addr <= ram_addr; 
     bram0_wr_data <= store_write_data;
     bram0_wr_addr <= ram_addr; 
-    bram0_config  <= wr_cfg & "000100"; 
+    bram0_config  <= wr_cfg & "0010"; 
     ram_read_data <= bram0_rd_data;
 
-    -- -- === RAM (Data Memory) ===
-    -- ram_inst: entity work.ram
-    --     port map (
-    --         clk        => clk,
-    --         addr       => ram_addr,
-    --         write_en   => ram_write_en,
-    --         write_data => store_write_data,
-    --         write_mask => store_write_mask,
-    --         read_data  => ram_read_data
-    --     );
+io_out(21 downto 14) <= rs2_data(7 downto 0);
 
     uart_write_en <= '1' when mem_op = '1' and uart_en = '1' else '0';
-    -- === UART ===
-    uart_inst: entity work.uart
-        port map (
-            clk         => clk,
-            reset       => internal_reset,
-            addr        => uart_addr,
-            wr_en       => uart_write_en,
-            write_data  => rs2_data,
-            read_data   => uart_read_data,
-            RsTx        => io_out(1)
-        );
-
+    io_out(0) <= '1';
+    -- -- === UART ===
+    -- uart_inst: entity work.uart
+    --     port map (
+    --         clk         => clk,
+    --         reset       => internal_reset,
+    --         addr        => uart_addr,
+    --         wr_en       => uart_write_en,
+    --         write_data  => rs2_data,
+    --         read_data   => uart_read_data,
+    --         RsTx        => io_out(21)
+    --     );
+    --
     mem_data <= ram_read_data when ram_en = '1' else 
                 uart_read_data when uart_en = '1' else
                 rom_read_data when rom_en = '1' else

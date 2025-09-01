@@ -17,6 +17,7 @@ entity top is
 end top;
 
 architecture Behavioral of top is
+    signal rs2_latched : std_logic_vector(31 downto 0);
 
     constant RESET_PIN : integer := 23;
     constant OUTPUT_ENABLE  : std_logic := '1';
@@ -115,8 +116,30 @@ signal load_addr_latch : std_logic_vector(31 downto 0) := (others=>'0');
 -- high during the *first* cycle of a 2‑cycle load
 signal load_phase1     : std_logic := '0';
 signal effective_addr  : std_logic_vector(31 downto 0) := (others => '0');
+signal load_latched : std_logic_vector(31 downto 0);
+
 
 begin
+    process(clk)
+begin
+  if mem_op = '1' and ram_en = '1' then
+    rs2_latched <= rs2_data;
+  else
+    rs2_latched <= (others => 'Z'); -- or hold last value if you want
+  end if;
+end process;
+
+process(clk)
+begin
+  if rising_edge(clk) then
+    if internal_reset = '1' then
+      load_latched <= (others => '0');
+    elsif mem_op = '1' and ram_en = '1' then
+      load_latched <= ram_read_data;
+    end if;
+  end if;
+end process;
+
 
     reset <= io_in(RESET_PIN);
     io_oeb(23 downto 22) <= (others => OUTPUT_DISABLE);
@@ -293,58 +316,35 @@ begin
         io_en     => io_en
     );
 
-    byte_offset <= alu_result(1 downto 0);
-    store_unit_inst: entity work.store_unit
-    port map (
-        funct3      => funct3,
-        addr_offset => byte_offset,
-        store_data  => rs2_data,
-        wr_cfg      => wr_cfg,
-        wr_ctrl     => store_write_data
-    );
-
     bram0_rd_addr <= ram_addr; 
-    bram0_wr_data <= store_write_data;
+    bram0_wr_data <= rs2_latched;
     bram0_wr_addr <= ram_addr; 
-    bram0_config  <= "00010000" ; 
+    bram0_config  <= "00010000"; 
     ram_read_data <= bram0_rd_data;
 
-io_out(21 downto 14) <= rs2_data(7 downto 0);
+     io_out(7 downto 0) <= rs2_latched(7 downto 0);
 
-    -- uart_write_en <= '1' when mem_op = '1' and uart_en = '1' else '0';
-    -- -- === UART ===
-    -- uart_inst: entity work.uart
-    --     port map (
-    --         clk         => clk,
-    --         reset       => internal_reset,
-    --         addr        => uart_addr,
-    --         wr_en       => uart_write_en,
-    --         write_data  => rs2_data,
-    --         read_data   => uart_read_data,
-    --         RsTx        => io_out(21)
-    --     );
+    uart_write_en <= '1' when mem_op = '1' and uart_en = '1' else '0';
+    -- === UART ===
+    uart_inst: entity work.uart
+  port map (
+      clk        => clk,
+      reset      => internal_reset,
+      addr       => uart_addr,
+      wr_en      => uart_write_en,
+      write_data => (31 downto 8 => '0') & rs2_latched(7 downto 0),
+      read_data  => uart_read_data,
+      RsTx       => io_out(21)
+  );
 
 
-    mem_data <= ram_read_data when ram_en = '1' else 
-                uart_read_data when uart_en = '1' else
-                rom_read_data when rom_en = '1' else
-                (others => '0');
-
-    -- === Load Unit ===
-    load_unit_inst: entity work.load_unit
-        port map (
-            funct3       => funct3,
-            byte_offset  => byte_offset,
-            mem_data     => mem_data,
-            loaded_value => loaded_value
-        );
 
     -- === Writeback Mux ===
     mux_wb_inst: entity work.mux_wb
         port map (
             sel => wb_sel,
             a   => alu_result,
-            b   => loaded_value,
+            b   => load_latched,
             c   => pc_plus_four,
             y   => reg_write_data
         );

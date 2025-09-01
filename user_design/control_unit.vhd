@@ -108,6 +108,7 @@ begin
             -- Store
             when "0100011" => -- SW
                 alu_src_a   <= "00";
+                stall       <= '1';
                 alu_src_b   <= '1';
                 alu_control <= "0000"; -- ADD
                 mem_op      <= '1'; -- write

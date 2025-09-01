@@ -20,15 +20,13 @@ architecture rom_arch of rom is
 
     type rom_type is array (0 to 2**addr_width - 1) of std_logic_vector(31 downto 0);
     signal rom_array : rom_type := (
-    0 =>  x"100002b7",    -- lui   t0,0x10000
-    1 =>  x"0ff00313",    -- addi  t1,x0,0xAA
-    2 =>  x"0062a023",    -- sw    t1,0(t0)
-    3 =>  x"0002a283",    -- lw    t2,0(t0)
-    4 =>  x"700003b7",    -- lui   t3,0x70000
-    5 =>  x"0053a023",    -- sw    t2,0(t3)
-    -- 6 =>  x"0000006f"    -- jal   x0,0
-    others => x"00000013"   -- nop filler
+    0 => x"200002b7",   -- lui   t0,0x20000   ; UART base = 0x20000000
+    1 => x"04800313",   -- addi  t1,x0,0x48   ; t1 = 'H'
+    2 => x"0062a023",   -- sw    t1,0(t0)     ; UART_TX = 'H'
+    3 => x"0000006f",   -- jal   x0,0         ; loop forever
+    others => x"00000013" -- nop filler
 );
+
 
 begin
     instr_word_addr <= to_integer(shift_right(unsigned(instr_addr), 2));

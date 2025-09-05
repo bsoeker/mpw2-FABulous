@@ -29,3 +29,26 @@ gen_bitStream_spec
 ```FABulous
 gen_bitStream_binary out.fasm
 ```
+
+## Uploading the Bitstream
+
+Clone the following repo to an arbitrary path:
+
+```bash
+git clone https://github.com/EverythingElseWasAlreadyTaken/FABulous_fabric_demo.git
+cd FABulous_fabric_demo
+```
+
+Create a virtual environment and install the requirements:
+
+```bash
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Once the setup is complete, you can upload your bitstream to the board with the following command:
+
+```bash
+./board.py upload -b 57600 PATH_TO_YOUR_MPW2_PROJECT/YOUR_OUTPUT.bin
+```

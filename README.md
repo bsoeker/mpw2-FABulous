@@ -14,13 +14,13 @@ FAB_ROOT=$(pwd) nextpnr-generic --freq 1 --uarch fabulous --json out.json -o fas
 
 ## Generate Bitstream
 
-- From the project root:
+From the project root:
 
 ```bash
 FABulous .
 ```
 
-- Inside the FABulous shell:
+Inside the FABulous shell:
 
 ```FABulous
 gen_bitStream_spec
@@ -36,7 +36,7 @@ Clone the following repo to an arbitrary path:
 
 ```bash
 git clone https://github.com/EverythingElseWasAlreadyTaken/FABulous_fabric_demo.git
-cd FABulous_fabric_demo
+cd FABulous_fabric_demo/vivado_emulation/upload_bitstream
 ```
 
 Create a virtual environment and install the requirements:

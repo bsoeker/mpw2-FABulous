@@ -5,29 +5,24 @@ use IEEE.NUMERIC_STD.ALL;
 entity top is
     Port (
         clk    : in  std_logic;
-        io_in  : in std_logic_vector(23 downto 0);
-        io_out : out std_logic_vector(23 downto 0);
-        io_oeb : out std_logic_vector(23 downto 0);
-        bram0_rd_addr : out std_logic_vector(7 downto 0);
-        bram0_rd_data : in std_logic_vector(31 downto 0);
-        bram0_wr_addr : out std_logic_vector(7 downto 0);
-        bram0_wr_data : out std_logic_vector(31 downto 0);
-        bram0_config  : out std_logic_vector(7 downto 0)
+        io_in  : in std_logic_vector(23 downto 0) := (others => '0');
+        io_out : out std_logic_vector(23 downto 0) := (others => '0');
+        io_oeb : out std_logic_vector(23 downto 0) := (others => '1')
+        -- bram0_rd_addr : out std_logic_vector(7 downto 0);
+        -- bram0_rd_data : in std_logic_vector(31 downto 0);
+        -- bram0_wr_addr : out std_logic_vector(7 downto 0);
+        -- bram0_wr_data : out std_logic_vector(31 downto 0);
+        -- bram0_config  : out std_logic_vector(5 downto 0)
     );
 end top;
 
 architecture Behavioral of top is
-    signal rs2_latched : std_logic_vector(31 downto 0);
 
     constant RESET_PIN : integer := 23;
     constant OUTPUT_ENABLE  : std_logic := '1';
     constant OUTPUT_DISABLE : std_logic := '0';
     -- === Signals ===
     signal reset    : std_logic;
-    signal test_sent    : std_logic := '0';
-    signal test_wr_en   : std_logic := '0';
-    signal test_wdata   : std_logic_vector(31 downto 0) := (others => '0');
-    signal test_uart_rd : std_logic_vector(31 downto 0);
 
     -- PC
     signal pc            : std_logic_vector(31 downto 0);
@@ -71,7 +66,7 @@ architecture Behavioral of top is
     signal store_write_data : std_logic_vector(31 downto 0);
     signal wr_cfg           : std_logic_vector(1 downto 0);
     signal rom_en           : std_logic;
-    signal rom_addr         : std_logic_vector(9 downto 0);
+    signal rom_addr         : std_logic_vector(7 downto 0);
     signal rom_read_data    : std_logic_vector(31 downto 0);
 
     -- GPIO
@@ -104,48 +99,24 @@ architecture Behavioral of top is
     signal stall_active : std_logic;  -- Whether we're currently in a stall
     signal stall_delay  : std_logic;  -- Whether we just started the stall
 
-    -- Clock Divider
-    -- signal clk : std_logic;
     -- Sync external reset into clk domain
     signal internal_reset : std_logic;
     signal reset_sync_0 : std_logic := '1';
     signal reset_sync_1 : std_logic := '1';
 
--- holds the base address during a multi‑cycle load
-signal load_addr_latch : std_logic_vector(31 downto 0) := (others=>'0');
--- high during the *first* cycle of a 2‑cycle load
-signal load_phase1     : std_logic := '0';
-signal effective_addr  : std_logic_vector(31 downto 0) := (others => '0');
-signal load_latched : std_logic_vector(31 downto 0);
-
-
+    -- holds the base address during a multi‑cycle load
+    signal load_addr_latch : std_logic_vector(31 downto 0) := (others=>'0');
+    -- high during the *first* cycle of a 2‑cycle load
+    signal load_phase1     : std_logic := '0';
+    signal effective_addr  : std_logic_vector(31 downto 0) := (others => '0');
+    
+    signal div_counter : unsigned(3 downto 0) := (others => '0'); -- divide by 10 example
+    signal load_reg : std_logic_vector(31 downto 0) := (others => '0');
 begin
-    process(clk)
-begin
-  if mem_op = '1' and ram_en = '1' then
-    rs2_latched <= rs2_data;
-  else
-    rs2_latched <= (others => 'Z'); -- or hold last value if you want
-  end if;
-end process;
-
-process(clk)
-begin
-  if rising_edge(clk) then
-    if internal_reset = '1' then
-      load_latched <= (others => '0');
-    elsif mem_op = '1' and ram_en = '1' then
-      load_latched <= ram_read_data;
-    end if;
-  end if;
-end process;
-
-
     reset <= io_in(RESET_PIN);
-    io_oeb(23 downto 22) <= (others => OUTPUT_DISABLE);
-    io_oeb(11 downto 10) <= (others => OUTPUT_DISABLE);
-    io_oeb(21 downto 14) <= (others => OUTPUT_ENABLE);
-    io_oeb(9 downto 0)   <= (others => OUTPUT_ENABLE);
+    io_oeb(23) <= OUTPUT_DISABLE;
+    io_oeb(21) <= OUTPUT_ENABLE; 
+    io_oeb(7 downto 0) <= (others => OUTPUT_ENABLE);
 
     process(clk)
     begin
@@ -216,10 +187,23 @@ end process;
             pc_out => pc
         );
 
+   -- io_out(7 downto 0) <= x"F5";
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if reset = '1' then
+                io_out(7 downto 0) <= (others => '0');
+            elsif io_en = '1' then
+                io_out(7 downto 0) <= store_write_data(7 downto 0);
+            end if;
+        end if;
+    end process;
+
+
     -- === Instruction ROM ===
     rom_inst: entity work.rom
         port map (
-            instr_addr => pc(9 downto 0),
+            instr_addr => pc(7 downto 0),
             instr_data => instr,
             data_addr  => rom_addr,
             data_data  => rom_read_data
@@ -232,6 +216,7 @@ end process;
     rs1_addr <= instr(19 downto 15);
     rs2_addr <= instr(24 downto 20);
     funct7   <= instr(31 downto 25);
+
 
     -- === Control Unit ===
     cu: entity work.control_unit
@@ -316,38 +301,60 @@ end process;
         io_en     => io_en
     );
 
-    bram0_rd_addr <= ram_addr; 
-    bram0_wr_data <= rs2_latched;
-    bram0_wr_addr <= ram_addr; 
-    bram0_config  <= "00010000"; 
-    ram_read_data <= bram0_rd_data;
+    byte_offset <= alu_result(1 downto 0);
+    store_unit_inst: entity work.store_unit
+    port map (
+        funct3      => funct3,
+        addr_offset => byte_offset,
+        store_data  => store_write_data,
+        wr_cfg      => wr_cfg,
+        wr_ctrl     => store_write_data
+    );
 
-     io_out(7 downto 0) <= rs2_latched(7 downto 0);
+    -- bram0_rd_addr <= ram_addr; 
+    -- bram0_wr_data <= store_write_data;
+    -- bram0_wr_addr <= ram_addr; 
+    -- bram0_config  <= wr_cfg & "0010"; 
+    -- ram_read_data <= bram0_rd_data;
+
 
     uart_write_en <= '1' when mem_op = '1' and uart_en = '1' else '0';
     -- === UART ===
     uart_inst: entity work.uart
-  port map (
-      clk        => clk,
-      reset      => internal_reset,
-      addr       => uart_addr,
-      wr_en      => uart_write_en,
-      write_data => (31 downto 8 => '0') & rs2_latched(7 downto 0),
-      read_data  => uart_read_data,
-      RsTx       => io_out(21)
-  );
+        port map (
+            clk         => clk,
+            reset       => internal_reset,
+            addr        => uart_addr,
+            wr_en       => uart_write_en,
+            write_data  => rs2_data,
+            read_data   => uart_read_data,
+            RsTx        => io_out(21)
+        );
 
+    mem_data <= -- ram_read_data when ram_en = '1' else 
+                uart_read_data when uart_en = '1' else
+                rom_read_data when rom_en = '1' else
+                (others => '0');
 
+    -- === Load Unit ===
+    load_unit_inst: entity work.load_unit
+        port map (
+            funct3       => funct3,
+            byte_offset  => byte_offset,
+            mem_data     => mem_data,
+            loaded_value => loaded_value
+        );
 
     -- === Writeback Mux ===
     mux_wb_inst: entity work.mux_wb
         port map (
             sel => wb_sel,
             a   => alu_result,
-            b   => load_latched,
+            b   => load_reg,
             c   => pc_plus_four,
             y   => reg_write_data
         );
 
 end Behavioral;
+
 

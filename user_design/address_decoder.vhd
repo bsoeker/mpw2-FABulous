@@ -6,11 +6,11 @@ entity address_decoder is
     Port (
         addr         : in  std_logic_vector(31 downto 0);  -- alu_result
         ram_en       : out std_logic;
-        ram_addr     : out std_logic_vector(7 downto 0);  -- 1KB RAM
+        ram_addr     : out std_logic_vector(7 downto 0); 
         uart_en      : out std_logic;
         uart_addr    : out std_logic_vector(1 downto 0);     -- select data/status
         rom_en       : out std_logic;
-        rom_addr     : out std_logic_vector(9 downto 0);  -- 1KB ROM
+        rom_addr     : out std_logic_vector(7 downto 0);
         spi_en       : out std_logic;
         spi_addr     : out std_logic_vector(1 downto 0); -- select data/status
         io_en        : out std_logic
@@ -21,7 +21,7 @@ architecture Behavioral of address_decoder is
 begin
     -- ROM: 0x00000000 - 0x00000FFF
     rom_en <= '1' when addr(31 downto 12) = x"00000" else '0';
-    rom_addr <= addr(9 downto 0);
+    rom_addr <= addr(7 downto 0);
 
     -- RAM: 0x10000000 – 0x10000FFF
     ram_en   <= '1' when addr(31 downto 12) = x"10000" else '0';

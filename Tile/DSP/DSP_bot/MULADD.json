@@ -12,7 +12,7 @@
         "BelMap": 1,
         "FABulous": 1,
         "dynports": 1,
-        "cells_not_processed": 1,
+        "top": 1,
         "src": "/home/pixelvoid/mpw2-eFPGA-FABulous-project/Tile/DSP/DSP_bot/MULADD.v:23.1-153.10"
       },
       "parameter_default_values": {

@@ -25,7 +25,7 @@
         "FABulous": 1,
         "INIT": 0,
         "dynports": 1,
-        "cells_not_processed": 1,
+        "top": 1,
         "src": "/home/pixelvoid/mpw2-eFPGA-FABulous-project/Tile/LUT4AB/LUT4c_frame_config_dffesr.v:36.1-152.10"
       },
       "parameter_default_values": {

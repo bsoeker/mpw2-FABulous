@@ -3,169 +3,300 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity control_unit is
-    Port (
-        opcode       : in  std_logic_vector(6 downto 0);
-        funct3       : in  std_logic_vector(2 downto 0);
-        funct7       : in  std_logic_vector(6 downto 0);
-
-        alu_control  : out std_logic_vector(3 downto 0);
-        alu_src_a    : out std_logic_vector(1 downto 0); -- 00 = reg, 01 = PC, 10 = 0x00000000
-        alu_src_b    : out std_logic; -- 0 = reg, 1 = imm
-        reg_write    : out std_logic;
-        mem_op       : out std_logic; -- 0 = read, 1 = write
-        wb_sel       : out std_logic_vector(1 downto 0);
-        imm_type     : out std_logic_vector(2 downto 0);
-        jump         : out std_logic;
-        branch       : out std_logic;
-        stall        : out std_logic; -- stall flag for RAM LOAD instructions
-        load_phase1  : out std_logic
+    port (
+        clk      : in  std_logic;
+        reset    : in  std_logic;
+        -- From Instruction Register (IR)
+        opcode   : in  std_logic_vector(6 downto 0);
+        funct3   : in  std_logic_vector(2 downto 0);
+        funct7   : in  std_logic_vector(6 downto 0);
+        -- From ALU (for branches)
+        zero_flag    : in  std_logic;
+        alu_done     : in  std_logic;  -- NEW: from alu_mc
+        -- From BDU
+        branch_taken : in std_logic;
+        -- To datapath
+        ir_write    : out std_logic;
+        pc_write    : out std_logic;
+        reg_write   : out std_logic;
+        mem_read    : out std_logic;
+        mem_write   : out std_logic;
+        alu_src_a   : out std_logic_vector(1 downto 0);
+        alu_src_b   : out std_logic;
+        alu_control : out std_logic_vector(3 downto 0);
+        alu_start   : out std_logic;   -- NEW: to alu_mc
+        pc_src      : out std_logic_vector(1 downto 0);
+        wb_sel      : out std_logic_vector(1 downto 0);
+        imm_type    : out std_logic_vector(2 downto 0);
+        id_enable   : out std_logic;
+        ex_enable   : out std_logic;
+        mem_enable  : out std_logic;
+        wb_enable   : out std_logic
     );
-end control_unit;
+end entity;
 
-architecture Behavioral of control_unit is
+architecture behavioral of control_unit is
+
+    -----------------------------------------------------------------
+    -- State encoding
+    -----------------------------------------------------------------
+    type state_type is (S_IF1, S_IF2, S_ID, S_EX_START, S_EX_WAIT, S_MEM, S_WB);
+    signal state, next_state : state_type;
+
+    -----------------------------------------------------------------
+    -- Decoder signals (internal, not driving outputs directly!)
+    -----------------------------------------------------------------
+    signal dec_alu_control : std_logic_vector(3 downto 0);
+    signal dec_is_load     : std_logic;
+    signal dec_is_store    : std_logic;
+    signal dec_is_branch   : std_logic;
+    signal dec_is_jal      : std_logic;
+    signal dec_is_jalr     : std_logic;
+    signal dec_reg_write   : std_logic;
+    signal dec_wb_sel      : std_logic_vector(1 downto 0);
+    signal dec_imm_type    : std_logic_vector(2 downto 0);
+    signal dec_alu_src_a   : std_logic_vector(1 downto 0);
+    signal dec_alu_src_b   : std_logic;
+
+    -----------------------------------------------------------------
+    -- Registered decoder outputs (latched in ID)
+    -----------------------------------------------------------------
+    signal op_is_load     : std_logic;
+    signal op_is_store    : std_logic;
+    signal op_is_branch   : std_logic;
+    signal op_is_jal      : std_logic;
+    signal op_is_jalr     : std_logic;
+    signal op_reg_write   : std_logic;
+    signal op_wb_sel      : std_logic_vector(1 downto 0);
+    signal op_imm_type    : std_logic_vector(2 downto 0);
+    signal op_alu_src_a   : std_logic_vector(1 downto 0);
+    signal op_alu_src_b   : std_logic;
+    signal op_alu_control : std_logic_vector(3 downto 0);
 begin
-    process(opcode, funct3, funct7)
+
+    -----------------------------------------------------------------
+    -- Decoder (combinational)
+    -----------------------------------------------------------------
+    decode_process : process(opcode, funct3, funct7)
     begin
-        -- Set defaults
-        alu_control  <= "0000";
-        alu_src_a    <= "00";
-        alu_src_b    <= '0';
-        reg_write    <= '0';
-        mem_op       <= '0';
-        wb_sel       <= "00";
-        imm_type     <= "000";
-        jump         <= '0';
-        branch       <= '0';
-        stall        <= '0';
-        load_phase1  <= '0';
+        -- defaults
+        dec_alu_control <= (others => '0');
+        dec_is_load     <= '0';
+        dec_is_store    <= '0';
+        dec_is_branch   <= '0';
+        dec_is_jal      <= '0';
+        dec_is_jalr     <= '0';
+        dec_reg_write   <= '0';
+        dec_wb_sel      <= "00";
+        dec_imm_type    <= "000";
+        dec_alu_src_a   <= "00";
+        dec_alu_src_b   <= '0';
 
         case opcode is
-
-            -- R-type (e.g., ADD, SUB, AND, OR, etc.)
-            when "0110011" =>
-                alu_src_a <= "00"; -- reg
-                alu_src_b <= '0'; -- reg
-                reg_write <= '1';
-
+            when "0110011" => -- R-type
+                dec_reg_write <= '1';
+                dec_alu_src_a <= "00"; -- rs1
+                dec_alu_src_b <= '0';  -- rs2
                 case funct3 is
                     when "000" =>
                         if funct7 = "0000000" then
-                            alu_control <= "0000"; -- ADD
-                        elsif funct7 = "0100000" then
-                            alu_control <= "0001"; -- SUB
+                            dec_alu_control <= "0000"; -- ADD
+                        else
+                            dec_alu_control <= "0001"; -- SUB
                         end if;
-                    when "001" => alu_control <= "0101"; -- SLL
-                    when "010" => alu_control <= "1000"; -- SLT
-                    when "011" => alu_control <= "1001"; -- SLTU
-                    when "100" => alu_control <= "0100"; -- XOR
-                    when "101" =>
-                        if funct7 = "0000000" then
-                            alu_control <= "0110"; -- SRL
-                        elsif funct7 = "0100000" then
-                            alu_control <= "0111"; -- SRA
-                        end if;
-                    when "110" => alu_control <= "0011"; -- OR
-                    when "111" => alu_control <= "0010"; -- AND
-                    when others => alu_control <= "0000";
+                    when "111" => dec_alu_control <= "0010"; -- AND
+                    when "110" => dec_alu_control <= "0011"; -- OR
+                    when others => null;
                 end case;
 
-            -- I-type (e.g., ADDI, ORI)
-            when "0010011" =>  -- ALU imm
-                alu_src_a <= "00"; -- reg
-                alu_src_b <= '1'; -- imm
-                reg_write <= '1';
-                imm_type  <= "000"; -- I-type
-
-                case funct3 is
-                    when "000" => alu_control <= "0000"; -- ADDI
-                    when "001" => alu_control <= "0101"; -- SLLI
-                    when "010" => alu_control <= "1000"; -- SLTI
-                    when "011" => alu_control <= "1001"; -- SLTIU
-                    when "100" => alu_control <= "0100"; -- XORI
-                    when "101" =>
-                        if funct7 = "0000000" then
-                            alu_control <= "0110"; -- SRLI
-                        elsif funct7 = "0100000" then
-                            alu_control <= "0111"; -- SRAI
-                        end if;
-                    when "110" => alu_control <= "0011"; -- ORI
-                    when "111" => alu_control <= "0010"; -- ANDI
-                    when others => alu_control <= "0000";
-                end case;
-
-            -- Load
             when "0000011" => -- LW
-                load_phase1  <= '1';
-                stall        <= '1';
-                alu_src_a    <= "00";
-                alu_src_b    <= '1';
-                alu_control  <= "0000"; -- ADD
-                reg_write    <= '1';
-                mem_op       <= '0'; -- read
-                wb_sel       <= "01";
-                imm_type     <= "000"; -- I-type
+                dec_is_load     <= '1';
+                dec_reg_write   <= '1';
+                dec_wb_sel      <= "01"; -- MEM
+                dec_alu_control <= "0000"; -- ADD
+                dec_imm_type    <= "000"; -- I-type
+                dec_alu_src_a   <= "00";
+                dec_alu_src_b   <= '1';
 
-            -- Store
             when "0100011" => -- SW
-                alu_src_a   <= "00";
-                stall       <= '1';
-                alu_src_b   <= '1';
-                alu_control <= "0000"; -- ADD
-                mem_op      <= '1'; -- write
-                wb_sel      <= "01";
-                imm_type    <= "001"; -- S-type
+                dec_is_store    <= '1';
+                dec_alu_control <= "0000"; -- ADD
+                dec_imm_type    <= "001"; -- S-type
+                dec_alu_src_a   <= "00";
+                dec_alu_src_b   <= '1';
 
-            -- Branch
-            when "1100011" => -- All branches
-                branch      <= '1';
-                alu_src_a   <= "00";
-                alu_src_b   <= '0';
-                imm_type    <= "010"; -- SB-type
-                alu_control <= 
-                    "0001" when funct3 = "000" or funct3 = "001" else -- SUB for BEQ/BNE
-                    "1000" when funct3 = "100" or funct3 = "101" else -- SLT  for BLT/BGE
-                    "1001";                                           -- SLTU for BLTU/BGEU
+            when "1100011" => -- Branch
+                dec_is_branch   <= '1';
+                dec_imm_type    <= "010"; -- SB-type
+                dec_alu_src_a   <= "00";
+                dec_alu_src_b   <= '0';
+                dec_alu_control <= "0001"; -- SUB for BEQ/BNE etc.
 
-            -- JAL
-            when "1101111" =>
-                jump        <= '1';
-                alu_src_a   <= "01"; -- PC
-                alu_src_b   <= '1'; -- imm
-                alu_control <= "0000"; -- PC + imm
-                reg_write   <= '1';
-                imm_type    <= "100"; -- UJ-type
-                wb_sel      <= "10"; -- PC+4
+            when "1101111" => -- JAL
+                dec_is_jal      <= '1';
+                dec_reg_write   <= '1';
+                dec_wb_sel      <= "10"; -- PC+4
+                dec_imm_type    <= "100"; -- UJ-type
+                dec_alu_src_a   <= "01"; -- PC
+                dec_alu_src_b   <= '1';
+                dec_alu_control <= "0000";
 
-            -- JALR
-            when "1100111" =>
-                jump        <= '1';
-                alu_src_a   <= "00"; -- reg
-                alu_src_b   <= '1'; -- imm
-                alu_control <= "0000"; -- reg + imm
-                reg_write   <= '1';
-                imm_type    <= "000"; -- I-type
-                wb_sel      <= "10"; -- PC+4
+            when "1100111" => -- JALR
+                dec_is_jalr     <= '1';
+                dec_reg_write   <= '1';
+                dec_wb_sel      <= "10"; -- PC+4
+                dec_imm_type    <= "000"; -- I-type
+                dec_alu_src_a   <= "00"; -- rs1
+                dec_alu_src_b   <= '1';
+                dec_alu_control <= "0000";
 
-            -- LUI / AUIPC
             when "0110111" => -- LUI
-                alu_src_a   <= "10"; -- 0x00000000
-                alu_src_b   <= '1';
-                alu_control <= "0000"; 
-                reg_write   <= '1';
-                imm_type    <= "011"; -- U-type
+                dec_reg_write   <= '1';
+                dec_imm_type    <= "011"; -- U-type
+                dec_alu_src_a   <= "10"; -- zero
+                dec_alu_src_b   <= '1';
+                dec_alu_control <= "0000";
 
             when "0010111" => -- AUIPC
-                alu_src_a   <= "01"; -- PC
-                alu_src_b   <= '1';
-                alu_control <= "0000"; 
-                reg_write   <= '1';
-                imm_type    <= "011"; -- U-type
+                dec_reg_write   <= '1';
+                dec_imm_type    <= "011"; -- U-type
+                dec_alu_src_a   <= "01"; -- PC
+                dec_alu_src_b   <= '1';
+                dec_alu_control <= "0000";
 
             when others =>
                 null;
         end case;
     end process;
-end Behavioral;
 
+    -----------------------------------------------------------------
+    -- State register
+    -----------------------------------------------------------------
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if reset = '1' then
+                state <= S_IF1;
+            else
+                state <= next_state;
+            end if;
 
+            -- Latch decoder outputs in S_ID
+            if state = S_ID then
+                op_is_load     <= dec_is_load;
+                op_is_store    <= dec_is_store;
+                op_is_branch   <= dec_is_branch;
+                op_is_jal      <= dec_is_jal;
+                op_is_jalr     <= dec_is_jalr;
+                op_reg_write   <= dec_reg_write;
+                op_wb_sel      <= dec_wb_sel;
+                op_imm_type    <= dec_imm_type;
+                op_alu_src_a   <= dec_alu_src_a;
+                op_alu_src_b   <= dec_alu_src_b;
+                op_alu_control <= dec_alu_control;
+            end if;
+        end if;
+    end process;
+
+    -----------------------------------------------------------------
+    -- FSM with ALU handshake
+    -----------------------------------------------------------------
+    process(all)
+    begin
+        -- defaults
+        pc_write   <= '0';
+        ir_write   <= '0';
+        reg_write  <= '0';
+        mem_read   <= '0';
+        mem_write  <= '0';
+        alu_src_a  <= op_alu_src_a;
+        alu_src_b  <= op_alu_src_b;
+        alu_control<= op_alu_control;
+        alu_start  <= '0';       -- NEW
+        pc_src     <= "00";
+        wb_sel     <= op_wb_sel;
+        imm_type   <= op_imm_type;
+        next_state <= state;
+        id_enable  <= '0';
+        ex_enable  <= '0';
+        mem_enable <= '0';
+        wb_enable  <= '0';
+
+        case state is
+            when S_IF1 =>
+                mem_read   <= '1';
+                next_state <= S_IF2;
+
+            when S_IF2 =>
+                ir_write   <= '1';
+                next_state <= S_ID;
+
+            when S_ID =>
+                id_enable <= '1';
+                next_state <= S_EX_START;
+
+            when S_EX_START =>
+                alu_start <= '1';  -- kick off ALU
+                ex_enable <= '1';
+                next_state <= S_EX_WAIT;
+
+            when S_EX_WAIT =>
+                ex_enable <= '1';  -- keep operands stable
+                if alu_done = '1' then
+                    -- same branch/jump/mem logic as before
+                    if op_is_branch = '1' then
+                        if branch_taken = '1' then
+                            pc_write <= '1';
+                            pc_src   <= "01";
+                        else
+                            pc_write <= '1';
+                            pc_src   <= "00";
+                        end if;
+                        next_state <= S_IF1;
+
+                    elsif op_is_jal = '1' then
+                        pc_write <= '1';
+                        pc_src   <= "10";
+                        if op_reg_write = '1' then
+                            reg_write <= '1';
+                        end if;
+                        next_state <= S_IF1;
+
+                    elsif op_is_jalr = '1' then
+                        pc_write <= '1';
+                        pc_src   <= "11";
+                        if op_reg_write = '1' then
+                            reg_write <= '1';
+                        end if;
+                        next_state <= S_IF1;
+
+                    elsif op_is_load = '1' or op_is_store = '1' then
+                        next_state <= S_MEM;
+
+                    else
+                        next_state <= S_WB;
+                    end if;
+                end if;
+
+            when S_MEM =>
+                mem_enable <= '1';
+                if op_is_load = '1' then
+                    mem_read   <= '1';
+                    next_state <= S_WB;
+                else
+                    mem_write  <= '1';
+                    pc_write   <= '1';
+                    next_state <= S_IF1;
+                end if;
+
+            when S_WB =>
+                wb_enable <= '1';
+                if op_reg_write = '1' then
+                    reg_write <= '1';
+                end if;
+                pc_write   <= '1';
+                next_state <= S_IF1;
+        end case;
+    end process;
+end architecture;
 

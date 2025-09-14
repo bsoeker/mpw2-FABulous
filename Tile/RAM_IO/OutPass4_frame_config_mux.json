@@ -10,7 +10,7 @@
         "BelMap": 1,
         "FABulous": 1,
         "dynports": 1,
-        "cells_not_processed": 1,
+        "top": 1,
         "src": "/home/pixelvoid/mpw2-eFPGA-FABulous-project/Tile/RAM_IO/OutPass4_frame_config_mux.v:23.1-90.10"
       },
       "parameter_default_values": {

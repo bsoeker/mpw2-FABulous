@@ -17,10 +17,9 @@ entity alu is
 end alu;
 
 architecture Behavioral of alu is
-    type state_type is (IDLE, CALC, FINISH);
+    type state_type is (IDLE, CALC, S_DONE);
     signal state : state_type := IDLE;
 
-    signal acc       : unsigned(31 downto 0) := (others => '0');
     signal carry     : std_logic := '0';
     signal bit_index : integer range 0 to 31 := 0;
 
@@ -31,73 +30,108 @@ begin
     b <= unsigned(op_b);
 
     process(clk)
+        variable sum_bit    : std_logic;
+        variable carry_next : std_logic;
     begin
         if rising_edge(clk) then
             if reset = '1' then
                 state     <= IDLE;
-                acc       <= (others => '0');
                 carry     <= '0';
                 bit_index <= 0;
                 done      <= '0';
                 r         <= (others => '0');
             else
                 case state is
+                    ----------------------------------------------------------------
+                    -- IDLE: wait for start
+                    ----------------------------------------------------------------
                     when IDLE =>
                         done <= '0';
                         if start = '1' then
-                            acc       <= (others => '0');
-                            carry     <= '0';
+                            r         <= (others => '0');
                             bit_index <= 0;
-                            state     <= CALC;
+
+                            if alu_control = "0001" then
+                                carry <= '1';  -- SUB = A + ~B + 1
+                            else
+                                carry <= '0';  -- ADD and others
+                            end if;
+
+                            state <= CALC;
                         end if;
 
+                    ----------------------------------------------------------------
+                    -- CALC: perform the operation
+                    ----------------------------------------------------------------
                     when CALC =>
                         if alu_control = "0000" then  -- ADD
-                            acc(bit_index) <= a(bit_index) xor b(bit_index) xor carry;
-                            carry          <= (a(bit_index) and b(bit_index)) or
-                                               (a(bit_index) and carry) or
-                                               (b(bit_index) and carry);
-                        elsif alu_control = "0001" then -- SUB = A + (~B + 1)
-                            acc(bit_index) <= a(bit_index) xor (not b(bit_index)) xor carry;
-                            carry          <= (a(bit_index) and (not b(bit_index))) or
-                                               (a(bit_index) and carry) or
-                                               ((not b(bit_index)) and carry);
+                            sum_bit    := a(bit_index) xor b(bit_index) xor carry;
+                            carry_next := (a(bit_index) and b(bit_index)) or
+                                          (a(bit_index) and carry) or
+                                          (b(bit_index) and carry);
+
+                            r(bit_index) <= sum_bit;
+                            carry        <= carry_next;
+
+                            if bit_index = 31 then
+                                state <= S_DONE;
+                            else
+                                bit_index <= bit_index + 1;
+                            end if;
+
+                        elsif alu_control = "0001" then -- SUB
+                            sum_bit    := a(bit_index) xor (not b(bit_index)) xor carry;
+                            carry_next := (a(bit_index) and (not b(bit_index))) or
+                                          (a(bit_index) and carry) or
+                                          ((not b(bit_index)) and carry);
+
+                            r(bit_index) <= sum_bit;
+                            carry        <= carry_next;
+
+                            if bit_index = 31 then
+                                state <= S_DONE;
+                            else
+                                bit_index <= bit_index + 1;
+                            end if;
+
                         else
-                            -- for simple ops, compute in one shot
+                            -- One-shot combinational ops
                             case alu_control is
-                                when "0010" => r <= a and b;
-                                when "0011" => r <= a or b;
-                                when "0100" => r <= a xor b;
-                                when "1000" =>
+                                when "0010" =>  -- AND
+                                    r <= a and b;
+                                when "0011" =>  -- OR
+                                    r <= a or b;
+                                when "0100" =>  -- XOR
+                                    r <= a xor b;
+                                when "0101" =>  -- SLL
+                                    r <= shift_left(a, to_integer(unsigned(op_b(4 downto 0))));
+                                when "0110" =>  -- SRL
+                                    r <= unsigned(shift_right(unsigned(op_a), to_integer(unsigned(op_b(4 downto 0)))));
+                                when "0111" =>  -- SRA
+                                    r <= unsigned(shift_right(signed(op_a), to_integer(unsigned(op_b(4 downto 0)))));
+                                when "1000" =>  -- SLT (signed)
                                     if signed(op_a) < signed(op_b) then
-                                        r <= (others => '0');
-                                        r(0) <= '1';
+                                        r <= (others => '0'); r(0) <= '1';
                                     else
                                         r <= (others => '0');
                                     end if;
-                                when "1001" =>
+                                when "1001" =>  -- SLTU (unsigned)
                                     if unsigned(op_a) < unsigned(op_b) then
-                                        r <= (others => '0');
-                                        r(0) <= '1';
+                                        r <= (others => '0'); r(0) <= '1';
                                     else
                                         r <= (others => '0');
                                     end if;
                                 when others =>
                                     r <= (others => '0');
                             end case;
-                            state <= FINISH;
+
+                            state <= S_DONE; -- go directly to DONE
                         end if;
 
-                        if alu_control = "0000" or alu_control = "0001" then
-                            if bit_index = 31 then
-                                r     <= acc;
-                                state <= FINISH;
-                            else
-                                bit_index <= bit_index + 1;
-                            end if;
-                        end if;
-
-                    when FINISH =>
+                    ----------------------------------------------------------------
+                    -- DONE: signal completion
+                    ----------------------------------------------------------------
+                    when S_DONE =>
                         done  <= '1';
                         state <= IDLE;
                 end case;

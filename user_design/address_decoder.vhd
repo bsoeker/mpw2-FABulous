@@ -4,7 +4,6 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity address_decoder is
     Port (
-        clk         : in  std_logic;
         addr        : in  std_logic_vector(31 downto 0);  -- alu_result
 
         ram_en      : out std_logic;
@@ -18,38 +17,20 @@ entity address_decoder is
 end address_decoder;
 
 architecture Behavioral of address_decoder is
-    -- registered signals
-    signal ram_en_r, uart_en_r, rom_en_r, io_en_r : std_logic;
-    signal ram_addr_r, rom_addr_r : std_logic_vector(7 downto 0);
-    signal uart_addr_r            : std_logic_vector(1 downto 0);
 begin
-    process(clk)
-    begin
-        if rising_edge(clk) then
-            -- ROM: 0x00000000 - 0x00000FFF
-            rom_en_r   <= '1' when addr(31 downto 12) = x"00000" else '0';
-            rom_addr_r <= addr(7 downto 0);
+    -- ROM: 0x00000000 - 0x00000FFF
+    rom_en <= '1' when addr(31 downto 12) = x"00000" else '0';
+    rom_addr <= addr(7 downto 0);
 
-            -- RAM: 0x10000000 – 0x10000FFF
-            ram_en_r   <= '1' when addr(31 downto 12) = x"10000" else '0';
-            ram_addr_r <= addr(7 downto 0);
+    -- RAM: 0x10000000 – 0x10000FFF
+    ram_en   <= '1' when addr(31 downto 12) = x"10000" else '0';
+    ram_addr <= addr(7 downto 0);  -- word-aligned inside RAM
 
-            -- UART: 0x20000000 and 0x20000004 
-            uart_en_r   <= '1' when addr(31 downto 12) = x"20000" else '0';
-            uart_addr_r <= addr(3 downto 2);
+    -- UART: 0x20000000 and 0x20000004 
+    uart_en   <= '1' when addr(31 downto 12) = x"20000" else '0';
+    uart_addr <= addr(3 downto 2);  -- extract UART register address (00 = data, 01 = status)
 
-            -- IO: 0x70000000
-            io_en_r     <= '1' when addr = x"70000000" else '0';
-        end if;
-    end process;
-
-    -- Drive outputs from registered versions
-    ram_en   <= ram_en_r;
-    ram_addr <= ram_addr_r;
-    uart_en  <= uart_en_r;
-    uart_addr<= uart_addr_r;
-    rom_en   <= rom_en_r;
-    rom_addr <= rom_addr_r;
-    io_en    <= io_en_r;
+    -- IO: 0x70000000
+    io_en <= '1' when addr = x"70000000" else '0';
 end Behavioral;
 

@@ -23,7 +23,7 @@ architecture Behavioral of top is
     signal reset_sync_0, reset_sync_1 : std_logic := '1';
 
     -- PC
-    signal pc, pc_plus_four, next_pc : std_logic_vector(31 downto 0);
+    signal pc, pc_plus_four, next_pc, jalr_target, branch_target : std_logic_vector(31 downto 0) := (others => '0');
 
     -- Instruction
     signal instr_reg : std_logic_vector(31 downto 0);
@@ -58,12 +58,14 @@ architecture Behavioral of top is
     signal wb_sel    : std_logic_vector(1 downto 0);
     signal imm_type  : std_logic_vector(2 downto 0);
     signal branch_taken : std_logic;
+    signal is_branch : std_logic;
+    signal is_jalr : std_logic;
+    signal is_jal : std_logic;
 
     -- GPIO
     signal gpio_reg : std_logic_vector(7 downto 0) := (others => '0');
     -- UART simulation
     signal RsTx : std_logic;
-
 begin
     -- === Reset sync ===
     reset <= io_in(RESET_PIN);
@@ -80,15 +82,32 @@ begin
     end process;
     internal_reset <= reset_sync_1;
 
+
     -- === Program Counter ===
     pc_plus_four <= std_logic_vector(unsigned(pc) + 4);
+    jalr_target   <= alu_result and x"FFFFFFFE";  -- Clear LSB for JALR
+    branch_target <= std_logic_vector(signed(pc) + signed(imm));
+    branch_taken  <= '1' when is_branch = '1' and (
+        (funct3 = "000" and zero_flag = '1') or -- BEQ
+        (funct3 = "001" and zero_flag = '0') or -- BNE
+        (funct3 = "100" and alu_result = x"00000001") or -- BLT (SLT output 1)
+        (funct3 = "101" and alu_result = x"00000000") or -- BGE (SLT output 0)
+        (funct3 = "110" and alu_result = x"00000001") or -- BLTU
+        (funct3 = "111" and alu_result = x"00000000")    -- BGEU
+    ) else '0';
+
+    next_pc <=
+        jalr_target   when (is_jalr = '1') else
+        alu_result    when (is_jal = '1') else
+        branch_target when (branch_taken = '1') else
+        pc_plus_four;
 
     pc_unit: entity work.ProgramCounter
         port map (
             clk      => clk,
             reset    => internal_reset,
             pc_write => pc_write,
-            pc_in    => pc_plus_four,  -- (for now always PC+4, can later mux)
+            pc_in    => next_pc,
             pc_out   => pc
         );
 
@@ -142,8 +161,11 @@ begin
             alu_src_b    => alu_src_b,
             alu_control  => alu_control,
             alu_start    => alu_start,
-            pc_src       => pc_src,
+            -- pc_src       => pc_src,
             wb_sel       => wb_sel,
+            is_branch    => is_branch,
+            is_jalr    => is_jalr,
+            is_jal    => is_jal,
             imm_type     => imm_type
         );
 
@@ -230,7 +252,7 @@ begin
     process(clk)
     begin
         if rising_edge(clk) then
-            if reset = '1' then
+            if internal_reset = '1' then
                 gpio_reg <= (others => '0');
             elsif mem_write = '1' and io_en = '1' then
                 gpio_reg <= rs2_data(7 downto 0);

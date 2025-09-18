@@ -24,7 +24,7 @@ architecture rom_arch of rom is
         0 => x"700000b7",   -- lui  x1, 0x20000   ; UART base = 0x20000000
         1 => x"00300113",   -- addi x2, x0, 0x48
         2 => x"0020a023",   -- sw   x2, 0(x1)
-        -- 3 => x"0000006f",
+        3 => x"0000006f",
         others => x"00000000"
     );
 

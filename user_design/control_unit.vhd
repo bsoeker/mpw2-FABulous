@@ -22,8 +22,11 @@ entity control_unit is
         alu_src_b   : out std_logic;
         alu_control : out std_logic_vector(3 downto 0);
         alu_start   : out std_logic;
-        pc_src      : out std_logic_vector(1 downto 0);
+        -- pc_src      : out std_logic_vector(1 downto 0);
         wb_sel      : out std_logic_vector(1 downto 0);
+        is_branch   : out std_logic;
+        is_jalr     : out std_logic;
+        is_jal     : out std_logic;
         imm_type    : out std_logic_vector(2 downto 0)
     );
 end entity;
@@ -197,7 +200,11 @@ begin
         mem_read <= '0'; mem_write <= '0'; alu_start <= '0';
         alu_src_a <= d_alu_src_a; alu_src_b <= d_alu_src_b;
         alu_control <= d_alu_control;
-        pc_src <= "00"; wb_sel <= d_wb_sel; imm_type <= d_imm_type;
+        -- pc_src <= "00";
+        wb_sel <= d_wb_sel; imm_type <= d_imm_type;
+        is_branch <= d_is_branch;
+        is_jalr <= d_is_jalr;
+        is_jal <= d_is_jal;
         next_state <= state;
 
         case state is
@@ -222,26 +229,33 @@ begin
             when S_EX =>
                 if alu_done = '1' then
                     if d_is_branch = '1' then
-                        pc_write <= '1'; pc_src <= "01";
+                        if branch_taken = '1' then
+                            pc_write <= '1';
+                            -- pc_src   <= "01";  -- branch target
+                        else
+                            pc_write <= '1';
+                            -- pc_src   <= "00";  -- fall-through (PC+4)
+                        end if;
                         next_state <= S_IF1;
-
+            
                     elsif d_is_jal = '1' then
-                        pc_write <= '1'; pc_src <= "10";
+                        pc_write <= '1'; -- pc_src <= "10";
                         if d_reg_write = '1' then reg_write <= '1'; end if;
                         next_state <= S_IF1;
-
+            
                     elsif d_is_jalr = '1' then
-                        pc_write <= '1'; pc_src <= "11";
+                        pc_write <= '1'; -- pc_src <= "11";
                         if d_reg_write = '1' then reg_write <= '1'; end if;
                         next_state <= S_IF1;
-
+            
                     elsif d_is_load = '1' or d_is_store = '1' then
                         next_state <= S_MEM;
-
+            
                     else
                         next_state <= S_WB;
                     end if;
                 end if;
+
 
             when S_MEM =>
                 if d_is_load = '1' then

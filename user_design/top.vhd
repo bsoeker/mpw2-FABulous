@@ -278,7 +278,7 @@ begin
             end if;
         end if;
     end process;
-    io_out(21 downto 14) <= gpio_reg;
+    io_out(21 downto 14) <= store_data(7 downto 0);
 
     -- === Memory Mux ===
     mem_data <= uart_read_data when uart_en = '1' else

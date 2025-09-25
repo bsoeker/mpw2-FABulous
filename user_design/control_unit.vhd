@@ -22,7 +22,7 @@ entity control_unit is
         alu_src_b   : out std_logic;
         alu_control : out std_logic_vector(3 downto 0);
         alu_start   : out std_logic;
-        -- pc_src      : out std_logic_vector(1 downto 0);
+        latch_store_data : out std_logic;
         wb_sel      : out std_logic_vector(1 downto 0);
         is_branch   : out std_logic;
         is_jalr     : out std_logic;
@@ -35,7 +35,7 @@ architecture behavioral of control_unit is
     -----------------------------------------------------------------
     -- States
     -----------------------------------------------------------------
-    type state_type is (S_IF1, S_IF2, S_ID, S_ID_WAIT, S_EX, S_MEM, S_WB);
+    type state_type is (S_IF1, S_IF2, S_ID, S_EX, S_MEM, S_WB);
     signal state, next_state : state_type;
 
     -----------------------------------------------------------------
@@ -200,6 +200,7 @@ begin
         mem_read <= '0'; mem_write <= '0'; alu_start <= '0';
         alu_src_a <= d_alu_src_a; alu_src_b <= d_alu_src_b;
         alu_control <= d_alu_control;
+        latch_store_data <= '0';
         -- pc_src <= "00";
         wb_sel <= d_wb_sel; imm_type <= d_imm_type;
         is_branch <= d_is_branch;
@@ -209,7 +210,6 @@ begin
 
         case state is
             when S_IF1 =>
-                mem_read <= '1';
                 next_state <= S_IF2;
 
             when S_IF2 =>
@@ -217,11 +217,6 @@ begin
                 next_state <= S_ID;
 
             when S_ID =>
-                -- Present rs1_addr / rs2_addr to regfile
-                -- But rs1_data / rs2_data not valid until next cycle
-                next_state <= S_ID_WAIT;
-
-            when S_ID_WAIT =>
                 -- Now regfile outputs are valid
                 next_state <= S_EX;
                 alu_start <= '1';
@@ -231,10 +226,8 @@ begin
                     if d_is_branch = '1' then
                         if branch_taken = '1' then
                             pc_write <= '1';
-                            -- pc_src   <= "01";  -- branch target
                         else
                             pc_write <= '1';
-                            -- pc_src   <= "00";  -- fall-through (PC+4)
                         end if;
                         next_state <= S_IF1;
             
@@ -244,11 +237,12 @@ begin
                         next_state <= S_IF1;
             
                     elsif d_is_jalr = '1' then
-                        pc_write <= '1'; -- pc_src <= "11";
+                        pc_write <= '1';
                         if d_reg_write = '1' then reg_write <= '1'; end if;
                         next_state <= S_IF1;
             
                     elsif d_is_load = '1' or d_is_store = '1' then
+                        latch_store_data <= '1';
                         next_state <= S_MEM;
             
                     else
@@ -261,7 +255,7 @@ begin
                 if d_is_load = '1' then
                     mem_read <= '1';
                     next_state <= S_WB;
-                else
+                elsif d_is_store = '1' then
                     mem_write <= '1';
                     pc_write <= '1';
                     next_state <= S_IF1;

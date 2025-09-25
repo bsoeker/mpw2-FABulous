@@ -33,7 +33,7 @@ architecture Behavioral of top is
     signal rs1_addr, rs2_addr, rd_addr : std_logic_vector(4 downto 0);
 
     -- RegFile
-    signal rs1_data, rs2_data, reg_write_data : std_logic_vector(31 downto 0);
+    signal rs1_data, rs2_data, reg_write_data : std_logic_vector(31 downto 0) := (others => '0');
 
     -- Immediate
     signal imm : std_logic_vector(31 downto 0);
@@ -54,6 +54,7 @@ architecture Behavioral of top is
     signal ir_write, pc_write, reg_write : std_logic;
     signal alu_src_a : std_logic_vector(1 downto 0);
     signal alu_src_b : std_logic;
+    signal latch_store_data : std_logic;
     signal pc_src    : std_logic_vector(1 downto 0);
     signal wb_sel    : std_logic_vector(1 downto 0);
     signal imm_type  : std_logic_vector(2 downto 0);
@@ -64,14 +65,32 @@ architecture Behavioral of top is
 
     -- GPIO
     signal gpio_reg : std_logic_vector(7 downto 0) := (others => '0');
+    signal store_data : std_logic_vector(31 downto 0) := (others => '0');
     -- UART simulation
     signal RsTx : std_logic;
 begin
     -- === Reset sync ===
     reset <= io_in(RESET_PIN);
     io_oeb(23) <= OUTPUT_DISABLE;
-    io_oeb(21) <= OUTPUT_ENABLE;
-    io_oeb(7 downto 0) <= (others => OUTPUT_ENABLE);
+    io_oeb(21 downto 14) <= (others => OUTPUT_ENABLE);
+    io_oeb(13) <= OUTPUT_ENABLE;
+
+    -- 3.3V source
+    io_oeb(0) <= OUTPUT_ENABLE;
+    io_out(0) <= '1';
+
+
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if internal_reset = '1' then
+                store_data <= (others => '0');
+            elsif latch_store_data = '1' then
+                store_data <= rs2_data;
+            end if;
+        end if;
+    end process;
+
 
     process(clk)
     begin
@@ -114,11 +133,11 @@ begin
     -- === Instruction ROM ===
     rom_inst: entity work.rom
         port map (
-            clk        => clk,
-            instr_addr => pc(7 downto 0),
-            instr_data => rom_instr_data,
-            data_addr  => rom_addr,
-            data_data  => rom_read_data
+            clk         => clk,
+            instr_addr  => pc(7 downto 0),
+            instr_data  => rom_instr_data,
+            data_addr   => rom_addr,
+            data_data   => rom_read_data
         );
 
     -- === Instruction Register ===
@@ -151,6 +170,7 @@ begin
             funct7       => funct7,
             zero_flag    => zero_flag,
             alu_done     => alu_done,
+            latch_store_data => latch_store_data,
             branch_taken => branch_taken,
             pc_write     => pc_write,
             ir_write     => ir_write,
@@ -161,11 +181,10 @@ begin
             alu_src_b    => alu_src_b,
             alu_control  => alu_control,
             alu_start    => alu_start,
-            -- pc_src       => pc_src,
             wb_sel       => wb_sel,
             is_branch    => is_branch,
-            is_jalr    => is_jalr,
-            is_jal    => is_jal,
+            is_jalr      => is_jalr,
+            is_jal       => is_jal,
             imm_type     => imm_type
         );
 
@@ -244,9 +263,9 @@ begin
             reset       => internal_reset,
             addr        => uart_addr,
             wr_en       => uart_write_en,
-            write_data  => rs2_data,
+            write_data  => store_data,
             read_data   => uart_read_data,
-            RsTx        => RsTx
+            RsTx        => io_out(13)
         );
 
     process(clk)
@@ -255,11 +274,11 @@ begin
             if internal_reset = '1' then
                 gpio_reg <= (others => '0');
             elsif mem_write = '1' and io_en = '1' then
-                gpio_reg <= rs2_data(7 downto 0);
+                gpio_reg <= store_data(7 downto 0);
             end if;
         end if;
     end process;
-    io_out(7 downto 0) <= gpio_reg;
+    io_out(21 downto 14) <= gpio_reg;
 
     -- === Memory Mux ===
     mem_data <= uart_read_data when uart_en = '1' else

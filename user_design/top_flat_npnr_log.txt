@@ -1,0 +1,340 @@
+Info: Detected FABulous 2.0 format project.
+
+Info: Checksum: 0xb5e84766
+
+Info: Device utilisation:
+Info: 	         FABULOUS_LC:     574/    896    64%
+Info: 	IO_1_bidirectional_frame_config_pass:      24/     32    75%
+Info: 	InPass4_frame_config_mux:      48/     64    75%
+Info: 	OutPass4_frame_config_mux:      84/    112    75%
+Info: 	        RegFile_32x4:       8/     16    50%
+Info: 	              MULADD:       0/      8     0%
+Info: 	        Global_Clock:       1/      1   100%
+Info: 	       FABULOUS_MUX2:       0/    448     0%
+Info: 	       FABULOUS_MUX4:       0/    224     0%
+Info: 	       FABULOUS_MUX8:       0/    112     0%
+Info: 	       Config_access:       0/     48     0%
+
+Info: Placed 156 cells based on constraints.
+Info: Creating initial analytic placement for 585 cells, random placement wirelen = 7593.
+Info:     at initial placer iter 0, wirelen = 11
+Info:     at initial placer iter 1, wirelen = 12
+Info:     at initial placer iter 2, wirelen = 11
+Info:     at initial placer iter 3, wirelen = 12
+Info: Running main analytical placer, max placement attempts per cell = 68635.
+Info:     at iteration #1, type ALL: wirelen solved = 11, spread = 3759, legal = 3641; time = 0.01s
+Info:     at iteration #2, type ALL: wirelen solved = 41, spread = 3228, legal = 3205; time = 0.01s
+Info:     at iteration #3, type ALL: wirelen solved = 79, spread = 2712, legal = 2766; time = 0.01s
+Info:     at iteration #4, type ALL: wirelen solved = 344, spread = 2495, legal = 2614; time = 0.01s
+Info:     at iteration #5, type ALL: wirelen solved = 324, spread = 2449, legal = 2588; time = 0.01s
+Info:     at iteration #6, type ALL: wirelen solved = 353, spread = 2404, legal = 2548; time = 0.01s
+Info:     at iteration #7, type ALL: wirelen solved = 415, spread = 2403, legal = 2542; time = 0.01s
+Info:     at iteration #8, type ALL: wirelen solved = 574, spread = 2348, legal = 2537; time = 0.01s
+Info:     at iteration #9, type ALL: wirelen solved = 590, spread = 2355, legal = 2529; time = 0.01s
+Info:     at iteration #10, type ALL: wirelen solved = 631, spread = 2284, legal = 2452; time = 0.01s
+Info:     at iteration #11, type ALL: wirelen solved = 664, spread = 2252, legal = 2447; time = 0.01s
+Info:     at iteration #12, type ALL: wirelen solved = 730, spread = 2235, legal = 2432; time = 0.01s
+Info:     at iteration #13, type ALL: wirelen solved = 835, spread = 2199, legal = 2424; time = 0.01s
+Info:     at iteration #14, type ALL: wirelen solved = 884, spread = 2143, legal = 2354; time = 0.01s
+Info:     at iteration #15, type ALL: wirelen solved = 999, spread = 2151, legal = 2425; time = 0.01s
+Info:     at iteration #16, type ALL: wirelen solved = 1004, spread = 2120, legal = 2363; time = 0.01s
+Info:     at iteration #17, type ALL: wirelen solved = 1034, spread = 2082, legal = 2334; time = 0.01s
+Info:     at iteration #18, type ALL: wirelen solved = 1088, spread = 2056, legal = 2276; time = 0.01s
+Info:     at iteration #19, type ALL: wirelen solved = 1098, spread = 2147, legal = 2388; time = 0.01s
+Info:     at iteration #20, type ALL: wirelen solved = 1146, spread = 2151, legal = 2405; time = 0.01s
+Info:     at iteration #21, type ALL: wirelen solved = 1201, spread = 2017, legal = 2250; time = 0.01s
+Info:     at iteration #22, type ALL: wirelen solved = 1162, spread = 2144, legal = 2441; time = 0.01s
+Info:     at iteration #23, type ALL: wirelen solved = 1248, spread = 2077, legal = 2378; time = 0.01s
+Info:     at iteration #24, type ALL: wirelen solved = 1306, spread = 2062, legal = 2345; time = 0.00s
+Info:     at iteration #25, type ALL: wirelen solved = 1317, spread = 2089, legal = 2358; time = 0.01s
+Info:     at iteration #26, type ALL: wirelen solved = 1358, spread = 2081, legal = 2350; time = 0.01s
+Info: HeAP Placer Time: 0.20s
+Info:   of which solving equations: 0.14s
+Info:   of which spreading cells: 0.02s
+Info:   of which strict legalisation: 0.00s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 2100, wirelen = 2250
+iter #1: temp = 0.000000, timing cost = 1544, wirelen = 2151, dia = 3, Ra = 0.06 
+iter #2: temp = 0.000000, timing cost = 768, wirelen = 2054, dia = 2, Ra = 0.08 
+iter #3: temp = 0.000000, timing cost = 1588, wirelen = 2038, dia = 2, Ra = 0.08 
+iter #4: temp = 0.000000, timing cost = 1208, wirelen = 2003, dia = 2, Ra = 0.07 
+Info:   at iteration #5: temp = 0.000000, timing cost = 811, wirelen = 2003
+iter #5: temp = 0.000000, timing cost = 749, wirelen = 1961, dia = 2, Ra = 0.07 
+Info:   at iteration #6: temp = 0.000000, timing cost = 1905, wirelen = 1973 
+Info: SA placement time 0.10s
+
+Info: Max frequency for clock 'clk': 7.55 MHz (FAIL at 12.00 MHz)
+
+Info: Slack histogram:
+Info:  legend: * represents 3 endpoint(s)
+Info:          + represents [1,3) endpoint(s)
+Info: [-49166, -42866) |*****+
+Info: [-42866, -36566) |*****+
+Info: [-36566, -30266) |*******+
+Info: [-30266, -23966) |******+
+Info: [-23966, -17666) |**** 
+Info: [-17666, -11366) |****+
+Info: [-11366,  -5066) |*******+
+Info: [ -5066,   1234) |******+
+Info: [  1234,   7534) |*******+
+Info: [  7534,  13834) |*********+
+Info: [ 13834,  20134) |*******+
+Info: [ 20134,  26434) |*****+
+Info: [ 26434,  32734) |*****+
+Info: [ 32734,  39034) |******+
+Info: [ 39034,  45334) |****+
+Info: [ 45334,  51634) |**** 
+Info: [ 51634,  57934) |********+
+Info: [ 57934,  64234) |*****+
+Info: [ 64234,  70534) |*******+
+Info: [ 70534,  76834) |************************************************************ 
+Info: Checksum: 0xe536dedd
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 2476 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:       1000 |      472        527 |  472   527 |      2045|       0.13       0.13|
+Info:       2000 |     1016        983 |  544   456 |      1777|       0.13       0.26|
+Info:       3000 |     1715       1284 |  699   301 |      1672|       0.13       0.39|
+Info:       4000 |     2423       1576 |  708   292 |      1604|       0.14       0.52|
+Info:       5000 |     3132       1867 |  709   291 |      1489|       0.15       0.67|
+Info:       6000 |     3849       2150 |  717   283 |      1384|       0.15       0.82|
+Info:       7000 |     4613       2386 |  764   236 |      1339|       0.16       0.97|
+Info:       8000 |     5371       2628 |  758   242 |      1314|       0.16       1.13|
+Info:       9000 |     6139       2860 |  768   232 |      1272|       0.15       1.28|
+Info:      10000 |     6884       3115 |  745   255 |      1160|       0.16       1.44|
+Info:      11000 |     7592       3407 |  708   292 |      1066|       0.15       1.59|
+Info:      12000 |     8232       3767 |  640   360 |       961|       0.17       1.76|
+Info:      13000 |     8972       4027 |  740   260 |       842|       0.18       1.94|
+Info:      14000 |     9724       4275 |  752   248 |       814|       0.15       2.09|
+Info:      15000 |    10506       4493 |  782   218 |       845|       0.17       2.26|
+Info:      16000 |    11210       4789 |  704   296 |       770|       0.16       2.42|
+Info:      17000 |    11930       5069 |  720   280 |       656|       0.14       2.56|
+Info:      18000 |    12760       5239 |  830   170 |       643|       0.17       2.73|
+Info:      19000 |    13437       5562 |  677   323 |       442|       0.19       2.93|
+Info:      20000 |    14153       5846 |  716   284 |       367|       0.19       3.11|
+Info:      21000 |    14898       6101 |  745   255 |       290|       0.19       3.30|
+Info:      22000 |    15580       6419 |  682   318 |       214|       0.17       3.46|
+Info:      23000 |    16289       6710 |  709   291 |       131|       0.20       3.67|
+Info:      24000 |    17071       6928 |  782   218 |       109|       0.23       3.90|
+Info:      25000 |    17936       7063 |  865   135 |       150|       0.20       4.10|
+Info:      25991 |    18679       7312 |  743   249 |         0|       0.23       4.33|
+Info: Routing complete.
+Info: Router1 time 4.33s
+Info: Checksum: 0x250424cb
+
+Info: Critical path report for clock 'clk' (posedge -> posedge):
+Info:       type curr  total name
+Info:   clk-to-q  1.00  1.00 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9625.Q
+Info:    routing  3.90  4.90 Net top_i.cu.n426 (1,12) -> (1,11)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9161.I0
+Info:                           prediction: 6.000000 ns estimate: 6.000000 ns
+Info:                  0.100 X1Y11/LA_I2/X1Y11/A_PERM_I0
+Info:                  0.400 X1Y11/J2MID_ABa_END2.LA_I2
+Info:                  0.400 X1Y11/J2MID_ABa_BEG2.J2MID_ABa_END2
+Info:                  0.400 X1Y11/N2MID4.J2MID_ABa_BEG2
+Info:                  0.400 X1Y12/N2BEG4.N2MID4
+Info:                  0.400 X1Y12/JN2END4.N2BEG4
+Info:                  0.400 X1Y12/JN2BEG4.JN2END4
+Info:                  0.400 X1Y12/LF_O.JN2BEG4
+Info:                  1.000 X1Y12/F_Q/X1Y12/LF_O
+Info:                          Defined in:
+Info:                               /home/pixelvoid/Development/Hardware/mpw2-eFPGA-FABulous-project/user_design/top_flat.v:2415.14-2415.18
+Info:      logic  3.00  7.90 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9161.O
+Info:    routing  2.90  10.80 Net $abc$9106$auto$simplemap.cc:125:simplemap_reduce$4680[0]_new_inv (1,11) -> (1,12)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9160.I0
+Info:                           prediction: 6.000000 ns estimate: 6.000000 ns
+Info:                  0.100 X1Y12/LC_I0/X1Y12/C_PERM_I0
+Info:                  0.400 X1Y12/J2MID_CDb_END0.LC_I0
+Info:                  0.400 X1Y12/J2MID_CDb_BEG0.J2MID_CDb_END0
+Info:                  0.400 X1Y12/S2MID7.J2MID_CDb_BEG0
+Info:                  0.400 X1Y11/S2BEG7.S2MID7
+Info:                  0.400 X1Y11/JS2END7.S2BEG7
+Info:                  0.400 X1Y11/JS2BEG7.JS2END7
+Info:                  0.400 X1Y11/LA_O.JS2BEG7
+Info:      logic  3.00  13.80 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9160.O
+Info:    routing  3.70  17.50 Net $abc$9106$auto$simplemap.cc:125:simplemap_reduce$4724_new_inv (1,12) -> (1,10)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9159.I1
+Info:                           prediction: 9.000000 ns estimate: 9.000000 ns
+Info:                  0.100 X1Y10/LG_I0/X1Y10/G_PERM_I1
+Info:                  0.400 X1Y10/J2MID_GHb_END0.LG_I0
+Info:                  0.400 X1Y10/J2MID_GHb_BEG0.J2MID_GHb_END0
+Info:                  0.400 X1Y10/N2MID7.J2MID_GHb_BEG0
+Info:                  0.400 X1Y11/N2BEG7.N2MID7
+Info:                  0.400 X1Y11/JN2END7.N2BEG7
+Info:                  0.400 X1Y11/JN2BEG7.JN2END7
+Info:                  0.400 X1Y11/N1END0.JN2BEG7
+Info:                  0.400 X1Y12/N1BEG0.N1END0
+Info:                  0.400 X1Y12/LC_O.N1BEG0
+Info:      logic  3.00  20.50 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9159.O
+Info:    routing  2.10  22.60 Net $abc$9106$auto$simplemap.cc:254:simplemap_eqne$4718_new_inv (1,10) -> (1,10)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9158.I0
+Info:                           prediction: 3.000000 ns estimate: 3.000000 ns
+Info:                  0.100 X1Y10/LF_I3/X1Y10/F_PERM_I0
+Info:                  0.400 X1Y10/J_l_EF_END3.LF_I3
+Info:                  0.400 X1Y10/J_l_EF_BEG3.J_l_EF_END3
+Info:                  0.400 X1Y10/JW2END3.J_l_EF_BEG3
+Info:                  0.400 X1Y10/JW2BEG3.JW2END3
+Info:                  0.400 X1Y10/LG_O.JW2BEG3
+Info:      logic  3.00  25.60 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9158.O
+Info:    routing  2.10  27.70 Net $abc$9106$auto$simplemap.cc:125:simplemap_reduce$3631_new_inv (1,10) -> (1,10)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9157.I3
+Info:                           prediction: 3.000000 ns estimate: 3.000000 ns
+Info:                  0.100 X1Y10/LH_I2/X1Y10/H_PERM_I3
+Info:                  0.400 X1Y10/J2MID_GHa_END2.LH_I2
+Info:                  0.400 X1Y10/J2MID_GHa_BEG2.J2MID_GHa_END2
+Info:                  0.400 X1Y10/JS2END6.J2MID_GHa_BEG2
+Info:                  0.400 X1Y10/JS2BEG6.JS2END6
+Info:                  0.400 X1Y10/LF_O.JS2BEG6
+Info:      logic  3.00  30.70 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9157.O
+Info:    routing  13.30  44.00 Net $abc$9106$auto$opt_reduce.cc:137:opt_pmux$1014_new_inv (1,10) -> (6,8)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9156.I1
+Info:                           prediction: 24.000000 ns estimate: 24.000000 ns
+Info:                  0.100 X6Y8/LG_I1/X6Y8/G_PERM_I1
+Info:                  0.400 X6Y8/J2MID_GHa_END1.LG_I1
+Info:                  0.400 X6Y8/J2MID_GHa_BEG1.J2MID_GHa_END1
+Info:                  0.400 X6Y8/S2MID2.J2MID_GHa_BEG1
+Info:                  0.400 X6Y7/S2BEG2.S2MID2
+Info:                  0.400 X6Y7/JS2END2.S2BEG2
+Info:                  0.400 X6Y7/JS2BEG2.JS2END2
+Info:                  0.400 X6Y7/NN4END3.JS2BEG2
+Info:                  0.400 X6Y8/NN4BEG7.NN4END3
+Info:                  0.400 X6Y8/NN4END7.NN4BEG7
+Info:                  0.400 X6Y9/NN4BEG11.NN4END7
+Info:                  0.400 X6Y9/NN4END11.NN4BEG11
+Info:                  0.400 X6Y10/NN4BEG15.NN4END11
+Info:                  0.400 X6Y10/NN4END15.NN4BEG15
+Info:                  0.400 X6Y11/NN4BEG3.NN4END15
+Info:                  0.400 X6Y11/J2MID_GHa_END2.NN4BEG3
+Info:                  0.400 X6Y11/J2MID_GHa_BEG2.J2MID_GHa_END2
+Info:                  0.400 X6Y11/E2MID4.J2MID_GHa_BEG2
+Info:                  0.400 X5Y11/E2BEG4.E2MID4
+Info:                  0.400 X5Y11/JE2END4.E2BEG4
+Info:                  0.400 X5Y11/JE2BEG4.JE2END4
+Info:                  0.400 X5Y11/S1END1.JE2BEG4
+Info:                  0.400 X5Y10/S1BEG1.S1END1
+Info:                  0.400 X5Y10/JE2END0.S1BEG1
+Info:                  0.400 X5Y10/JE2BEG0.JE2END0
+Info:                  0.400 X5Y10/EE4END1.JE2BEG0
+Info:                  0.400 X4Y10/EE4BEG5.EE4END1
+Info:                  0.400 X4Y10/EE4END5.EE4BEG5
+Info:                  0.400 X3Y10/EE4BEG9.EE4END5
+Info:                  0.400 X3Y10/EE4END9.EE4BEG9
+Info:                  0.400 X2Y10/EE4BEG13.EE4END9
+Info:                  0.400 X2Y10/EE4END13.EE4BEG13
+Info:                  0.400 X1Y10/EE4BEG1.EE4END13
+Info:                  0.400 X1Y10/LH_O.EE4BEG1
+Info:      logic  3.00  47.00 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9156.O
+Info:    routing  10.10  57.10 Net $abc$9106$auto$simplemap.cc:125:simplemap_reduce$2724[0]_new_inv (6,8) -> (2,10)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9300.I3
+Info:                           prediction: 21.000000 ns estimate: 21.000000 ns
+Info:                  0.100 X2Y10/LD_I0/X2Y10/D_PERM_I3
+Info:                  0.400 X2Y10/J2MID_CDb_END0.LD_I0
+Info:                  0.400 X2Y10/J2MID_CDb_BEG0.J2MID_CDb_END0
+Info:                  0.400 X2Y10/S2MID7.J2MID_CDb_BEG0
+Info:                  0.400 X2Y9/S2BEG7.S2MID7
+Info:                  0.400 X2Y9/JS2END7.S2BEG7
+Info:                  0.400 X2Y9/JS2BEG7.JS2END7
+Info:                  0.400 X2Y9/S1END0.JS2BEG7
+Info:                  0.400 X2Y8/S1BEG0.S1END0
+Info:                  0.400 X2Y8/J2MID_CDb_END3.S1BEG0
+Info:                  0.400 X2Y8/J2MID_CDb_BEG3.J2MID_CDb_END3
+Info:                  0.400 X2Y8/E2MID1.J2MID_CDb_BEG3
+Info:                  0.400 X1Y8/E2BEG1.E2MID1
+Info:                  0.400 X1Y8/JE2END1.E2BEG1
+Info:                  0.400 X1Y8/JE2BEG1.JE2END1
+Info:                  0.400 X1Y8/WW4END3.JE2BEG1
+Info:                  0.400 X2Y8/WW4BEG7.WW4END3
+Info:                  0.400 X2Y8/WW4END7.WW4BEG7
+Info:                  0.400 X3Y8/WW4BEG11.WW4END7
+Info:                  0.400 X3Y8/WW4END11.WW4BEG11
+Info:                  0.400 X4Y8/WW4BEG15.WW4END11
+Info:                  0.400 X4Y8/WW4END15.WW4BEG15
+Info:                  0.400 X5Y8/WW4BEG3.WW4END15
+Info:                  0.400 X5Y8/W1END1.WW4BEG3
+Info:                  0.400 X6Y8/W1BEG1.W1END1
+Info:                  0.400 X6Y8/LG_O.W1BEG1
+Info:      logic  3.00  60.10 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9300.O
+Info:    routing  5.30  65.40 Net $abc$9106$auto$opt_dff.cc:219:make_patterns_logic$1111_new (2,10) -> (4,11)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9429.I2
+Info:                           prediction: 12.000000 ns estimate: 12.000000 ns
+Info:                  0.100 X4Y11/LF_I1/X4Y11/F_PERM_I2
+Info:                  0.400 X4Y11/J2MID_EFb_END1.LF_I1
+Info:                  0.400 X4Y11/J2MID_EFb_BEG1.J2MID_EFb_END1
+Info:                  0.400 X4Y11/S2MID3.J2MID_EFb_BEG1
+Info:                  0.400 X4Y10/S2BEG3.S2MID3
+Info:                  0.400 X4Y10/JS2END3.S2BEG3
+Info:                  0.400 X4Y10/JS2BEG3.JS2END3
+Info:                  0.400 X4Y10/E1END2.JS2BEG3
+Info:                  0.400 X3Y10/E1BEG2.E1END2
+Info:                  0.400 X3Y10/JN2END1.E1BEG2
+Info:                  0.400 X3Y10/JN2BEG1.JN2END1
+Info:                  0.400 X3Y10/E1END0.JN2BEG1
+Info:                  0.400 X2Y10/E1BEG0.E1END0
+Info:                  0.400 X2Y10/LD_O.E1BEG0
+Info:      logic  3.00  68.40 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9429.O
+Info:    routing  2.10  70.50 Net $abc$9106$auto$opt_dff.cc:219:make_patterns_logic$1837_new (4,11) -> (4,11)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9437.I3
+Info:                           prediction: 3.000000 ns estimate: 3.000000 ns
+Info:                  0.100 X4Y11/LC_I2/X4Y11/C_PERM_I3
+Info:                  0.400 X4Y11/J2MID_CDa_END2.LC_I2
+Info:                  0.400 X4Y11/J2MID_CDa_BEG2.J2MID_CDa_END2
+Info:                  0.400 X4Y11/JS2END4.J2MID_CDa_BEG2
+Info:                  0.400 X4Y11/JS2BEG4.JS2END4
+Info:                  0.400 X4Y11/LF_O.JS2BEG4
+Info:      logic  3.00  73.50 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9437.O
+Info:    routing  2.90  76.40 Net $abc$9106$new_n847 (4,11) -> (4,10)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9436.I2
+Info:                           prediction: 6.000000 ns estimate: 6.000000 ns
+Info:                  0.100 X4Y10/LC_I3/X4Y10/C_PERM_I2
+Info:                  0.400 X4Y10/J2MID_CDa_END3.LC_I3
+Info:                  0.400 X4Y10/J2MID_CDa_BEG3.J2MID_CDa_END3
+Info:                  0.400 X4Y10/N2MID0.J2MID_CDa_BEG3
+Info:                  0.400 X4Y11/N2BEG0.N2MID0
+Info:                  0.400 X4Y11/JN2END0.N2BEG0
+Info:                  0.400 X4Y11/JN2BEG0.JN2END0
+Info:                  0.400 X4Y11/LC_O.JN2BEG0
+Info:      logic  3.00  79.40 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9436.O
+Info:    routing  2.10  81.50 Net $abc$9106$new_n846 (4,10) -> (4,10)
+Info:                          Sink $abc$9106$auto$blifparse.cc:535:parse_blif$9438.I2
+Info:                           prediction: 3.000000 ns estimate: 3.000000 ns
+Info:                  0.100 X4Y10/LE_I0/X4Y10/E_PERM_I2
+Info:                  0.400 X4Y10/J2MID_EFa_END0.LE_I0
+Info:                  0.400 X4Y10/J2MID_EFa_BEG0.J2MID_EFa_END0
+Info:                  0.400 X4Y10/JN2END5.J2MID_EFa_BEG0
+Info:                  0.400 X4Y10/JN2BEG5.JN2END5
+Info:                  0.400 X4Y10/LC_O.JN2BEG5
+Info:      setup  2.50  84.00 Source $abc$9106$auto$blifparse.cc:535:parse_blif$9438.I2
+Info: 33.50 ns logic, 50.50 ns routing
+
+ERROR: Max frequency for clock 'clk': 11.90 MHz (FAIL at 12.00 MHz)
+
+Info: Slack histogram:
+Info:  legend: * represents 2 endpoint(s)
+Info:          + represents [1,2) endpoint(s)
+Info: [  -666,   3204) |*+
+Info: [  3204,   7074) |+
+Info: [  7074,  10944) |+
+Info: [ 10944,  14814) |*****+
+Info: [ 14814,  18684) |*************************+
+Info: [ 18684,  22554) |************+
+Info: [ 22554,  26424) |*****************+
+Info: [ 26424,  30294) |*+
+Info: [ 30294,  34164) |*****+
+Info: [ 34164,  38034) |****+
+Info: [ 38034,  41904) |************+
+Info: [ 41904,  45774) |*************************+
+Info: [ 45774,  49644) |********************+
+Info: [ 49644,  53514) |*************+
+Info: [ 53514,  57384) |*****************+
+Info: [ 57384,  61254) |***************+
+Info: [ 61254,  65124) |****************+
+Info: [ 65124,  68994) |*********************************+
+Info: [ 68994,  72864) |****************************+
+Info: [ 72864,  76734) |************************************************************ 
+0 warnings, 1 error
+
+Info: Program finished normally.

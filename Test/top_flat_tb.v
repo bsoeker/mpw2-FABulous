@@ -1,8 +1,8 @@
 `timescale 1ps/1ps
-module top_tb;
-    wire [27:0] I_top;
-    wire [27:0] T_top;
-    reg [27:0] O_top = 0;
+module top_flat_tb;
+    wire [23:0] I_top;
+    wire [23:0] T_top;
+    reg [23:0] O_top = 0;
     wire [55:0] A_cfg, B_cfg;
 
     reg CLK = 1'b0;
@@ -30,8 +30,15 @@ module top_tb;
         .s_data(s_data)
     );
 
+    wire [24:0] I_top_gold, oeb_gold, T_top_gold;
+    top dut_i (
+        .clk(CLK),
+        .io_out(I_top_gold),
+        .io_oeb(oeb_gold),
+        .io_in(O_top)
+    );
 
-
+    assign T_top_gold = ~oeb_gold;
 
     localparam MAX_BITBYTES = 16384;
     reg [7:0] bitstream[0:MAX_BITBYTES-1];
@@ -80,10 +87,10 @@ module top_tb;
 `endif
         repeat (100) @(posedge CLK);
         // Enable and reset the counter
-        O_top = 28'b1000_0000_0000_0000_0000_0000_0000;
+        O_top = 24'b1000_0000_0000_0000_0000_0000;
         repeat (5) @(posedge CLK);
         // Deassert reset while keeping the counter enabled
-        O_top = 28'b0000_0000_0000_0000_0000_0000_0000;
+        O_top = 24'b0000_0000_0000_0000_0000_0000;
         for (i = 0; i < 10000; i = i + 1) begin
             @(negedge CLK);
         end

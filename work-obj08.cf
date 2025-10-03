@@ -1,0 +1,37 @@
+v 4
+file . "./user_design/uart.vhd" "b4bc027a2b73448eaed4265dcbeb3aed5efeb056" "20251003203853.422":
+  entity uart at 1( 0) + 0 on 33;
+  architecture behavioral of uart at 17( 461) + 0 on 34;
+file . "./user_design/rom.vhd" "c8ecf96165c4dee71385e9b030a573446638c9e7" "20251003203853.175":
+  entity rom at 1( 0) + 0 on 29;
+  architecture rom_arch of rom at 18( 586) + 0 on 30;
+file . "./user_design/pc.vhd" "ed36bb7ecc9396a74cdd2d4b254a997c83fbab66" "20251003203853.056":
+  entity programcounter at 1( 0) + 0 on 25;
+  architecture behavioral of programcounter at 15( 377) + 0 on 26;
+file . "./user_design/mux_b.vhd" "fd290ccb6db9b5e03326d762a646f4e235fb4d8e" "20251003203852.952":
+  entity mux_b at 1( 0) + 0 on 21;
+  architecture behavioral of mux_b at 15( 365) + 0 on 22;
+file . "./user_design/imm_gen.vhd" "16b982a753353672c4a6ceb73b9eb19254627768" "20251003203852.835":
+  entity imm_gen at 1( 0) + 0 on 17;
+  architecture behavioral of imm_gen at 13( 307) + 0 on 18;
+file . "./user_design/alu.vhd" "8a4f2898c576e9b873869c6851c7d322548d5bd8" "20251003203852.574":
+  entity alu at 1( 0) + 0 on 13;
+  architecture behavioral of alu at 19( 579) + 0 on 14;
+file . "./user_design/address_decoder.vhd" "d80ed11a040d2cf9fa11426ed4c54d219149df3e" "20251003203852.511":
+  entity address_decoder at 1( 0) + 0 on 11;
+  architecture behavioral of address_decoder at 19( 549) + 0 on 12;
+file . "./user_design/control_unit.vhd" "89932a88d94477ef609e6f8ad84793b82d6a4377" "20251003203852.680":
+  entity control_unit at 1( 0) + 0 on 15;
+  architecture behavioral of control_unit at 34( 1121) + 0 on 16;
+file . "./user_design/mux_a.vhd" "7073c412ec59571a92b510fdc5b063e2ea42579c" "20251003203852.898":
+  entity mux_a at 1( 0) + 0 on 19;
+  architecture behavioral of mux_a at 15( 387) + 0 on 20;
+file . "./user_design/mux_wb.vhd" "e1f7972c3a7322658cdc1d9eb5e789982334d9d6" "20251003203853.001":
+  entity mux_wb at 1( 0) + 0 on 23;
+  architecture behavioral of mux_wb at 16( 451) + 0 on 24;
+file . "./user_design/reg_file.vhd" "a0d85c83d113f42c510acb3247d6e13dae7d2f99" "20251003203853.104":
+  entity reg_file at 1( 0) + 0 on 27;
+  architecture wrapper of reg_file at 18( 526) + 0 on 28;
+file . "./user_design/top.vhd" "aafa2b9fce7d692eb7f2f495776b305ff61796f4" "20251003203853.245":
+  entity top at 1( 0) + 0 on 31;
+  architecture behavioral of top at 15( 389) + 0 on 32;

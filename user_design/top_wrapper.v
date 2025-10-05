@@ -1087,7 +1087,7 @@ module top_wrapper;
         .I0 (bram5_config[7])
     );
 
-    top top_i (
+    top_flat top_i (
         .clk(clk),
         .io_in(io_in),
         .io_out(io_out),

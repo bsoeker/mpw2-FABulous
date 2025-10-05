@@ -1,0 +1,12 @@
+address_decoder.vhd
+alu.vhd
+control_unit.vhd
+imm_gen.vhd
+mux_a.vhd
+mux_b.vhd
+mux_wb.vhd
+pc.vhd
+reg_file.vhd
+rom.vhd
+uart.vhd
+top.vhd

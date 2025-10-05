@@ -257,16 +257,16 @@ begin
 
     -- === UART ===
     uart_write_en <= '1' when (mem_write = '1' and uart_en = '1') else '0';
-    -- uart_inst: entity work.uart
-    --     port map (
-    --         clk         => clk,
-    --         reset       => internal_reset,
-    --         addr        => uart_addr,
-    --         wr_en       => uart_write_en,
-    --         write_data  => store_data,
-    --         read_data   => uart_read_data,
-    --         RsTx        => io_out(13)
-    --     );
+    uart_inst: entity work.uart
+        port map (
+            clk         => clk,
+            reset       => internal_reset,
+            addr        => uart_addr,
+            wr_en       => uart_write_en,
+            write_data  => store_data,
+            read_data   => uart_read_data,
+            RsTx        => io_out(13)
+        );
 
     process(clk)
     begin

@@ -633,14 +633,21 @@ IO_1_bidirectional_frame_config_pass Inst_B_IO_1_bidirectional_frame_config_pass
 );
 
 Config_access Inst_A_config_Config_access (
-    .C_bit({A_config_C_bit3, A_config_C_bit2, A_config_C_bit1, A_config_C_bit0}),
+    .C_bit0(A_config_C_bit0),
+    .C_bit1(A_config_C_bit1),
+    .C_bit2(A_config_C_bit2),
+    .C_bit3(A_config_C_bit3),
     .ConfigBits(ConfigBits[4-1:0])
 );
 
 Config_access Inst_B_config_Config_access (
-    .C_bit({B_config_C_bit3, B_config_C_bit2, B_config_C_bit1, B_config_C_bit0}),
+    .C_bit0(B_config_C_bit0),
+    .C_bit1(B_config_C_bit1),
+    .C_bit2(B_config_C_bit2),
+    .C_bit3(B_config_C_bit3),
     .ConfigBits(ConfigBits[8-1:4])
 );
+
 
 W_IO_switch_matrix Inst_W_IO_switch_matrix (
     .W1END0(W1END[0]),

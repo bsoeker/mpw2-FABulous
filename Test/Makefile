@@ -68,7 +68,7 @@ mkdir_build:
 
 run_simulation:
 	find ${FABRIC_FILES_DIR} -name '*.v' -print > ${BUILD_DIR}/filelist.f
-	iverilog -s ${TESTBENCH} -c ${BUILD_DIR}/filelist.f -o ${BUILD_DIR}/${DESIGN}.vvp ${FABRIC_FILES_DIR}/* ${USER_DESIGN_VERILOG} ${TESTBENCH}.v -g2012
+	iverilog -s ${TESTBENCH} -c ${BUILD_DIR}/filelist.f -o ${BUILD_DIR}/${DESIGN}.vvp ${USER_DESIGN_VERILOG} ${TESTBENCH}.v -g2012
 	vvp ${BUILD_DIR}/${DESIGN}.vvp ${VVP_ARGS}
 
 run_emulation:

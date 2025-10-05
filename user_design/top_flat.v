@@ -1985,9 +1985,7 @@ module reg_file
   /* reg_file.vhd:61:23  */
   assign n544 = n543 ? reg_write : 1'b0;
   /* reg_file.vhd:67:5  */
-  RegFile_32x4 #(
-    .AD_reg(1'b0),
-    .BD_reg(1'b0))
+  RegFile_32x4 
     gen_regfiles_n1_regfile_inst (
     .D0(n546),
     .D1(n547),
@@ -2057,9 +2055,7 @@ module reg_file
   /* reg_file.vhd:105:27  */
   assign n572 = rs2_addr[4]; // extract
   /* reg_file.vhd:67:5  */
-  RegFile_32x4 #(
-    .AD_reg(1'b0),
-    .BD_reg(1'b0))
+  RegFile_32x4 
     gen_regfiles_n2_regfile_inst (
     .D0(n573),
     .D1(n574),
@@ -2129,9 +2125,7 @@ module reg_file
   /* reg_file.vhd:105:27  */
   assign n599 = rs2_addr[4]; // extract
   /* reg_file.vhd:67:5  */
-  RegFile_32x4 #(
-    .AD_reg(1'b0),
-    .BD_reg(1'b0))
+  RegFile_32x4 
     gen_regfiles_n3_regfile_inst (
     .D0(n600),
     .D1(n601),
@@ -2201,9 +2195,7 @@ module reg_file
   /* reg_file.vhd:105:27  */
   assign n626 = rs2_addr[4]; // extract
   /* reg_file.vhd:67:5  */
-  RegFile_32x4 #(
-    .AD_reg(1'b0),
-    .BD_reg(1'b0))
+  RegFile_32x4 
     gen_regfiles_n4_regfile_inst (
     .D0(n627),
     .D1(n628),
@@ -2273,9 +2265,7 @@ module reg_file
   /* reg_file.vhd:105:27  */
   assign n653 = rs2_addr[4]; // extract
   /* reg_file.vhd:67:5  */
-  RegFile_32x4 #(
-    .AD_reg(1'b0),
-    .BD_reg(1'b0))
+  RegFile_32x4 
     gen_regfiles_n5_regfile_inst (
     .D0(n654),
     .D1(n655),
@@ -2345,9 +2335,7 @@ module reg_file
   /* reg_file.vhd:105:27  */
   assign n680 = rs2_addr[4]; // extract
   /* reg_file.vhd:67:5  */
-  RegFile_32x4 #(
-    .AD_reg(1'b0),
-    .BD_reg(1'b0))
+  RegFile_32x4 
     gen_regfiles_n6_regfile_inst (
     .D0(n681),
     .D1(n682),
@@ -2417,9 +2405,7 @@ module reg_file
   /* reg_file.vhd:105:27  */
   assign n707 = rs2_addr[4]; // extract
   /* reg_file.vhd:67:5  */
-  RegFile_32x4 #(
-    .AD_reg(1'b0),
-    .BD_reg(1'b0))
+  RegFile_32x4 
     gen_regfiles_n7_regfile_inst (
     .D0(n708),
     .D1(n709),
@@ -2489,9 +2475,7 @@ module reg_file
   /* reg_file.vhd:105:27  */
   assign n734 = rs2_addr[4]; // extract
   /* reg_file.vhd:67:5  */
-  RegFile_32x4 #(
-    .AD_reg(1'b0),
-    .BD_reg(1'b0))
+  RegFile_32x4 
     gen_regfiles_n8_regfile_inst (
     .D0(n735),
     .D1(n736),

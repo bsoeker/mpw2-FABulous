@@ -156,6 +156,27 @@ module my_buf (A, X);
     assign X = A;
 endmodule
 
+// -----------------------------------------------------------------------------
+// Custom 2:1 multiplexer used by FABulous switch matrices
+// -----------------------------------------------------------------------------
+module cus_mux21 (A0, A1, S, S_N, X);
+    input A0;
+    input A1;
+    input S;
+    input S_N;
+    output X;
+
+    wire [1:0] sel;
+    wire [1:0] a;
+
+    // emulate the behavior of other cus_mux blocks
+    assign sel = {S_N, S};
+    assign a = {A1, A0};
+
+    assign X = S ? A1 : A0;  // basic behavioral model
+endmodule
+
+
 module cus_mux41 (A0, A1, A2, A3, S0, S0N, S1, S1N, X);
 	input A0;
 	input A1;

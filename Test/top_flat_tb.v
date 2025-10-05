@@ -31,7 +31,7 @@ module top_flat_tb;
     );
 
     wire [24:0] I_top_gold, oeb_gold, T_top_gold;
-    top dut_i (
+    top_flat dut_i (
         .clk(CLK),
         .io_out(I_top_gold),
         .io_oeb(oeb_gold),

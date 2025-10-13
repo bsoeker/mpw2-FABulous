@@ -22,7 +22,7 @@ architecture rom_arch of rom is
     type rom_type is array (0 to 2**addr_width - 1) of std_logic_vector(31 downto 0);
     signal rom_array : rom_type := (
         0 => x"200000b7",   -- lui  x1, 0x20000   ; UART base = 0x20000000
-        1 => x"06c00113",   -- addi x2, x0, 0x48
+        1 => x"04800113",   -- addi x2, x0, 0x48
         2 => x"0020a023",   -- sw   x2, 0(x1)
         3 => x"0000006f",
         others => x"00000000"

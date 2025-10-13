@@ -2,3 +2,4 @@ simulation/
 *.o
 vivado*
 Test/build/
+out*

@@ -1,0 +1,29 @@
+- At the current setup, instruction ROM can not have more than 7 instructions due to the limited LUT resources.
+
+- There is only a single instruction difference (ROM index 1) between commits 465bc5d and 1f6b789.
+Yet, one of them functions correctly and the other doesn't output the given char to the UART terminal.
+Similar unstable behaviour was also observed with other chars.
+
+- CPU has been converted to a multi cycle one considering these undeterministic outputs might be stemming from
+the critical path delay exceeding the clock speed but staying inside the timing constraint also didn't achieve
+the stable output expected from the user design. Also, multi cycle version comes at the cost of more LUT usage due to
+control unit changes and the additional FSM.
+
+- We were able to run the simulation without instantiating the user design with success on a previous commit but without the user design, there is no point of inspecting the pins I believe.
+
+- I converted my user design into a Verilog version via GHDL's following commands, ran inside user_design/:
+ghdl -a --std=08 $(ls *.vhd | grep -v top.vhd) && ghdl -a --std=08 top.vhd 
+ghdl --synth --std=08 --out=verilog top > top_flat.v 
+
+(Split to prevent lexicographic order messing up GHDL
+because of the top.vhd getting synthesized before uart.vhd)
+
+And tried to use this verilog version to help configuring the simulation setup but I had no success with it as well.
+
+- User design simulation on its own shows perfect behaviour on both Vivado's and ghdl's simulators.
+
+- I suspect the problem lies in one of these two:
+
+--- Toolchain-level initialization issue → the bitstream does not contain correct INIT bits (software problem).
+
+--- Hardware-level initialization issue → the bitstream does contain correct INIT bits, but the FPGA fabric doesn’t reliably honor them when powering up (hardware problem).
